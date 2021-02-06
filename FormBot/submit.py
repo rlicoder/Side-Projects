@@ -34,7 +34,7 @@ url = url_file.readline();
 
 bot.get(url)
 
-sleep(1);
+sleep(2);
 
 cards = [];
 

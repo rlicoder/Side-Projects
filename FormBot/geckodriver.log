@@ -691,3 +691,111 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1612584532319	Marionette	WARN	TLS certificate errors will be ignored for this session
 1612584532332	Marionette	ERROR	[15] No reply from Marionette:Register
 1612584533369	Marionette	INFO	Stopped listening on port 45811
+1612590851949	geckodriver	INFO	Listening on 127.0.0.1:59333
+1612590852626	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofilea1btVJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612590863600	Marionette	INFO	Listening on port 59357
+1612590890549	geckodriver	INFO	Listening on 127.0.0.1:59402
+1612590890562	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofile76VfEe"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612590894364	Marionette	INFO	Listening on port 59411
+1612590894426	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612590894444	Marionette	ERROR	[19] No reply from Marionette:Register
+1612590898156	Marionette	INFO	Stopped listening on port 59357
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: https://secure1.chla.org/yui3/yui/yui-min.js, line 10: NS_ERROR_NOT_INITIALIZED: 
+1612590913274	Marionette	INFO	Stopped listening on port 59411
+1612590933643	geckodriver	INFO	Listening on 127.0.0.1:59631
+1612590933659	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofilewfHbbG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612590937295	Marionette	INFO	Listening on port 59640
+1612590937404	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612590937430	Marionette	ERROR	[19] No reply from Marionette:Register
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1612590960764	Marionette	INFO	Stopped listening on port 59640
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612591002879	geckodriver	INFO	Listening on 127.0.0.1:59853
+1612591002892	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofileFs6BCx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612591006699	Marionette	INFO	Listening on port 59862
+1612591006743	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612591006762	Marionette	ERROR	[19] No reply from Marionette:Register
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1612591035351	Marionette	ERROR	[35] No reply from Marionette:Register
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1612591059752	geckodriver	INFO	Listening on 127.0.0.1:60027
+1612591059765	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofileNG6lqJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612591063699	Marionette	INFO	Listening on port 60036
+1612591063804	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612591063824	Marionette	ERROR	[19] No reply from Marionette:Register
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1612591214144	geckodriver	INFO	Listening on 127.0.0.1:60234
+1612591214157	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofile6OK3kR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612591217965	Marionette	INFO	Listening on port 60243
+1612591218008	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612591218029	Marionette	ERROR	[19] No reply from Marionette:Register
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1612591249443	Marionette	INFO	Stopped listening on port 60243
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612591266290	geckodriver	INFO	Listening on 127.0.0.1:60467
+1612591266303	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofileFq0pfJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612591270238	Marionette	INFO	Listening on port 60476
+1612591270339	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612591270364	Marionette	ERROR	[16] No reply from Marionette:Register
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1612591284304	Marionette	INFO	Stopped listening on port 60476
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0005,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
