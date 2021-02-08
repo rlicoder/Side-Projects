@@ -10,13 +10,15 @@ if (clock.length == 1)
 {
     var layout = document.getElementById('board-layout-main');
     var layout_string = layout.innerHTML;
-    if (layout_string.indexOf("Black to move") != -1)
+	var loc = layout_string.indexOf("clock-player-turn");
+	var turn = layout_string.substr(loc-57,10);
+    if (turn.includes("white"))
     {
-        whiteturn = false;
+        whiteturn = true;
     }
     else
     {
-        whiteturn = true;
+        whiteturn = false;
     }
 }
 else
@@ -143,3 +145,4 @@ else
     FEN += " b - - 0 0";
 }
 alert(FEN);
+
