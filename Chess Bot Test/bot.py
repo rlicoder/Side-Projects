@@ -19,9 +19,9 @@ signin = bot.find_element_by_xpath('//*[@id="login"]')
 
 signin.click()
 
-exitad = bot.find_element_by_xpath('/html/body/div[1]/div[1]/div[4]/div/div[2]/div[2]/span')
+#exitad = bot.find_element_by_xpath('/html/body/div[1]/div[1]/div[4]/div/div[2]/div[2]/span')
 
-exitad.click()
+#exitad.click()
 
 bot.get('https://www.chess.com/play/computer')
 
@@ -42,3 +42,7 @@ sleep(5)
 g1 = bot.find_element_by_xpath('/html/body/div[2]/chess-board/div[10]')
 
 webdriver.ActionChains(bot).drag_and_drop_by_offset(g1, -75, -150).perform()
+
+page_html = bot.page_source
+
+print(page_html)

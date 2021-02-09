@@ -984,3 +984,51 @@ IPDL protocol error: Handler returned error code!
 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
 
 1612857609600	Marionette	INFO	Stopped listening on port 38931
+1612859313149	geckodriver	INFO	Listening on 127.0.0.1:40643
+1612859313153	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePSNrpj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612859314443	Marionette	INFO	Listening on port 40655
+1612859314471	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612859314483	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: https://tpc.googlesyndication.com/sodar/Enqz_20U.html, line 35: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_271.js, line 150: TypeError: e.a is not a function
+1612859332064	Marionette	INFO	Stopped listening on port 40655
+1612859334536	geckodriver	INFO	Listening on 127.0.0.1:38707
+1612859334540	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGIiGhZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612859335816	Marionette	INFO	Listening on port 37943
+1612859335863	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612859335877	Marionette	ERROR	[15] No reply from Marionette:Register
+1612859355113	Marionette	INFO	Stopped listening on port 37943
+1612859358399	geckodriver	INFO	Listening on 127.0.0.1:53079
+1612859358403	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMLxj7V"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612859359684	Marionette	INFO	Listening on port 45457
+1612859359722	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612859359735	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+1612859381870	geckodriver	INFO	Listening on 127.0.0.1:41103
+1612859381874	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejmyBRu"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612859383285	Marionette	INFO	Listening on port 33451
+1612859383397	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612859383404	Marionette	ERROR	[15] No reply from Marionette:Register
+1612859385758	Marionette	INFO	Stopped listening on port 45457
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://cdn-gl.imrworldwide.com/conf/P34D56F9D-5684-4C83-8EE1-5EA7DE9CF45D.js#name=soOD6X89qK8NqmgnE2NWhO7VcmV798A4&ns=NOLBUNDLE, line 3: NS_ERROR_NOT_INITIALIZED: 
+1612859489437	geckodriver	INFO	Listening on 127.0.0.1:58863
+1612859489441	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezVcArM"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612859490767	Marionette	INFO	Listening on port 43873
+1612859490863	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612859490871	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: , line 0: uncaught exception: Object
+1612859493525	Marionette	INFO	Stopped listening on port 33451
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1612859515677	Marionette	INFO	Stopped listening on port 43873
