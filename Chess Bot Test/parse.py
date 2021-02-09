@@ -24,6 +24,7 @@ for i in range(cols):
     board.append(col) 
 
 for i in range(0, len(pieces)):
+    print(pieces[i])
     p = pieces[i][1]
     if pieces[i][0] == 'w':
         p = p.upper();
@@ -36,7 +37,7 @@ FEN = ""
 for i in range(7,0, -1):
     count = 0
     for j in range(0,8):
-        if (board[i][j] == ' '):
+        if board[i][j] == ' ':
             count += 1
         else:
             if count > 0:

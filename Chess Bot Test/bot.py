@@ -1,5 +1,8 @@
 from selenium import webdriver
 from time import sleep
+from stockfish import Stockfish
+
+stockfish = Stockfish('/home/royce/Desktop/Side-Projects/Chess Bot Test/stockfish')
 
 bot = webdriver.Firefox()
 
@@ -19,30 +22,93 @@ signin = bot.find_element_by_xpath('//*[@id="login"]')
 
 signin.click()
 
-#exitad = bot.find_element_by_xpath('/html/body/div[1]/div[1]/div[4]/div/div[2]/div[2]/span')
+def slicer(str, sub):
+    index = str.find(sub)
+    str = str[index+6:index+18]
+    str = str.replace("square-", "")
+    return str
 
-#exitad.click()
+def parse():
+    html = bot.page_source
+    substr = '"></div><div class="'
+    pieces = html.split(substr)
+    while pieces[-1].find('square-') == -1:
+        del pieces[-1]
+    for i in range(0, len(pieces)):
+        pieces[i] = slicer(pieces[i], 'piece ')
+    rows, cols = (8, 8)
+    board=[]
+    for i in range(cols):
+        col = []
+        for j in range(rows):
+            col.append(' ')
+        board.append(col)
 
-bot.get('https://www.chess.com/play/computer')
+    for i in range(0, len(pieces)):
+        if pieces[i].find('new') != -1:
+            continue
+        print(pieces[i])
+        if pieces[i][0].isalpha():
+            y = int(pieces[i][3])
+            x = int(pieces[i][4])
+            p = pieces[i][1]
+            if pieces[i][0] == 'w':
+                p = p.upper()
+        else:
+            y = int(pieces[i][0])
+            x = int(pieces[i][1])
+            p = pieces[i][4];
+            if pieces[i][3] == 'w':
+                p = p.upper()
+        board[x-1][y-1] = p;
 
-#puzzles = bot.find_element_by_xpath('/html/body/div[1]/div[1]/div[11]/div[2]/a[4]')
-#
-#puzzles.click()
+    FEN = ""
 
-start = bot.find_element_by_xpath('/html/body/div[4]/div[1]/div[2]/button')
+    for i in range(7,-1, -1):
+        count = 0
+        for j in range(0,8):
+            if board[i][j] == ' ':
+                count += 1
+            else:
+                if count > 0:
+                    FEN += (str(count))
+                    count = 0
+                FEN += (board[i][j])
+        if count > 0:
+            FEN += (str(count))
+        FEN += ('/')
 
-start.click()
+    FEN += " w - - 0 0"
+    return FEN
 
-start.click()
 
-e2 = bot.find_element_by_xpath('/html/body/div[2]/chess-board/div[13]')
+while (True):
+    answer = str(input("Go?"))
+    if answer == 'y':
+        FEN = parse()
+        stockfish.set_fen_position(FEN)
+        move = stockfish.get_best_move()
+        print(stockfish.get_evaluation())
+        print(move)
+        posx = int(move[1])
+        posy = int(ord(move[0]) - 96)
+        search = "square-"
+        search += str(posy)
+        search += str(posx)
+        print(search)
+        piecel = bot.find_elements_by_class_name(search);
+        if len(piecel) == 2:
+            piece = piecel[1]
+        else:
+            piece = piecel[0]
+        endx = int(move[3])
+        endy = int(ord(move[2]) - 96)
+        difx = endx - posx
+        dify = endy - posy
+        print("processing move")
+        webdriver.ActionChains(bot).drag_and_drop_by_offset(piece, dify * 75, difx * -75).perform()
+        print("done")
+        print(stockfish.get_board_visual())
+    else:
+        break
 
-webdriver.ActionChains(bot).drag_and_drop_by_offset(e2, 0, -150).perform()
-sleep(5)
-g1 = bot.find_element_by_xpath('/html/body/div[2]/chess-board/div[10]')
-
-webdriver.ActionChains(bot).drag_and_drop_by_offset(g1, -75, -150).perform()
-
-page_html = bot.page_source
-
-print(page_html)
