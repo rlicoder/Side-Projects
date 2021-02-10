@@ -145,3 +145,4 @@ else
     FEN += " b - - 0 0";
 }
 alert(FEN);
+
