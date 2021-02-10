@@ -2,7 +2,7 @@ from selenium import webdriver
 from time import sleep
 from stockfish import Stockfish
 
-stockfish = Stockfish('/home/royce/Desktop/Side-Projects/Chess Bot Test/stockfish', parameters={"Threads": 4, "Minimum Thinking Time": 1000, "Skill Level": 20, "Min Split Depth": 10, "Hash": 2048, "Contempt": 50, "Slow Mover": 120})
+stockfish = Stockfish('/home/royce/Desktop/Side-Projects/Chess Bot Test/stockfish', parameters={"Threads": 6, "Minimum Thinking Time": 750, "Skill Level": 20, "Min Split Depth": 10, "Hash": 2048, "Contempt": 50, "Slow Mover": 120})
 
 bot = webdriver.Firefox()
 
@@ -74,7 +74,7 @@ def parse(dirx, diry):
             continue
         if pieces[i].find('cap') != -1:
             continue;
-        print(pieces[i])
+        #print(pieces[i])
         if pieces[i][0].isalpha():
             y = int(pieces[i][3])
             x = int(pieces[i][4])
@@ -110,8 +110,9 @@ def parse(dirx, diry):
     else:
         FEN += " b"
     cast = False;
+    FEN += " ";
     if board[0][7] == 'R' and board[0][4] == 'K':
-        FEN += " K"
+        FEN += "K"
         cast = True
     if board[0][0] == 'R' and board[0][4] == 'K':
         FEN += "Q"
@@ -120,8 +121,9 @@ def parse(dirx, diry):
         FEN += "k"
         cast = True
     if board[7][0] == 'r' and board[7][4] == 'k':
-        FEN += "q "
+        FEN += "q"
         cast = True
+    FEN += " "
     if cast == False:
         FEN += " - "
     FEN += " - 0 0"
@@ -131,17 +133,32 @@ def parse(dirx, diry):
 while (True):
     answer = str(input("Go?"))
     if answer == '3':
+        bot.quit()
+        break
+    elif answer == '2':
         FEN = parse(dirx, diry)
         stockfish.set_fen_position(FEN)
-        move = stockfish.get_best_move_time(2000)
         print(stockfish.get_evaluation())
+        print(stockfish.get_board_visual())
+    elif answer == '1':
+        FEN = parse(dirx, diry)
+        stockfish.set_fen_position(FEN)
+        print(FEN)
+        print(stockfish.get_best_move_time(500))
+        print(stockfish.get_evaluation())
+        print(stockfish.get_board_visual())
+    else:
+        FEN = parse(dirx, diry)
+        stockfish.set_fen_position(FEN)
+        move = stockfish.get_best_move_time(750)
+        #print(stockfish.get_evaluation())
         print(move)
         posx = int(move[1])
         posy = int(ord(move[0]) - 96)
         search = "square-"
         search += str(posy)
         search += str(posx)
-        print(search)
+        #print(search)
         piecel = bot.find_elements_by_class_name(search);
         if len(piecel) == 2:
             piece = piecel[1]
@@ -152,20 +169,5 @@ while (True):
         difx = endx - posx
         dify = endy - posy
         webdriver.ActionChains(bot).drag_and_drop_by_offset(piece, dify * diry[0], difx * dirx[0]).perform()
-        print(stockfish.get_board_visual())
-    elif answer == '2':
-        FEN = parse(dirx, diry)
-        stockfish.set_fen_position(FEN)
-        print(stockfish.get_evaluation())
-        print(stockfish.get_board_visual())
-    elif answer == '1':
-        FEN = parse(dirx, diry)
-        stockfish.set_fen_position(FEN)
-        print(FEN)
-        print(stockfish.get_best_move_time(2000))
-        print(stockfish.get_evaluation())
-        print(stockfish.get_board_visual())
-    else:
-        bot.quit()
-        break
+        #print(stockfish.get_board_visual())
 
