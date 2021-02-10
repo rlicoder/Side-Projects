@@ -16,9 +16,6 @@ passw.send_keys('HPziac9W4JRiwkE')
 signin = bot.find_element_by_xpath('//*[@id="login"]')
 signin.click()
 
-dirx = [1]
-diry = [1]
-
 def slicer(str, sub):
     index = str.rfind(sub)
     if str.find('square-') == -1:
@@ -27,14 +24,18 @@ def slicer(str, sub):
     str = str.replace("square-", "")
     return str
 
-def parse(dirx, diry):
+def parse():
     html = bot.page_source
+    f = open("html.txt", "w")
+    f.write(html)
+    f.close()
+    width = int(html[html.find("padding-bottom")-7: html.find("padding-bottom")-4])
     if html.find('<text x="10" y="99" font-size="2.8" class="coordinate-dark">h</text>') != -1:
-        dirx[0] = 75
-        diry[0] = -75
+        dirx = width / 8
+        diry = -1 * width / 8
     else:
-        dirx[0] = -75
-        diry[0] = 75
+        dirx = -1 * width / 8
+        diry = width / 8
     whiteturn = True
     if html.find('clock-player-turn') != -1:
         loc = html.find('clock-player-turn')
@@ -74,7 +75,7 @@ def parse(dirx, diry):
             continue
         if pieces[i].find('cap') != -1:
             continue;
-        #print(pieces[i])
+        print(pieces[i])
         if pieces[i][0].isalpha():
             y = int(pieces[i][3])
             x = int(pieces[i][4])
@@ -127,7 +128,7 @@ def parse(dirx, diry):
     if cast == False:
         FEN += " - "
     FEN += " - 0 0"
-    return FEN
+    return FEN, dirx, diry
 
 
 while (True):
@@ -136,22 +137,15 @@ while (True):
         bot.quit()
         break
     elif answer == '2':
-        FEN = parse(dirx, diry)
+        FEN, dirx, diry = parse()
         stockfish.set_fen_position(FEN)
-        print(stockfish.get_evaluation())
-        print(stockfish.get_board_visual())
-    elif answer == '1':
-        FEN = parse(dirx, diry)
-        stockfish.set_fen_position(FEN)
-        print(FEN)
-        print(stockfish.get_best_move_time(500))
         print(stockfish.get_evaluation())
         print(stockfish.get_board_visual())
     else:
-        FEN = parse(dirx, diry)
+        FEN, dirx, diry = parse()
         stockfish.set_fen_position(FEN)
         move = stockfish.get_best_move_time(750)
-        #print(stockfish.get_evaluation())
+        print(stockfish.get_evaluation())
         print(move)
         posx = int(move[1])
         posy = int(ord(move[0]) - 96)
@@ -168,6 +162,6 @@ while (True):
         endy = int(ord(move[2]) - 96)
         difx = endx - posx
         dify = endy - posy
-        webdriver.ActionChains(bot).drag_and_drop_by_offset(piece, dify * diry[0], difx * dirx[0]).perform()
+        webdriver.ActionChains(bot).drag_and_drop_by_offset(piece, dify * diry, difx * dirx).perform()
         #print(stockfish.get_board_visual())
 
