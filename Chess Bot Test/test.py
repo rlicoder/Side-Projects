@@ -1,26 +1,47 @@
-from stockfish import Stockfish
+import re
 
+def parse(bot):
+    html = bot.page_source
+    f = open("html.txt", "w")
+    f.write(html)
+    f.close()
+    width = int(html[html.find("padding-bottom")-7: html.find("padding-bottom")-4])
+    if html.find('<text x="10" y="99" font-size="2.8" class="coordinate-dark">h</text>') != -1:
+        dirx = width / 8
+        diry = -1 * width / 8
+    else:
+        dirx = -1 * width / 8
+        diry = width / 8
+    whiteturn = True
+    if html.find('clock-player-turn') != -1:
+        loc = html.find('clock-player-turn')
+        turn = html[loc-57:loc-47]
+        if turn.find('white') != -1:
+            whiteturn = True
+        else:
+            whiteturn = False
+    elif html.find('to Move') != -1:
+        if (html.find('Black to Move')) != -1:
+            whiteturn = False
+        else:
+            whiteturn = True
+    else:
+        t = str(input('w or b'))
+        if t == 'w':
+            whiteturn = True
+        else:
+            whiteturn = False
+        html = bot.page_source
 
-def slicer(str, sub):
-    index = str.rfind(sub)
-    print(str)
-    if str.find('square-') == -1:
-        return "cap"
-    str = str[index+7:index+19]
-    str = str.replace("square-", "")
-    print(str)
-    return str
+    pieces = []
+    pattern = re.compile('[bw]\D square-\d\d|square-\d\d [bw]\D')
+    matches = pattern.finditer(html)
+    for match in matches:
+        res = match.group();
+        res = res.replace("square-", "")
+        print(res)
+        pieces.append(res)
 
-def parse():
-    file = open("html.txt")
-    html = file.read()
-
-    substr = '"></div><div class="'
-    pieces = html.split(substr)
-    while pieces[-1].find('square-') == -1:
-        del pieces[-1]
-    for i in range(0, len(pieces)):
-        pieces[i] = slicer(pieces[i], '\"piece ')
     rows, cols = (8, 8)
     board=[]
     for i in range(cols):
@@ -30,10 +51,8 @@ def parse():
         board.append(col)
 
     for i in range(0, len(pieces)):
-        if pieces[i].find('new') != -1 and pieces[i].find('wr') == -1:
+        if (pieces[i].find('ihatechess')) != -1:
             continue
-        if pieces[i].find('cap') != -1 and pieces[i].find('wr') == -1:
-            continue;
         if pieces[i][0].isalpha():
             y = int(pieces[i][3])
             x = int(pieces[i][4])
@@ -48,7 +67,6 @@ def parse():
                 p = p.upper()
         board[x-1][y-1] = p;
 
-    print(pieces)
     FEN = ""
 
     for i in range(7,-1, -1):
@@ -65,10 +83,28 @@ def parse():
             FEN += (str(count))
         FEN += ('/')
 
-    return FEN
+    if whiteturn == True:
+        FEN += " w"
+    else:
+        FEN += " b"
+    cast = False;
+    FEN += " ";
+    if board[0][7] == 'R' and board[0][4] == 'K':
+        FEN += "K"
+        cast = True
+    if board[0][0] == 'R' and board[0][4] == 'K':
+        FEN += "Q"
+        cast = True
+    if board[7][4] == 'k' and board[7][7] == 'r':
+        FEN += "k"
+        cast = True
+    if board[7][0] == 'r' and board[7][4] == 'k':
+        FEN += "q"
+        cast = True
+    if cast == False:
+        FEN += " - "
+    FEN += " - 0 0"
+    print(FEN, " ", dirx, " ", diry)
+    return FEN, dirx, diry
 
-FEN = parse()
-stockfish = Stockfish('/home/royce/Desktop/Side-Projects/Chess Bot Test/stockfish')
-stockfish.set_fen_position(FEN)
-print(stockfish.get_board_visual())
 

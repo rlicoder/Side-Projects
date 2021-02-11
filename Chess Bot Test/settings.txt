@@ -1,0 +1,17 @@
+3
+100
+5
+3
+512
+300
+100
+500
+
+# threads
+# minimum thinking time
+# level
+# min depth
+# hash size
+# contempt
+# slow mover
+# time constraint
