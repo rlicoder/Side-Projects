@@ -32,10 +32,10 @@ signin.click()
 
 go = input("go?")
 
-while (True):
+while (go != 'q'):
     html = bot.page_source
 
-    while (html.find('New 3 Min')) == -1:
+    while (html.find('New 3 min')) == -1:
         html = bot.page_source
         if html.find('<text x="10" y="99" font-size="2.8" class="coordinate-dark">h</text>') != -1:
             look = "black"
@@ -45,18 +45,27 @@ while (True):
         turn = html[loc-130:loc]
         while turn.find(look) == -1:
             html = bot.page_source
+            if (html.find('New 3 min')) != -1:
+                break
             loc = html.find('clock-player-turn')
             turn = html[loc-130:loc]
-        re.compile('data-whole-move-number="\d*?"(?!.*data-whole-move-number)')
-        lastmove = html.rfind('data-whole-move-number=')
-        turnnum = int(html[lastmove+20:lastmove+27])
+        if html.find('New 3 min') != -1:
+            break
+        html = bot.page_source
+        pat = re.findall('data-whole-move-number="\d*?"(?!.*data-whole-move-number)', html)
+        if len(pat) == 0:
+            turnnum = 0
+        else:
+            pat[0] = pat[0].replace('data-whole-move-number="', '')
+            pat[0] = pat[0].replace('"', '')
+            turnnum = int(pat[0])
         print(turnnum)
         if turnnum <= 10:
-            offset = random.randint(0,300)
-        elif turnnum >= 10 and turnnum <= 40:
-            offset = random.randint(1000,5000)
+            offset = random.randint(0,50)
+        elif turnnum >= 10 and turnnum <= 30:
+            offset = random.randint(1000,3000)
         else:
-            offset = random.randint(0,100)
+            offset = random.randint(0,50)
         sleep(offset/1000)
         FEN, dirx, diry = parse(bot)
         stockfish.set_fen_position(FEN)
@@ -80,8 +89,6 @@ while (True):
         dify = endy - posy
         webdriver.ActionChains(bot).drag_and_drop_by_offset(piece, dify * diry, difx * dirx).perform()
         sleep(1)
-    next = bot.find_element_by_xpath('/html/body/div[3]/div/div[2]/div[2]/div[4]/div[1]/button[2]')
-    next.click()
-
+    go = str(input("go?"))
 
 bot.quit()
