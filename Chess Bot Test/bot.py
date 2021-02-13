@@ -2,6 +2,7 @@ from selenium import webdriver
 from time import sleep
 from stockfish import Stockfish
 from parse import *
+import random
 
 settings = open("settings.txt", "r")
 thr = settings.readline()
@@ -46,6 +47,17 @@ while (True):
             html = bot.page_source
             loc = html.find('clock-player-turn')
             turn = html[loc-130:loc]
+        re.compile('data-whole-move-number="\d*?"(?!.*data-whole-move-number)')
+        lastmove = html.rfind('data-whole-move-number=')
+        turnnum = int(html[lastmove+20:lastmove+27])
+        print(turnnum)
+        if turnnum <= 10:
+            offset = random.randint(0,300)
+        elif turnnum >= 10 and turnnum <= 40:
+            offset = random.randint(1000,5000)
+        else:
+            offset = random.randint(0,100)
+        sleep(offset/1000)
         FEN, dirx, diry = parse(bot)
         stockfish.set_fen_position(FEN)
         move = stockfish.get_best_move_time(timecons)
@@ -67,6 +79,7 @@ while (True):
         difx = endx - posx
         dify = endy - posy
         webdriver.ActionChains(bot).drag_and_drop_by_offset(piece, dify * diry, difx * dirx).perform()
+        sleep(1)
     next = bot.find_element_by_xpath('/html/body/div[3]/div/div[2]/div[2]/div[4]/div[1]/button[2]')
     next.click()
 
