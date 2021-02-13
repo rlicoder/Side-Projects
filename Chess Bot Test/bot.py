@@ -18,6 +18,7 @@ stockfish = Stockfish('/home/royce/Desktop/Side-Projects/Chess Bot Test/stockfis
 
 bot = webdriver.Firefox()
 
+
 sleep(1)
 
 bot.get('https://www.chess.com/home')
@@ -28,11 +29,23 @@ passw.send_keys('HPziac9W4JRiwkE')
 signin = bot.find_element_by_xpath('//*[@id="login"]')
 signin.click()
 
+go = input("go?")
+
 while (True):
-    answer = str(input("Go?"))
-    if answer == 'q':
-        break
-    else:
+    html = bot.page_source
+
+    while (html.find('New 3 Min')) == -1:
+        html = bot.page_source
+        if html.find('<text x="10" y="99" font-size="2.8" class="coordinate-dark">h</text>') != -1:
+            look = "black"
+        else:
+            look = "white"
+        loc = html.find('clock-player-turn')
+        turn = html[loc-130:loc]
+        while turn.find(look) == -1:
+            html = bot.page_source
+            loc = html.find('clock-player-turn')
+            turn = html[loc-130:loc]
         FEN, dirx, diry = parse(bot)
         stockfish.set_fen_position(FEN)
         move = stockfish.get_best_move_time(timecons)
@@ -54,5 +67,8 @@ while (True):
         difx = endx - posx
         dify = endy - posy
         webdriver.ActionChains(bot).drag_and_drop_by_offset(piece, dify * diry, difx * dirx).perform()
+    next = bot.find_element_by_xpath('/html/body/div[3]/div/div[2]/div[2]/div[4]/div[1]/button[2]')
+    next.click()
+
 
 bot.quit()
