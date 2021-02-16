@@ -63,7 +63,7 @@ while (go != 'q'):
         if turnnum <= 10:
             offset = random.randint(0,50)
         elif turnnum >= 10 and turnnum <= 30:
-            offset = random.randint(1000,3000)
+            offset = random.randint(1000,7000)
         else:
             offset = random.randint(0,50)
         sleep(offset/1000)
@@ -89,6 +89,11 @@ while (go != 'q'):
         dify = endy - posy
         webdriver.ActionChains(bot).drag_and_drop_by_offset(piece, dify * diry, difx * dirx).perform()
         sleep(1)
-    go = str(input("go?"))
-
+    nextb= bot.find_element_by_xpath('/html/body/div[3]/div/div[2]/div[2]/div[5]/div[1]/button[2]')
+    sleep(random.randint(0,500)/1000)
+    nextb.click();
+    html = bot.page_source
+    while (html.find('Draw') == -1):
+        html = bot.page_source
+        sleep(.5)
 bot.quit()
