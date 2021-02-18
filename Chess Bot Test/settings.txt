@@ -1,11 +1,15 @@
-6
-250
-7
-4
-1024
-200
-300
-1000
+12
+500
+20
+10
+4000
+100
+150
+1500
+1
+0
+5000
+0
 
 # threads
 # minimum thinking time
@@ -15,3 +19,7 @@
 # contempt
 # slow mover
 # time constraint
+# time delays on 0 = false, 1 = true
+# time delay for opening
+# time delay for midgame
+# time delay for endgame

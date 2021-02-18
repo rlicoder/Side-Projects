@@ -13,6 +13,10 @@ hashsize = settings.readline()
 con = settings.readline()
 slow = settings.readline()
 timecons = settings.readline()
+delayon = bool(settings.readline())
+beg_delay = int(settings.readline())
+mid_delay = int(settings.readline())
+end_delay = int(settings.readline())
 settings.close()
 
 stockfish = Stockfish('/home/royce/Desktop/Side-Projects/Chess Bot Test/stockfish', parameters={"Threads": thr, "Minimum Thinking Time": mintime, "Skill Level": level, "Min Split Depth": mindep, "Hash": hashsize, "Contempt": con, "Slow Mover": slow})
@@ -34,7 +38,6 @@ go = input("go?")
 
 while (go != 'q'):
     html = bot.page_source
-
     while (html.find('New 3 min')) == -1:
         html = bot.page_source
         if html.find('<text x="10" y="99" font-size="2.8" class="coordinate-dark">h</text>') != -1:
@@ -59,14 +62,14 @@ while (go != 'q'):
             pat[0] = pat[0].replace('data-whole-move-number="', '')
             pat[0] = pat[0].replace('"', '')
             turnnum = int(pat[0])
-        print(turnnum)
-        if turnnum <= 10:
-            offset = random.randint(0,50)
-        elif turnnum >= 10 and turnnum <= 30:
-            offset = random.randint(1000,7000)
-        else:
-            offset = random.randint(0,50)
-        sleep(offset/1000)
+        if delayon:
+            if turnnum <= 10:
+                offset = random.randint(0,beg_delay)
+            elif turnnum >= 10 and turnnum <= 30:
+                offset = random.randint(0,mid_delay)
+            else:
+                offset = random.randint(0,end_delay)
+            sleep(offset/1000)
         FEN, dirx, diry = parse(bot)
         stockfish.set_fen_position(FEN)
         move = stockfish.get_best_move_time(timecons)
@@ -89,11 +92,14 @@ while (go != 'q'):
         dify = endy - posy
         webdriver.ActionChains(bot).drag_and_drop_by_offset(piece, dify * diry, difx * dirx).perform()
         sleep(1)
-    nextb= bot.find_element_by_xpath('/html/body/div[3]/div/div[2]/div[2]/div[5]/div[1]/button[2]')
     sleep(random.randint(0,500)/1000)
-    nextb.click();
+    try:
+        bot.find_element_by_xpath('/html/body/div[3]/div/div[2]/div[2]/div[5]/div[1]/button[2]').click()
+    except NoSuchElementException:
+        bot.find_element_by_xpath('/html/body/div[3]/div/div[2]/div[2]/div[4]/div[1]/button[2]').click()
     html = bot.page_source
     while (html.find('Draw') == -1):
         html = bot.page_source
         sleep(.5)
 bot.quit()
+stockfish.stockfish

@@ -7,8 +7,9 @@ def parse(bot):
     f.close()
     widpat = re.compile('width: \d\d\dpx')
     matches = widpat.finditer(html)
+    width = 0
     for i in matches:
-        width = int(i.group()[-5:-2])
+        width = max(width, int(i.group()[-5:-2]))
     if html.find('<text x="10" y="99" font-size="2.8" class="coordinate-dark">h</text>') != -1:
         dirx = width / 8
         diry = -1 * width / 8
@@ -40,6 +41,8 @@ def parse(bot):
     pattern = re.compile('[bw]\D square-\d\d|square-\d\d [bw]\D')
     matches = pattern.finditer(html)
     for match in matches:
+        if html[match.span()[1]+9:match.span()[1]+16] == 'opacity':
+            continue;
         res = match.group();
         res = res.replace("square-", "")
         pieces.append(res)
