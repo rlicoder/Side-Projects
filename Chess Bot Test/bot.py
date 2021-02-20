@@ -76,18 +76,18 @@ while (cont != 'q'):
                 timecons = 500
             elif turnnum >= 31 and turnnum <=50:
                 offset = random.randint(0,end_delay)
-                timecons = 100
+                timecons = 250
                 stockfish.set_depth(7)
             else:
                 offset = 0
-                timecons = 20
+                timecons = 50
                 stockfish.set_depth(18)
             sleep(offset/1000)
         FEN, dirx, diry = parse(bot)
         stockfish.set_fen_position(FEN)
         move = stockfish.get_best_move_time(timecons)
         print(move)
-        print(stockfish.get_evaluation)
+        print(stockfish.get_evaluation())
         posx = int(move[1])
         posy = int(ord(move[0]) - 96)
         search = "square-"

@@ -12768,3 +12768,64 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1613777482970	geckodriver	INFO	Listening on 127.0.0.1:55589
+1613777482973	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePw9jFc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613777484257	Marionette	INFO	Listening on port 37809
+1613777484289	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613777484297	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: https://di.rlcdn.com/710436.html?pdata=campaignid=24753266,placementid=290476092,siteid=5552106,creativeid=141163734, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://di.rlcdn.com/710436.html?pdata=campaignid=24753266,placementid=290394011,siteid=5552106,creativeid=141164466, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://www.chess.com/bundles/app/js/core.dll.841288ce.js, line 2: Error: Request aborted
+JavaScript error: https://www.chess.com/bundles/app/js/core.dll.841288ce.js, line 2: Error: Request aborted
+JavaScript error: https://www.chess.com/bundles/app/js/core.dll.841288ce.js, line 2: Error: Request aborted
+JavaScript error: https://www.chess.com/bundles/app/js/core.dll.841288ce.js, line 2: Error: Request aborted
+JavaScript error: https://www.chess.com/bundles/app/js/core.dll.841288ce.js, line 2: Error: Request aborted
+JavaScript error: https://cdn-gl.imrworldwide.com/conf/P34D56F9D-5684-4C83-8EE1-5EA7DE9CF45D.js#name=WTjA2RppYWcr5w7aD7bBOOmSro39NJbW&ns=NOLBUNDLE, line 3: NS_ERROR_NOT_INITIALIZED: 
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1613777725239	geckodriver	INFO	Listening on 127.0.0.1:44627
+1613777725243	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8bjQ2h"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613777726580	Marionette	INFO	Listening on port 39073
+1613777726661	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613777726669	Marionette	ERROR	[15] No reply from Marionette:Register
+1613777729403	Marionette	ERROR	[35] No reply from Marionette:Register
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WQWPHGW, line 315: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: , line 0: uncaught exception: Object
+1613777831696	Marionette	ERROR	[37] No reply from Marionette:Register
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1613778054251	geckodriver	INFO	Listening on 127.0.0.1:33969
+1613778054254	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileH6FE7J"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613778055555	Marionette	INFO	Listening on port 34843
+1613778055574	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613778055583	Marionette	ERROR	[15] No reply from Marionette:Register
+1613778059259	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://cdn-gl.imrworldwide.com/conf/P34D56F9D-5684-4C83-8EE1-5EA7DE9CF45D.js#name=klqC5MBOAVeO0O1xoDGXp1sC3v09RJAx&ns=NOLBUNDLE, line 3: NS_ERROR_NOT_INITIALIZED: 
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1613781508282	geckodriver	INFO	Listening on 127.0.0.1:52279
+1613781508285	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVbgdCP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613781509683	Marionette	INFO	Listening on port 45339
+1613781509703	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613781509715	Marionette	ERROR	[15] No reply from Marionette:Register
+1613781512603	Marionette	ERROR	[35] No reply from Marionette:Register
+JavaScript error: https://cdn.shopify.com/s/files/1/1310/9209/t/81/assets/app.js?v=17094925497967718243, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: , line 0: uncaught exception: Object
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
