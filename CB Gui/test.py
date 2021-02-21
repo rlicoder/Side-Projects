@@ -468,8 +468,14 @@ class Ui_MainWindow(object):
         f.write(self.depth.text() + '\n')
         f.write(self.hashsize.text() + '\n')
         f.write(self.contempt.text() + '\n')
+        for i in range(1,6):
+            for j in range(0,5):
+                if self.tableWidget.item(i,j) is None:
+                    continue
+                else:
+                    f.write(str(i) + ' ' + str(j) + ' ')
+                    f.write(self.tableWidget.item(i,j).text() + '\n')
         f.close()
-        print(self.tableWidget.item(1,0).text())
 
     def readSettings(self):
         f = open('settings.txt', 'r')
