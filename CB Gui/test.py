@@ -423,6 +423,7 @@ class Ui_MainWindow(object):
         self.saveSettingsButton.clicked.connect(self.writeSettings)
         self.loadSettingsButton.clicked.connect(self.readSettings)
         self.engineKillerButton.clicked.connect(self.engineKiller)
+        self.startButton.clicked.connect(self.startBot)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
@@ -468,6 +469,7 @@ class Ui_MainWindow(object):
         f.write(self.hashsize.text() + '\n')
         f.write(self.contempt.text() + '\n')
         f.close()
+        print(self.tableWidget.item(1,0).text())
 
     def readSettings(self):
         f = open('settings.txt', 'r')
@@ -489,6 +491,13 @@ class Ui_MainWindow(object):
         else:
             self.readSettings()
 
+    def startBot(self):
+        if self.startButton.text() == 'Start':
+            #run the bot
+            self.startButton.setText('Stop')
+        else:
+            #stop the bot
+            self.startButton.setText('Start')
 
 
 
