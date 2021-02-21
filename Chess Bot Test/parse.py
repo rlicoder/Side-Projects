@@ -19,7 +19,7 @@ def parse(bot):
     whiteturn = True
     if html.find('clock-player-turn') != -1:
         loc = html.find('clock-player-turn')
-        turn = html[loc-57:loc-47]
+        turn = html[loc-80:loc-47]
         if turn.find('white') != -1:
             whiteturn = True
         else:
