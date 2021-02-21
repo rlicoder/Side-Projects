@@ -12829,3 +12829,53 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1613814836061	geckodriver	INFO	Listening on 127.0.0.1:60833
+1613814836064	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileopY99k"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613814837359	Marionette	INFO	Listening on port 43717
+1613814837391	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613814837399	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: https://www.chess.com/bundles/app/js/vue.dll.01008efe.js, line 2: Error: Request aborted
+JavaScript error: https://www.chess.com/bundles/app/js/vue.dll.01008efe.js, line 2: Error: Request aborted
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1613814948314	geckodriver	INFO	Listening on 127.0.0.1:55669
+1613814948318	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerwplFS"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613814949738	Marionette	INFO	Listening on port 39191
+1613814949848	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613814949858	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/17364942829165000401/DSD12A_160x600.html#t=5077152029275240792&p=https%3A%2F%2F18446ebbfa3aab954efc43e6365428e4.safeframe.googlesyndication.com, line 55: ReferenceError: $ is not defined
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/17364942829165000401/DSD12A_160x600.html#t=11749143478409127818&p=https%3A%2F%2F18446ebbfa3aab954efc43e6365428e4.safeframe.googlesyndication.com, line 55: ReferenceError: $ is not defined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: https://z.moatads.com/maxpointdisplay83521080895/moatad.js#moatClientLevel1=Pepsico&moatClientLevel2=Firehouse&moatClientLevel3=256306&moatClientLevel4=Mobile&moatClientSlicer1=Maxpoint&moatClientSlicer2=160x600 line 58 > eval, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1613847910729	Marionette	ERROR	[37] No reply from Marionette:Register
+1613847926448	Marionette	INFO	Stopped listening on port 39191
+1613847929728	geckodriver	INFO	Listening on 127.0.0.1:44229
+1613847929733	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek8otyR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613847931052	Marionette	INFO	Listening on port 43543
+1613847931156	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613847931168	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.chess.com/bundles/app/js/core.dll.841288ce.js, line 2: Error: Request aborted
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
