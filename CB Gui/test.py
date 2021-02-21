@@ -471,7 +471,7 @@ class Ui_MainWindow(object):
         for i in range(1,6):
             for j in range(0,5):
                 if self.tableWidget.item(i,j) is None:
-                    continue
+                    f.write(str(i) + ' ' + str(j) + ' -1\n')
                 else:
                     f.write(str(i) + ' ' + str(j) + ' ')
                     f.write(self.tableWidget.item(i,j).text() + '\n')
@@ -484,6 +484,20 @@ class Ui_MainWindow(object):
         self.minDepthSlider.setValue(int(f.readline()))
         self.hashSlider.setValue(int(f.readline()))
         self.contemptSlider.setValue(int(f.readline()))
+        line = f.readline()
+        while line != '':
+            i,j,v = line.split(' ')
+            v = v.replace('\n', '')
+            if v == '-1':
+                v = ''
+            self.tableWidget.setItem(int(i),int(j), QtWidgets.QTableWidgetItem(v))
+
+            #if self.tableWidget.item(int(i), int(j)) is None:
+            #    item = QtWidgets.QTableWidgetItem(v)
+            #    self.tableWidget.setItem(int(i), int(j), item)
+            #else:
+            #    self.tableWidget.item(int(i), int(j)).setText(v);
+            line = f.readline()
         f.close()
 
     def engineKiller(self):
@@ -494,6 +508,14 @@ class Ui_MainWindow(object):
             self.minDepthSlider.setValue(18)
             self.hashSlider.setValue(4096)
             self.contemptSlider.setValue(0)
+            self.tableWidget.setItem(1,0,QtWidgets.QTableWidgetItem('0'))
+            self.tableWidget.setItem(1,1,QtWidgets.QTableWidgetItem('200'))
+            self.tableWidget.setItem(1,2,QtWidgets.QTableWidgetItem('18'))
+            self.tableWidget.setItem(1,3,QtWidgets.QTableWidgetItem('20'))
+            self.tableWidget.setItem(1,4,QtWidgets.QTableWidgetItem('250'))
+            for i in range(2,6):
+                for j in range(0,6):
+                    self.tableWidget.setItem(i,j,QtWidgets.QTableWidgetItem(''))
         else:
             self.readSettings()
 
