@@ -1,4 +1,4 @@
-#Dependencies
+Install dependencies using:
 
 pip install selenium
 
@@ -7,7 +7,15 @@ pip install selenium
 pip3 install selenium
 
 
-Test the program for sound by turning the != to a == in the while loop condition
+Then run the program using:
 
-Run it.
+python ./gpuscalp.py
+		or
+python3 gpuscalp.py
+		or
+python gpuscalp.py
+		or
+py gpuscalp.py
+
+Test the program for sound by turning the != to a == in the while loop condition
 
