@@ -4,6 +4,8 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #Persistent
 
+CoordMode, Mouse, Screen
+
 +u::
 {
 	BlockInput, On
@@ -30,9 +32,10 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 	
 	#CommentFlag Only works for 2 1080p monitors and apex legends is the 11th thing on the taskbar
 	#CommentFlag Goes to the Apex session and clicks on it
-	MouseMove, -980, 850, 0, R
+	MouseMove, 1000, 1060, 0
 	MouseClick
 	
+	sleep, 100
 	#CommentFlag Move to the continue button
 	MouseMove, -50, -370, 0, R
 	sleep, 250
