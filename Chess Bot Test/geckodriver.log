@@ -12879,3 +12879,36 @@ console.log: WebExtensions: reset-default-search: No addons in our list are inst
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1614048982085	geckodriver	INFO	Listening on 127.0.0.1:60185
+1614048983087	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEWKG3C"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614048984440	Marionette	INFO	Listening on port 37255
+1614048984510	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614048984523	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://db12c6ecd70ece78a8ba13698168662f.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html line 8 > injectedScript, line 9: ReferenceError: buildAttribution is not defined
+JavaScript error: https://www.chess.com/bundles/app/js/vue.dll.01008efe.js, line 2: Error: Request aborted
+JavaScript error: https://www.chess.com/bundles/app/js/core.dll.841288ce.js, line 2: Error: Request aborted
+JavaScript error: https://www.chess.com/bundles/app/js/core.dll.841288ce.js, line 2: Error: Request aborted
+JavaScript error: https://www.chess.com/bundles/app/js/core.dll.841288ce.js, line 2: Error: Request aborted
+JavaScript error: https://www.chess.com/bundles/app/js/core.dll.841288ce.js, line 2: Error: Request aborted
+JavaScript error: https://www.chess.com/bundles/app/js/core.dll.841288ce.js, line 2: Error: Request aborted
+1614049138792	Marionette	INFO	Stopped listening on port 37255
+1614049140624	geckodriver	INFO	Listening on 127.0.0.1:36621
+1614049140628	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexS1NZG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614049141938	Marionette	INFO	Listening on port 39277
+1614049142048	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614049142059	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: https://www.chess.com/bundles/app/js/core.dll.841288ce.js, line 2: Error: Request aborted
+JavaScript error: , line 0: uncaught exception: Object
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://www.chess.com/bundles/app/js/core.dll.841288ce.js, line 2: Error: Network Error
+1614050954403	Marionette	ERROR	[37] No reply from Marionette:Register
+1614052917853	Marionette	ERROR	[39] No reply from Marionette:Register
+1614053007669	Marionette	ERROR	[41] No reply from Marionette:Register
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
