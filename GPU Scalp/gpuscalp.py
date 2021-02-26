@@ -1,11 +1,12 @@
 from selenium import webdriver
 from time import sleep
+import sys
 
 f = open('debug.txt', 'w')
 
 bot = webdriver.Firefox()
 
-sleeptime = int(input("how many seconds in between loading pages?"))
+sleeptime = int(sys.argv[1])
 
 bot.get('https://v2.waitwhile.com/welcome/microcentertust')
 sleep(sleeptime)
@@ -20,7 +21,7 @@ while (html.find('Waitlist is currently closed') != -1):
     bot.quit()
     bot.get('https://v2.waitwhile.com/welcome/microcentertust')
     bot.refresh()
-    sleep(sleeptime)
+    sleep(sleeptime+5)
     html = bot.page_source
 
 f.write(html)
