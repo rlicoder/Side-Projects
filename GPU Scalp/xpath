@@ -1,0 +1,15 @@
+join button /html/body/app-root/welcome/div/div/section/div[2]/div[3]/div/button
+
+plus button for party /html/body/app-root/public-landing-page/main/div/div/public-partysize/div/section/div[2]/div[1]/div[2]
+
+next button for party /html/body/app-root/public-landing-page/main/div/div/public-partysize/div/section/div[2]/div[2]/button
+
+first name //*[@id="name02"]
+
+last name //*[@id="name03"]
+
+phone number //*[@id="phone01"]
+
+dropdown option /html/body/app-root/public-landing-page/main/div/div/public-confirm-page/div/div/div[2]/div[2]/form/div[1]/dynamic-form/form-multi-select/div/div[1]/ww-multiselect/ng-select/div
+
+shopping option //*[@id="a14e43a6b99d-0"]
