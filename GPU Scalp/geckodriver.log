@@ -1050,3 +1050,92 @@ Exiting due to channel error.
 Exiting due to channel error.
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
 Exiting due to channel error.
+1614616305888	geckodriver	INFO	Listening on 127.0.0.1:52485
+1614616306905	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofileqBNHWf"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614616311514	Marionette	INFO	Listening on port 52492
+1614616311642	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614616311655	Marionette	ERROR	[19] No reply from Marionette:Register
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1614616591869	geckodriver	INFO	Listening on 127.0.0.1:53398
+1614616591881	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofilep7YWAB"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614616595679	Marionette	INFO	Listening on port 53403
+1614616595738	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614616595752	Marionette	ERROR	[19] No reply from Marionette:Register
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1614617844317	geckodriver	INFO	Listening on 127.0.0.1:59375
+1614617844339	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofileL4wIzO"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614617848128	Marionette	INFO	Listening on port 59380
+1614617848188	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614617848202	Marionette	ERROR	[19] No reply from Marionette:Register
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+1614617910868	geckodriver	INFO	Listening on 127.0.0.1:59425
+1614617910881	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofileiNwURA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614617915280	Marionette	INFO	Listening on port 59430
+1614617915326	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614617915348	Marionette	ERROR	[19] No reply from Marionette:Register
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1614619422494	geckodriver	INFO	Listening on 127.0.0.1:52983
+1614619422507	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofileGwPiWT"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614619426634	Marionette	INFO	Listening on port 52988
+1614619426736	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614619426753	Marionette	ERROR	[16] No reply from Marionette:Register
+1614619428445	geckodriver	INFO	Listening on 127.0.0.1:53083
+1614619428494	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofilecBjjok"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614619438874	Marionette	INFO	Listening on port 53088
+1614619439069	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614619439213	Marionette	ERROR	[19] No reply from Marionette:Register
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1614620061258	geckodriver	INFO	Listening on 127.0.0.1:57107
+1614620061270	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofileE832ub"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614620065730	Marionette	INFO	Listening on port 57112
+1614620065831	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614620065845	Marionette	ERROR	[19] No reply from Marionette:Register
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.

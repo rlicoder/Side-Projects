@@ -22,11 +22,16 @@ while True:
     except Exception as e:
         pass
 
-bot.save_screenshot('waitlist opened ' + gettime() + '.png')
 
-join = bot.find_element_by_xpath('/html/body/app-root/welcome/div/div/section/div[2]/div[3]/div/button')
+while True:
+    try:
+        bot.save_screenshot('waitlist opened ' + gettime() + '.png')
+        join = bot.find_element_by_xpath('/html/body/app-root/welcome/div/div/section/div[2]/div[3]/div/button')
+        join.click()
+        break;
+    except Exception:
+        continue
 
-join.click()
 
 bot.save_screenshot('joined queue ' + gettime() + '.png')
 
@@ -72,19 +77,35 @@ f.close()
 
 bot.save_screenshot('after filling form ' + gettime() + '.png')
 
-drop = bot.find_element_by_xpath('/html/body/app-root/public-landing-page/main/div/div/public-confirm-page/div/div/div[2]/div[2]/form/div[1]/dynamic-form/form-multi-select/div/div[1]/ww-multiselect/ng-select/div')
-drop.click()
+while True:
+    try:
+        drop = bot.find_element_by_xpath('/html/body/app-root/public-landing-page/main/div/div/public-confirm-page/div/div/div[2]/div[2]/form/div[1]/dynamic-form/form-multi-select/div/div[1]/ww-multiselect/ng-select/div')
+        drop.click()
+        break
+    except Exception:
+        continue
 
 bot.save_screenshot('clicked dropdown ' + gettime() + '.png')
 
-webdriver.ActionChains(bot).move_to_element(drop).perform()
-webdriver.ActionChains(bot).move_by_offset(0, 50).perform()
-webdriver.ActionChains(bot).click().perform()
+while True:
+    try:
+        webdriver.ActionChains(bot).move_to_element(drop).perform()
+        webdriver.ActionChains(bot).move_by_offset(0, 50).perform()
+        webdriver.ActionChains(bot).click().perform()
+        break
+    except Exception:
+        continue
+
 
 bot.save_screenshot('clicked option ' + gettime() + '.png')
 
-confirm = bot.find_element_by_xpath('/html/body/app-root/public-landing-page/main/div/div/public-confirm-page/div/div/div[2]/div[2]/form/div[1]/button')
-confirm.click()
+while True:
+    try:
+        confirm = bot.find_element_by_xpath('/html/body/app-root/public-landing-page/main/div/div/public-confirm-page/div/div/div[2]/div[2]/form/div[1]/button')
+        confirm.click()
+        break
+    except Exception:
+        continue
 
 bot.save_screenshot('confirmed ' + gettime() + '.png')
 
