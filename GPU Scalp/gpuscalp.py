@@ -6,36 +6,20 @@ import selenium.common.exceptions as ex
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-f = open('debug.txt', 'w')
-
 bot = webdriver.Firefox()
 bot.set_window_size(1600, 1000)
 
 sleeptime = int(sys.argv[1])
 
 bot.get('https://v2.waitwhile.com/welcome/microcentertust')
-sleep(sleeptime)
+
+while True:
+    try:
+        WebDriverWait(bot, 100).until(EC.visibility of )
 
 html = bot.page_source
 
-while (html.find('Waitlist is currently closed') != -1):
-    bot.refresh()
-    sleep(sleeptime)
-    html = bot.page_source
-    while (html.find('Waitlist is currently closed') != -1):
-        bot.refresh()
-        sleep(sleeptime)
-        html = bot.page_source
-    bot.quit()
-    bot.get('https://v2.waitwhile.com/welcome/microcentertust')
-    bot.refresh()
-    sleep(sleeptime+5)
-    if (len(html) == 0):
-        continue
-    html = bot.page_source
 
-f.write(html)
-f.close()
 
 join = bot.find_element_by_xpath('/html/body/app-root/welcome/div/div/section/div[2]/div[3]/div/button')
 
