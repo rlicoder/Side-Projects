@@ -85,6 +85,6 @@ webdriver.ActionChains(bot).move_to_element(drop).perform()
 webdriver.ActionChains(bot).move_by_offset(0, 50).perform()
 webdriver.ActionChains(bot).click().perform()
 
-#confirm = bot.find_element_by_xpath('/html/body/app-root/public-landing-page/main/div/div/public-confirm-page/div/div/div[2]/div[2]/form/div[1]/button')
-#confirm.click()
+confirm = bot.find_element_by_xpath('/html/body/app-root/public-landing-page/main/div/div/public-confirm-page/div/div/div[2]/div[2]/form/div[1]/button')
+confirm.click()
 
