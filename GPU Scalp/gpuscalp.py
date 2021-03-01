@@ -10,11 +10,10 @@ bot = webdriver.Firefox()
 bot.set_window_size(1600, 1000)
 
 bot.get('https://v2.waitwhile.com/welcome/microcentertust')
-sleep(3)
 
 while True:
     try:
-        WebDriverWait(bot, 100).until(EC.visibility_of(bot.find_element_by_xpath('/html/body/app-root/welcome/div/div/section/div[2]/div[3]/div/button')))
+        WebDriverWait(bot, 10).until(EC.visibility_of(bot.find_element_by_xpath('/html/body/app-root/welcome/div/div/section/div[2]/div[3]/div/button')))
         html = bot.page_source
         if html.find('Waitlist is currently closed') != -1:
             bot.refresh()
