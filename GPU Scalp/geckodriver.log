@@ -755,3 +755,186 @@ JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: 
 1614547602807	Marionette	INFO	Stopped listening on port 44847
 1614547603696	Marionette	INFO	Stopped listening on port 41007
 1614547604776	Marionette	INFO	Stopped listening on port 34447
+1614583294550	geckodriver	INFO	Listening on 127.0.0.1:53024
+1614583295525	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofileKylbMW"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614583306594	Marionette	INFO	Listening on port 53035
+1614583323643	geckodriver	INFO	Listening on 127.0.0.1:53078
+1614583324668	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofileJ1BKPE"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614583328892	Marionette	INFO	Listening on port 53085
+1614583329044	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614583329067	Marionette	ERROR	[19] No reply from Marionette:Register
+1614583340960	Marionette	INFO	Stopped listening on port 53085
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1614583343802	Marionette	INFO	Stopped listening on port 53035
+1614583359463	geckodriver	INFO	Listening on 127.0.0.1:53168
+1614583359477	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofilekpmP6v"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614583363580	Marionette	INFO	Listening on port 53173
+1614583363639	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614583363654	Marionette	ERROR	[19] No reply from Marionette:Register
+1614583368738	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1614583437726	geckodriver	INFO	Listening on 127.0.0.1:53323
+1614583437741	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofilewXpepo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614583442258	Marionette	INFO	Listening on port 53328
+1614583442301	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614583442329	Marionette	ERROR	[19] No reply from Marionette:Register
+1614583447510	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1614583519327	geckodriver	INFO	Listening on 127.0.0.1:53472
+1614583519337	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofilebRpUkr"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614583523252	Marionette	INFO	Listening on port 53477
+1614583523358	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614583523375	Marionette	ERROR	[16] No reply from Marionette:Register
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614583528407	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1614583569300	geckodriver	INFO	Listening on 127.0.0.1:53598
+1614583569313	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofile17HpVS"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614583575378	Marionette	INFO	Listening on port 53603
+1614583575493	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614583575508	Marionette	ERROR	[19] No reply from Marionette:Register
+1614583580387	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1614583760633	geckodriver	INFO	Listening on 127.0.0.1:53772
+1614583760643	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofileBXjxRl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614583764549	Marionette	INFO	Listening on port 53777
+1614583764578	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614583764598	Marionette	ERROR	[19] No reply from Marionette:Register
+1614583769717	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1614583789123	geckodriver	INFO	Listening on 127.0.0.1:53890
+1614583789137	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofilephxJlz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614583793013	Marionette	INFO	Listening on port 53895
+1614583793057	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614583793072	Marionette	ERROR	[19] No reply from Marionette:Register
+1614583798055	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1614583818420	geckodriver	INFO	Listening on 127.0.0.1:54011
+1614583818434	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofilet2fUQL"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614583822373	Marionette	INFO	Listening on port 54016
+1614583822452	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614583822467	Marionette	ERROR	[19] No reply from Marionette:Register
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1614583935648	geckodriver	INFO	Listening on 127.0.0.1:64354
+1614583935661	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofilezGuTrG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614583939766	Marionette	INFO	Listening on port 64359
+1614583939818	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614583939837	Marionette	ERROR	[19] No reply from Marionette:Register
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1614584002209	geckodriver	INFO	Listening on 127.0.0.1:64571
+1614584002220	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofileuUfB6I"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614584006238	Marionette	INFO	Listening on port 64576
+1614584006302	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614584006324	Marionette	ERROR	[19] No reply from Marionette:Register
+1614584011370	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1614584028351	geckodriver	INFO	Listening on 127.0.0.1:64691
+1614584028365	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofilemF33pC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614584032311	Marionette	INFO	Listening on port 64696
+1614584032427	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614584032443	Marionette	ERROR	[19] No reply from Marionette:Register
+1614584037335	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1614584205085	geckodriver	INFO	Listening on 127.0.0.1:64855
+1614584206104	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_f/pjqnyyhd4nz2q9h0nbrwdtfm0000gn/T/rust_mozprofileh6T0wd"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614584210457	Marionette	INFO	Listening on port 64862
+1614584210510	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614584210551	Marionette	ERROR	[19] No reply from Marionette:Register
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.

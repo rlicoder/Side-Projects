@@ -12,14 +12,18 @@ bot.set_window_size(1600, 1000)
 sleeptime = int(sys.argv[1])
 
 bot.get('https://v2.waitwhile.com/welcome/microcentertust')
+sleep(sleeptime)
 
 while True:
     try:
-        WebDriverWait(bot, 100).until(EC.visibility of )
-
-html = bot.page_source
-
-
+        WebDriverWait(bot, 100).until(EC.visibility_of(bot.find_element_by_xpath('/html/body/app-root/welcome/div/div/section/div[2]/div[3]/div/button')))
+        html = bot.page_source
+        if html.find('Waitlist is currently closed') != -1:
+            bot.refresh()
+        else:
+            break
+    except Exception as e:
+        print(e)
 
 join = bot.find_element_by_xpath('/html/body/app-root/welcome/div/div/section/div[2]/div[3]/div/button')
 
