@@ -1,18 +1,16 @@
 from selenium import webdriver
 from time import sleep
 import sys
-from selenium.webdriver.support.ui import Select
 import selenium.common.exceptions as ex
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from gettime import *
 
 bot = webdriver.Firefox()
 bot.set_window_size(1600, 1000)
 
-sleeptime = int(sys.argv[1])
-
 bot.get('https://v2.waitwhile.com/welcome/microcentertust')
-sleep(sleeptime)
+sleep(3)
 
 while True:
     try:
@@ -23,11 +21,15 @@ while True:
         else:
             break
     except Exception as e:
-        print(e)
+        pass
+
+bot.save_screenshot('waitlist opened ' + gettime() + '.png')
 
 join = bot.find_element_by_xpath('/html/body/app-root/welcome/div/div/section/div[2]/div[3]/div/button')
 
 join.click()
+
+bot.save_screenshot('joined queue ' + gettime() + '.png')
 
 f = open('info.txt', 'r')
 num_people = int(f.readline())
@@ -40,6 +42,7 @@ while True:
     except (ex.ElementClickInterceptedException, ex.NoSuchElementException) as e:
         continue
 
+bot.save_screenshot('party size ' + gettime() + '.png')
 
 while True:
     try:
@@ -48,6 +51,8 @@ while True:
         break
     except (ex.ElementClickInterceptedException, ex.NoSuchElementException) as e:
         continue;
+    
+bot.save_screenshot('before filling form ' + gettime() + '.png')
 
 firstname = str(f.readline())
 lastname = str(f.readline())
@@ -66,13 +71,21 @@ while True:
         continue
 f.close()
 
+bot.save_screenshot('after filling form ' + gettime() + '.png')
+
 drop = bot.find_element_by_xpath('/html/body/app-root/public-landing-page/main/div/div/public-confirm-page/div/div/div[2]/div[2]/form/div[1]/dynamic-form/form-multi-select/div/div[1]/ww-multiselect/ng-select/div')
 drop.click()
+
+bot.save_screenshot('clicked dropdown ' + gettime() + '.png')
 
 webdriver.ActionChains(bot).move_to_element(drop).perform()
 webdriver.ActionChains(bot).move_by_offset(0, 50).perform()
 webdriver.ActionChains(bot).click().perform()
 
+bot.save_screenshot('clicked option ' + gettime() + '.png')
+
 confirm = bot.find_element_by_xpath('/html/body/app-root/public-landing-page/main/div/div/public-confirm-page/div/div/div[2]/div[2]/form/div[1]/button')
 confirm.click()
+
+bot.save_screenshot('confirmed ' + gettime() + '.png')
 
