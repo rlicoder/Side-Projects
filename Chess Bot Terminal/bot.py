@@ -21,7 +21,7 @@ mid_delay = int(settings.readline())
 end_delay = int(settings.readline())
 settings.close()
 
-stockfish = Stockfish('/home/royce/Desktop/Side-Projects/Chess Bot Test/stockfish', parameters={"Threads": thr, "Minimum Thinking Time": mintime, "Skill Level": level, "Min Split Depth": mindep, "Hash": hashsize, "Contempt": con, "Slow Mover": slow})
+stockfish = Stockfish('/home/royce/Desktop/Side-Projects/Chess Bot Terminal/stockfish', parameters={"Threads": thr, "Minimum Thinking Time": mintime, "Skill Level": level, "Min Split Depth": mindep, "Hash": hashsize, "Contempt": con, "Slow Mover": slow})
 
 bot = webdriver.Firefox()
 
