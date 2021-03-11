@@ -159,7 +159,7 @@ class gui(QWidget):
     def updateList(self):
         self.ui.createButton.setEnabled(False)
         max_page = getMaxPage()
-        f = open('problems.csv', 'w')
+        f = open('problems.csv', 'w', encoding="utf-8")
         for i in range(1, max_page+1):
             self.ui.progressBar.setValue(i*100//max_page)
             update(f, i)
