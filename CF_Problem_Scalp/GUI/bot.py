@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import Select
 import time
 import datetime
 
-def createVJudge():
+def createVJudge(title, password, contest_dur, listprb):
     bot = webdriver.Firefox()
 
     bot.set_page_load_timeout(10)
@@ -53,13 +53,13 @@ def createVJudge():
         try: 
             dropdown = Select(bot.find_element_by_id('contest-openness'))
             dropdown.select_by_value('2')
-            bot.find_element_by_id('contest-title').send_keys('title')
-            bot.find_element_by_id('contest-password').send_keys('password')
+            bot.find_element_by_id('contest-title').send_keys(title)
+            bot.find_element_by_id('contest-password').send_keys(password)
             contest_time = datetime.datetime.now() + datetime.timedelta(seconds=10)
             bot.find_element_by_id('contest-begin-time').clear()
             bot.find_element_by_id('contest-begin-time').send_keys(str(contest_time)[:-7])
             bot.find_element_by_id('contest-length').clear()
-            bot.find_element_by_id('contest-length').send_keys('1:2:3')
+            bot.find_element_by_id('contest-length').send_keys(contest_dur)
             bot.find_element_by_xpath('/html/body/div[3]/div/div/div[2]/nav/ul/li[2]/a').click()
             break
         except Exception as e:
@@ -68,16 +68,19 @@ def createVJudge():
 
     while (True):
         try:
-            OJ = Select(bot.find_element_by_id([contains('oj-')]))
+            OJ = Select(bot.find_element_by_xpath("//*[contains(@id, 'oj-')]"))
             OJ.select_by_value('CodeForces')
             add = bot.find_element_by_id('addBtn')
-            base_table = '/html/body/div[3]/div/div/div[2]/div/div[2]/table/tbody/tr[3]/td[3]/input[1]'
-            for i in range (0, 10):
+            base_table = '/html/body/div[3]/div/div/div[2]/div/div[2]/table/tbody/tr['
+            end_table = ']/td[3]/input[1]'
+            for i in range(1, len(listprb)):
                 add.click()
-                strlist = list(base_table)
-                strlist[-17] = chr(i+1)
-                base_table = ''.join(strlist)
-                bot.find_element_by_xpath(base_table).send_keys('x')
+            for i in range (0, len(listprb)):
+                strtab = base_table + str(i+1) + end_table
+                bot.find_element_by_xpath(strtab).send_keys(listprb[i])
+            time.sleep(1)
+            bot.find_element_by_id('btn-confirm').click()
+            break
         except Exception as e:
             print(e)
 

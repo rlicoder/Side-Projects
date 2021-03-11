@@ -1,13 +1,15 @@
 # This Python file uses the following encoding: utf-8
 import sys
 import os
+from time import sleep
+from random import randint
 from test import Ui_gui
 from scalp import *
 from bot import *
 
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QApplication, QWidget
-from PyQt5.QtCore import QFile
+from PyQt5.QtCore import QFile, QUrl
 
 
 class gui(QWidget):
@@ -21,8 +23,141 @@ class gui(QWidget):
         self.ui.updateListButton.clicked.connect(self.updateList)
         self.ui.createButton.clicked.connect(self.createContest)
 
+    def lfind(self, send, listprb, index):
+        f = open ('used.txt', 'r')
+        lines = f.readlines()
+        f.close()
+        for line in lines:
+            if line == listprb[index]:
+                return True
+        for i in send:
+            if i == listprb[index]:
+                return True;
+        return False
+
+    def valid(self, x, i, low, high, tags, band):
+        if x[i][4] == ' ':
+            print('no diff')
+            return False
+        if band:
+            for j in tags:
+                if x[i][2].find(j) == -1:
+                    print('does not have ' + j)
+                    return False
+            return int(x[i][4]) >= low and int(x[i][4]) <= high
+        else:
+            for j in tags:
+                if x[i][2].find(j) != -1:
+                    return int(x[i][4]) >= low and int(x[i][4]) <= high;
+            print('no tags match at all')
+            return False
+
     def createContest(self):
-        createVJudge()
+        contest_dur = self.ui.hoursBox.text() + ":" + self.ui.minutesBox.text() + ":" + self.ui.secondsBox.text()
+        tags = []
+        if self.ui.checkBox.isChecked():
+            tags.append('implementation')
+        if self.ui.checkBox_2.isChecked():
+            tags.append('math')
+        if self.ui.checkBox_3.isChecked():
+            tags.append('greedy')
+        if self.ui.checkBox_4.isChecked():
+            tags.append('dp')
+        if self.ui.checkBox_5.isChecked():
+            tags.append('data structures')
+        if self.ui.checkBox_6.isChecked():
+            tags.append('brute force')
+        if self.ui.checkBox_7.isChecked():
+            tags.append('constructive algorithms')
+        if self.ui.checkBox_8.isChecked():
+            tags.append('graphs')
+        if self.ui.checkBox_9.isChecked():
+            tags.append('sortings')
+        if self.ui.checkBox_10.isChecked():
+            tags.append('binary search')
+        if self.ui.checkBox_11.isChecked():
+            tags.append('dfs and similar')
+        if self.ui.checkBox_12.isChecked():
+            tags.append('trees')
+        if self.ui.checkBox_13.isChecked():
+            tags.append('strings')
+        if self.ui.checkBox_14.isChecked():
+            tags.append('number theory')
+        if self.ui.checkBox_15.isChecked():
+            tags.append('combinatorics')
+        if self.ui.checkBox_16.isChecked():
+            tags.append('two pointers')
+        if self.ui.checkBox_17.isChecked():
+            tags.append('bitmasks')
+        if self.ui.checkBox_18.isChecked():
+            tags.append('geometry')
+        if self.ui.checkBox_19.isChecked():
+            tags.append('dsu')
+        if self.ui.checkBox_20.isChecked():
+            tags.append('probabilities')
+        if self.ui.checkBox_21.isChecked():
+            tags.append('shortest paths')
+        if self.ui.checkBox_22.isChecked():
+            tags.append('divide and conquer')
+        if self.ui.checkBox_23.isChecked():
+            tags.append('hashing')
+        if self.ui.checkBox_24.isChecked():
+            tags.append('games')
+        if self.ui.checkBox_25.isChecked():
+            tags.append('interactice')
+        if self.ui.checkBox_26.isChecked():
+            tags.append('flows')
+        if self.ui.checkBox_27.isChecked():
+            tags.append('matrices')
+        if self.ui.checkBox_28.isChecked():
+            tags.append('string suffix structures')
+        if self.ui.checkBox_29.isChecked():
+            tags.append('fft')
+        if self.ui.checkBox_30.isChecked():
+            tags.append('graph matchings')
+        if self.ui.checkBox_31.isChecked():
+            tags.append('ternary search')
+        if self.ui.checkBox_32.isChecked():
+            tags.append('meet-in-the-middle')
+        if self.ui.checkBox_33.isChecked():
+            tags.append('expression parsing')
+        if self.ui.checkBox_34.isChecked():
+            tags.append('2-sat')
+        if self.ui.checkBox_35.isChecked():
+            tags.append('chinese remainder theorem')
+        if self.ui.checkBox_36.isChecked():
+            tags.append('schedules')        
+
+        listprb = []
+        send = []
+
+        f = open('problems.csv', 'r')
+        lines = f.readlines()
+
+        for i in lines:
+            listprb.append(i.split(','))
+
+        print(len(listprb))
+        for i in range(len(listprb) - 1, -1, -1):
+            if not(self.valid(listprb, i, int(self.ui.lowerBoundDiffBox.text()), int(self.ui.upperBoundDiffBox.text()), tags, self.ui.ANDcheck.isChecked())):
+                print(listprb[i][0])
+                del listprb[i]
+        print(len(listprb))
+        while len(send) != int(self.ui.numProbBox.text()):
+            index = randint(0, len(listprb)-1)
+            if self.lfind(send, listprb, index):
+                continue
+            else:
+                send.append(listprb[index][0])
+                with open('used.txt', 'a') as u:
+                    u.write(listprb[index][0])
+                    u.write('\n')
+                    u.close()
+
+        f.close()
+        createVJudge(self.ui.titleTextEdit.toPlainText(), self.ui.passwordTextEdit.toPlainText(), contest_dur, send)
+        self.ui.linkText.setSource(QUrl(bot.current_url))
+
 
     def updateList(self):
         self.ui.createButton.setEnabled(False)
@@ -49,6 +184,8 @@ class gui(QWidget):
         else:
             self.ui.selectAllButton.setText('Select All')
 
+        url = 'https://www.chess.com'
+        self.ui.linkText.setSource(QUrl('<a href=https://chess.com>Deez</a>'))
         self.ui.checkBox.toggle()
         self.ui.checkBox_2.toggle()
         self.ui.checkBox_3.toggle()

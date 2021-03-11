@@ -464,7 +464,7 @@
     <string>Create Contest!</string>
    </property>
   </widget>
-  <widget class="QCheckBox" name="checkBox_37">
+  <widget class="QCheckBox" name="ANDcheck">
    <property name="geometry">
     <rect>
      <x>490</x>
@@ -513,7 +513,7 @@
      </widget>
     </item>
     <item>
-     <widget class="QTextEdit" name="textEdit">
+     <widget class="QTextEdit" name="passwordTextEdit">
       <property name="enabled">
        <bool>true</bool>
       </property>
@@ -554,7 +554,7 @@
      </widget>
     </item>
     <item>
-     <widget class="QTextEdit" name="textEdit_2"/>
+     <widget class="QTextEdit" name="titleTextEdit"/>
     </item>
    </layout>
   </widget>
@@ -655,7 +655,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QTextBrowser" name="textBrowser">
+  <widget class="QTextBrowser" name="linkText">
    <property name="geometry">
     <rect>
      <x>550</x>
