@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>gui</string>
+   <string>Codeforces VJudge Contest Generator</string>
   </property>
   <widget class="QWidget" name="verticalLayoutWidget_5">
    <property name="geometry">
