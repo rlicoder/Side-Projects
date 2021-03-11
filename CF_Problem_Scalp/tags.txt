@@ -1,0 +1,37 @@
+divide and conquer
+fft
+brute force
+expression parsing
+math
+geometry
+matrices
+constructive algorithms
+data structures
+trees
+dp
+implementation
+dfs and similar
+ternary search
+graph matchings
+interactive
+strings
+sortings
+chinese remainder theorem
+2-sat
+games
+bitmasks
+binary search
+dsu
+number theory
+combinatorics
+hashing
+greedy
+meet-in-the-middle
+probabilities
+graphs
+shortest paths
+flows
+schedules
+two pointers
+*special problem
+string suffix structures
