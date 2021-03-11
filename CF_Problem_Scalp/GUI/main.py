@@ -37,19 +37,16 @@ class gui(QWidget):
 
     def valid(self, x, i, low, high, tags, band):
         if x[i][4] == ' ':
-            print('no diff')
             return False
         if band:
             for j in tags:
                 if x[i][2].find(j) == -1:
-                    print('does not have ' + j)
                     return False
             return int(x[i][4]) >= low and int(x[i][4]) <= high
         else:
             for j in tags:
                 if x[i][2].find(j) != -1:
                     return int(x[i][4]) >= low and int(x[i][4]) <= high;
-            print('no tags match at all')
             return False
 
     def createContest(self):
@@ -137,12 +134,9 @@ class gui(QWidget):
         for i in lines:
             listprb.append(i.split(','))
 
-        print(len(listprb))
         for i in range(len(listprb) - 1, -1, -1):
             if not(self.valid(listprb, i, int(self.ui.lowerBoundDiffBox.text()), int(self.ui.upperBoundDiffBox.text()), tags, self.ui.ANDcheck.isChecked())):
-                print(listprb[i][0])
                 del listprb[i]
-        print(len(listprb))
         while len(send) != int(self.ui.numProbBox.text()):
             index = randint(0, len(listprb)-1)
             if self.lfind(send, listprb, index):
@@ -155,8 +149,11 @@ class gui(QWidget):
                     u.close()
 
         f.close()
-        createVJudge(self.ui.titleTextEdit.toPlainText(), self.ui.passwordTextEdit.toPlainText(), contest_dur, send)
-        self.ui.linkText.setSource(QUrl(bot.current_url))
+        url = createVJudge(self.ui.titleTextEdit.toPlainText(), self.ui.passwordTextEdit.toPlainText(), contest_dur, send)
+        text = '<a href="'
+        text += url
+        text += '">contest link</a>'
+        self.ui.linkText.setText(text)
 
 
     def updateList(self):
@@ -181,47 +178,47 @@ class gui(QWidget):
     def selectAll(self):
         if self.ui.selectAllButton.text() == 'Select All':
             self.ui.selectAllButton.setText('Unselect All')
+            val = True
         else:
             self.ui.selectAllButton.setText('Select All')
+            val = False
 
-        url = 'https://www.chess.com'
-        self.ui.linkText.setSource(QUrl('<a href=https://chess.com>Deez</a>'))
-        self.ui.checkBox.toggle()
-        self.ui.checkBox_2.toggle()
-        self.ui.checkBox_3.toggle()
-        self.ui.checkBox_4.toggle()
-        self.ui.checkBox_5.toggle()
-        self.ui.checkBox_6.toggle()
-        self.ui.checkBox_7.toggle()
-        self.ui.checkBox_8.toggle()
-        self.ui.checkBox_9.toggle()
-        self.ui.checkBox_10.toggle()
-        self.ui.checkBox_11.toggle()
-        self.ui.checkBox_12.toggle()
-        self.ui.checkBox_13.toggle()
-        self.ui.checkBox_14.toggle()
-        self.ui.checkBox_15.toggle()
-        self.ui.checkBox_16.toggle()
-        self.ui.checkBox_17.toggle()
-        self.ui.checkBox_18.toggle()
-        self.ui.checkBox_19.toggle()
-        self.ui.checkBox_20.toggle()
-        self.ui.checkBox_21.toggle()
-        self.ui.checkBox_22.toggle()
-        self.ui.checkBox_23.toggle()
-        self.ui.checkBox_24.toggle()
-        self.ui.checkBox_25.toggle()
-        self.ui.checkBox_26.toggle()
-        self.ui.checkBox_27.toggle()
-        self.ui.checkBox_28.toggle()
-        self.ui.checkBox_29.toggle()
-        self.ui.checkBox_30.toggle()
-        self.ui.checkBox_31.toggle()
-        self.ui.checkBox_32.toggle()
-        self.ui.checkBox_33.toggle()
-        self.ui.checkBox_34.toggle()
-        self.ui.checkBox_35.toggle()
-        self.ui.checkBox_36.toggle()
+        self.ui.checkBox.setChecked(val)
+        self.ui.checkBox_2.setChecked(val)
+        self.ui.checkBox_3.setChecked(val)
+        self.ui.checkBox_4.setChecked(val)
+        self.ui.checkBox_5.setChecked(val)
+        self.ui.checkBox_6.setChecked(val)
+        self.ui.checkBox_7.setChecked(val)
+        self.ui.checkBox_8.setChecked(val)
+        self.ui.checkBox_9.setChecked(val)
+        self.ui.checkBox_10.setChecked(val)
+        self.ui.checkBox_11.setChecked(val)
+        self.ui.checkBox_12.setChecked(val)
+        self.ui.checkBox_13.setChecked(val)
+        self.ui.checkBox_14.setChecked(val)
+        self.ui.checkBox_15.setChecked(val)
+        self.ui.checkBox_16.setChecked(val)
+        self.ui.checkBox_17.setChecked(val)
+        self.ui.checkBox_18.setChecked(val)
+        self.ui.checkBox_19.setChecked(val)
+        self.ui.checkBox_20.setChecked(val)
+        self.ui.checkBox_21.setChecked(val)
+        self.ui.checkBox_22.setChecked(val)
+        self.ui.checkBox_23.setChecked(val)
+        self.ui.checkBox_24.setChecked(val)
+        self.ui.checkBox_25.setChecked(val)
+        self.ui.checkBox_26.setChecked(val)
+        self.ui.checkBox_27.setChecked(val)
+        self.ui.checkBox_28.setChecked(val)
+        self.ui.checkBox_29.setChecked(val)
+        self.ui.checkBox_30.setChecked(val)
+        self.ui.checkBox_31.setChecked(val)
+        self.ui.checkBox_32.setChecked(val)
+        self.ui.checkBox_33.setChecked(val)
+        self.ui.checkBox_34.setChecked(val)
+        self.ui.checkBox_35.setChecked(val)
+        self.ui.checkBox_36.setChecked(val)
         
 
 if __name__ == "__main__":

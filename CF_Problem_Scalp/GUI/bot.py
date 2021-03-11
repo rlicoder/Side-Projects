@@ -84,4 +84,8 @@ def createVJudge(title, password, contest_dur, listprb):
         except Exception as e:
             print(e)
 
+    url = bot.current_url
+    bot.quit()
+    return url
+
 

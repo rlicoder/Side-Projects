@@ -8,6 +8,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtGui import QIcon
 
 
 class Ui_gui(object):
@@ -322,7 +323,8 @@ class Ui_gui(object):
 
     def retranslateUi(self, gui):
         _translate = QtCore.QCoreApplication.translate
-        gui.setWindowTitle(_translate("gui", "gui"))
+        gui.setWindowTitle(_translate("gui", "xx"))
+        gui.setWindowIcon(QIcon('icon.png'))
         self.label_3.setText(_translate("gui", "Difficulty Range"))
         self.label_2.setText(_translate("gui", "---"))
         self.label.setText(_translate("gui", "# of problems"))
