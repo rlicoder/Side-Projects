@@ -3,7 +3,7 @@ import sys
 import os
 from time import sleep
 from random import randint
-from test import Ui_gui
+from form import Ui_gui
 from scalp import *
 from bot import *
 
