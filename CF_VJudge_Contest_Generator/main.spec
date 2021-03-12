@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['C:\\Users\\rlngu\\Desktop\\Side-Projects\\CF_Problem_Scalp'],
+             pathex=['C:\\Users\\rlngu\\Desktop\\Side-Projects\\CF_VJudge_Contest_Generator'],
              binaries=[],
              datas=[],
              hiddenimports=[],
