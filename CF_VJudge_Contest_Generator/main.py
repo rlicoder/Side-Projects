@@ -10,6 +10,7 @@ from bot import *
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QApplication, QWidget
 from PyQt5.QtCore import QFile, QUrl
+from PyQt5.QtGui import QIcon
 
 
 class gui(QWidget):
@@ -22,9 +23,10 @@ class gui(QWidget):
         self.ui.upperBoundDiffBox.valueChanged['int'].connect(self.setMin)
         self.ui.updateListButton.clicked.connect(self.updateList)
         self.ui.createButton.clicked.connect(self.createContest)
+        self.setWindowIcon(QIcon('icon.png'))
 
     def lfind(self, send, listprb, index):
-        f = open ('used.txt', 'r')
+        f = open ('used.txt', 'r', encoding="utf-8")
         lines = f.readlines()
         f.close()
         for line in lines:
@@ -128,7 +130,7 @@ class gui(QWidget):
         listprb = []
         send = []
 
-        f = open('problems.csv', 'r')
+        f = open('problems.csv', 'r', encoding="utf-8")
         lines = f.readlines()
 
         for i in lines:
@@ -143,7 +145,7 @@ class gui(QWidget):
                 continue
             else:
                 send.append(listprb[index][0])
-                with open('used.txt', 'a') as u:
+                with open('used.txt', 'a', encoding="utf-8") as u:
                     u.write(listprb[index][0])
                     u.write('\n')
                     u.close()
