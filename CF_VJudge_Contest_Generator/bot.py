@@ -85,6 +85,10 @@ def createVJudge(title, password, contest_dur, listprb):
             print(e)
 
     url = bot.current_url
+    while (url.find('panel') != -1):
+        time.sleep(.5)
+        url = bot.currenturl
+    bot.save_screenshot('debug.png')
     bot.quit()
     return url
 
