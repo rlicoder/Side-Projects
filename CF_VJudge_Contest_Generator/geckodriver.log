@@ -614,3 +614,33 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1615499302312	Marionette	INFO	Listening on port 43395
 1615499302393	Marionette	WARN	TLS certificate errors will be ignored for this session
 1615499314186	Marionette	INFO	Stopped listening on port 43395
+1615617021995	geckodriver	INFO	Listening on 127.0.0.1:51671
+1615617025022	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\rlngu\\AppData\\Local\\Temp\\rust_mozprofileosYRin"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615617026443	Marionette	INFO	Listening on port 51679
+1615617026554	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/r20210309/r20190131/show_ads_impl_fy2019.js, line 260: Error: XHR error: https://partner.googleadservices.com/gampad/cookie.js?domain=vjudge.net&client=ca-pub-9098591903020457&cookie=ID=9d4e5911e82fb5c5-220379ebdfc6002e:T=1615617027:RT=1615617027:S=ALNI_MaDd6T9Cf1lWvihEw5Jw7udzwoUTQ
+JavaScript error: resource://gre/modules/TelemetryEnvironment.jsm, line 1117: TypeError: can't convert null to object
+1615617100879	Marionette	INFO	Stopped listening on port 51679
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615617828085	geckodriver	INFO	Listening on 127.0.0.1:52011
+1615617831117	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\rlngu\\AppData\\Local\\Temp\\rust_mozprofilemNMw0q"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615617832616	Marionette	INFO	Listening on port 52019
+1615617832638	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/TelemetryEnvironment.jsm, line 1117: TypeError: can't convert null to object
+1615618014717	Marionette	INFO	Stopped listening on port 52019
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\rlngu\\AppData\\Local\\Temp\\rust_mozprofilehMGzDZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615617939841	Marionette	INFO	Listening on port 52113
+1615617940332	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615617953374	Marionette	INFO	Stopped listening on port 52113
+JavaScript error: resource://gre/modules/TelemetryEnvironment.jsm, line 1117: TypeError: can't convert null to object
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

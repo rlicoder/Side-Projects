@@ -78,7 +78,7 @@ def createVJudge(title, password, contest_dur, listprb):
             for i in range (0, len(listprb)):
                 strtab = base_table + str(i+1) + end_table
                 bot.find_element_by_xpath(strtab).send_keys(listprb[i])
-            time.sleep(1)
+            time.sleep(2)
             bot.find_element_by_id('btn-confirm').click()
             break
         except Exception as e:
@@ -87,7 +87,7 @@ def createVJudge(title, password, contest_dur, listprb):
     url = bot.current_url
     while (url.find('panel') != -1):
         time.sleep(.5)
-        url = bot.currenturl
+        url = bot.current_url
     bot.save_screenshot('debug.png')
     bot.quit()
     return url

@@ -13,9 +13,10 @@ bot.get(url)
 
 bot.find_element_by_id('username').send_keys('rl.nguyen@outlook.com')
 
-input('Is the captcha filled out?')
+yes = input('Is the captcha filled out?')
 
-bot.find_element_by_id('submitButton').click()
+if yes != 'n':
+    bot.find_element_by_id('submitButton').click()
 
 while (True):
     try:
@@ -47,3 +48,26 @@ while (True):
         break
     except Exception as e:
         print(e)
+
+while (True):
+    try:
+        bot.find_element_by_id('btnAddWorkSearchRecord').click()
+        break
+    except Exception as e:
+        print(e)
+
+while (True):
+    try:
+        bot.find_element_by_xpath('//*[@id="contentMain_ucRegularDUA4581WorkSearchRecordV2_frmFormWorkSearchInformation_prtDateOfContact_ctl00_divDatePicker"]').click()
+        sleep(1)
+        table = bot.find_element_by_tag_name('datepicker-days')
+        rows = table.find_elements_by_tag_name('tr')
+        for i in rows:
+            cols = i.find_elements_by_tag_name('td')
+            for j in cols:
+                print(j.getText())
+
+        break
+    except Exception as e:
+        print(e)
+

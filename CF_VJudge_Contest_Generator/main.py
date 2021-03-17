@@ -6,6 +6,7 @@ from random import randint
 from form import Ui_gui
 from scalp import *
 from bot import *
+from threading import Thread
 
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QApplication, QWidget
@@ -51,7 +52,7 @@ class gui(QWidget):
                     return int(x[i][4]) >= low and int(x[i][4]) <= high;
             return False
 
-    def createContest(self):
+    def createContestThread(self):
         contest_dur = self.ui.hoursBox.text() + ":" + self.ui.minutesBox.text() + ":" + self.ui.secondsBox.text()
         tags = []
         if self.ui.checkBox.isChecked():
@@ -157,8 +158,13 @@ class gui(QWidget):
         text += '">contest link</a>'
         self.ui.linkText.setText(text)
 
+    def createContest(self):
+        thread = Thread(target=self.createContestThread)
+        self.ui.createButton.setEnabled(False)
+        thread.start()
+        self.ui.createButton.setEnabled(True)
 
-    def updateList(self):
+    def updateListThread(self):
         self.ui.createButton.setEnabled(False)
         max_page = getMaxPage()
         f = open('problems.csv', 'w', encoding="utf-8")
@@ -168,6 +174,10 @@ class gui(QWidget):
         f.close()
         self.ui.createButton.setEnabled(True)
         QtWidgets.QMessageBox.about(self, 'Success!', 'Done updating the problem list')
+
+    def updateList(self):
+        thread = Thread(target=self.updateListThread)
+        thread.start()
 
     def setMax(self, val):
         if val > self.ui.upperBoundDiffBox.value():
@@ -224,6 +234,16 @@ class gui(QWidget):
         
 
 if __name__ == "__main__":
+    wdir = str(os.getcwd())
+
+    if not os.path.isfile(wdir + '/used.txt'):
+        f = open('used.txt', 'w')
+        f.close()
+
+    if not os.path.isfile(wdir + '/problems.csv'):
+        f = open('problems.csv', 'w')
+        f.close()
+    
     app = QApplication([])
     widget = gui()
     widget.show()
