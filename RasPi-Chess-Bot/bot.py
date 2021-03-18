@@ -10,8 +10,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import StaleElementReferenceException
 
 bot = webdriver.Chrome()
-
-sleep(1)
+bot.set_page_load_timeout(20)
 
 bot.get('https://www.chess.com/home')
 email = bot.find_element_by_xpath('//*[@id="username"]')
@@ -52,8 +51,14 @@ while (cont != 'q'):
             pat[0] = pat[0].replace('data-whole-move-number="', '')
             pat[0] = pat[0].replace('"', '')
             turnnum = int(pat[0])
+        if turnnum <= 10:
+            time = .1
+        elif turnnum > 10 and turnnum < 30:
+            time = random.randint(0,5)
+        else:
+            time = 1
         FEN, dirx, diry = parse(bot)
-        move = str(getMove(FEN))
+        move = str(getMove(FEN, time))
         posx = int(move[1])
         posy = int(ord(move[0]) - 96)
         search = "square-"
@@ -71,7 +76,10 @@ while (cont != 'q'):
         webdriver.ActionChains(bot).drag_and_drop_by_offset(piece, dify * diry, difx * dirx).perform()
         html = bot.page_source
     sleep(random.randint(0,500)/1000)
-    nextb = bot.find_element_by_xpath('//button[normalize-space()="New 10 min"]')
+    buttontext = '//button[normalize-space()="'
+    buttontext += cont
+    buttontext += "]"
+    nextb = bot.find_element_by_xpath(buttontext)
     html = bot.page_source
     sleep(1)
     nextb.click()
