@@ -25,7 +25,6 @@ stockfish = Stockfish('/home/royce/Desktop/Side-Projects/Chess Bot Terminal/stoc
 
 bot = webdriver.Firefox()
 
-
 sleep(1)
 
 bot.get('https://www.chess.com/home')
