@@ -1,0 +1,823 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" dir="ltr" xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://ogp.me/ns#" class="user-logged-in"><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# game: http://ogp.me/ns/game#">
+        <meta charset="utf-8">
+    <meta name="ROBOTS" content="NOODP">
+    <meta name="ROBOTS" content="NOYDIR">
+        <meta name="verify-v1" content="TgxixMKtxcQ+9NUdD7grKbzw3tAl3iJWlTPSPKt9t0I=">
+    <meta name="p:domain_verify" content="314c7ba9469cc171a12a46b43e0e2aed">
+    <meta name="google-site-verification" content="n7BdKb0xn1E9tRJXvmMxE3Ynr-QajBOi1yA1srT4Nrc">
+    <meta name="apple-itunes-app" content="app-id=329218549">
+  
+              <meta name="description" content="Play live chess for free in seconds! Challenge a friend online or find a random opponent with one simple click! No registration or additional download is required!">
+      
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  
+    <link rel="preconnect" href="//betacssjs.chesscomfiles.com">
+  <link rel="preconnect" href="//images.chesscomfiles.com">
+
+    <link rel="dns-prefetch" href="//betacssjs.chesscomfiles.com">
+  <link rel="dns-prefetch" href="//images.chesscomfiles.com">
+
+    <link as="font" crossorigin="crossorigin" href="/bundles/web/fonts/chessglyph-regular.b1ed32cf.woff2" rel="preload" type="font/woff2">
+
+    <link as="font" crossorigin="crossorigin" href="/bundles/web/fonts/montserrat-700.5e7b9b6f.woff2" rel="preload" type="font/woff2">
+
+<link as="font" crossorigin="crossorigin" href="/bundles/web/fonts/montserrat-800.92157f3f.woff2" rel="preload" type="font/woff2">
+
+<link href="/bundles/app/css/base-v5.client.cb0214c7.css" type="text/css" rel="stylesheet">
+
+        
+<link rel="icon" type="image/png" href="/bundles/web/favicons/favicon-32x32.c2a8280d.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/bundles/web/favicons/favicon-16x16.31f99381.png" sizes="16x16">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/bundles/web/favicons/apple-touch-icon.f72d3fd3.png">
+
+<link rel="mask-icon" href="/bundles/web/favicons/safari-pinned-tab.1bf62bbf.svg" color="#4E7838">
+
+    
+
+
+    
+          
+  
+  
+      <link href="/bundles/app/css/base.client.490c4288.css" type="text/css" rel="stylesheet">
+  
+  
+
+<meta name="language-banner-styles" content="/bundles/app/css/language-banner.client.2bb823cb.css">
+<meta name="language-banner-scripts" content="/bundles/app/js/language-banner.client.4592dc9a.js">
+
+        
+          
+  
+  
+      <link href="/bundles/app/css/checkmate-legacy.client.6507ea0c.css" type="text/css" rel="stylesheet">
+  
+  
+  
+
+  
+
+
+
+<link href="/bundles/app/css/core.client.dbb15012.css" type="text/css" rel="stylesheet">
+
+      <link href="/bundles/app/css/navigation.client.133843bb.css" type="text/css" rel="stylesheet">
+  
+
+            <link href="/bundles/app/css/chat.client.92b8ef7c.css" type="text/css" rel="stylesheet">
+            
+      <link href="/bundles/app/css/board-layout.client.ed7b6ab4.css" type="text/css" rel="stylesheet">
+  
+
+              <meta name="theme-color" content="#312E2B">
+      
+          
+  <title>Play Chess Online for FREE with Friends - Chess.com</title>
+
+        
+            <meta property="og:title" content="Play Chess Online for FREE with Friends">
+
+          <meta property="og:url" content="https://www.chess.com/play/online">
+
+          <meta property="fb:app_id" content="429665630433565">
+
+          <meta property="og:description" content="Play live chess for free in seconds! Challenge a friend online or find a random opponent with one simple click! No registration or additional download is required!">
+
+          <meta property="og:type" content="game">
+
+          <meta property="og:image" content="https://betacssjs.chesscomfiles.com/bundles/web/images/social/share-play-online.7e8bfb7f.png">
+
+          <meta property="og:image:secure_url" content="https://betacssjs.chesscomfiles.com/bundles/web/images/social/share-play-online.7e8bfb7f.png">
+
+          <meta property="og:site_name" content="Chess.com">
+
+  
+    
+          <meta name="twitter:title" content="Play Chess Online for FREE with Friends">
+
+          <meta name="twitter:card" content="summary_large_image">
+
+          <meta name="twitter:site" content="@chesscom">
+
+          <meta name="twitter:description" content="Play live chess for free in seconds! Challenge a friend online or find a random opponent with one simple click! No registration or additional download is required!">
+
+          <meta name="twitter:image" content="https://betacssjs.chesscomfiles.com/bundles/web/images/social/share-play-online.7e8bfb7f.png">
+
+  
+  
+        <link rel="alternate" href="https://www.chess.com/play/online" hreflang="en"><link rel="alternate" href="https://www.chess.com/es/play/online" hreflang="es"><link rel="alternate" href="https://www.chess.com/fr/play/online" hreflang="fr"><link rel="alternate" href="https://www.chess.com/de/play/online" hreflang="de"><link rel="alternate" href="https://www.chess.com/pl/play/online" hreflang="pl"><link rel="alternate" href="https://www.chess.com/ru/play/online" hreflang="ru"><link rel="alternate" href="https://www.chess.com/sv/play/online" hreflang="sv"><link rel="alternate" href="https://www.chess.com/el/play/online" hreflang="el"><link rel="alternate" href="https://www.chess.com/pt/play/online" hreflang="pt"><link rel="alternate" href="https://www.chess.com/it/play/online" hreflang="it"><link rel="alternate" href="https://www.chess.com/zh/play/online" hreflang="zh"><link rel="alternate" href="https://www.chess.com/ja/play/online" hreflang="ja"><link rel="alternate" href="https://www.chess.com/ko/play/online" hreflang="ko"><link rel="alternate" href="https://www.chess.com/nl/play/online" hreflang="nl"><link rel="alternate" href="https://www.chess.com/hy/play/online" hreflang="hy"><link rel="alternate" href="https://www.chess.com/bg/play/online" hreflang="bg"><link rel="alternate" href="https://www.chess.com/hr/play/online" hreflang="hr"><link rel="alternate" href="https://www.chess.com/cs/play/online" hreflang="cs"><link rel="alternate" href="https://www.chess.com/da/play/online" hreflang="da"><link rel="alternate" href="https://www.chess.com/fi/play/online" hreflang="fi"><link rel="alternate" href="https://www.chess.com/hu/play/online" hreflang="hu"><link rel="alternate" href="https://www.chess.com/lt/play/online" hreflang="lt"><link rel="alternate" href="https://www.chess.com/no/play/online" hreflang="no"><link rel="alternate" href="https://www.chess.com/ro/play/online" hreflang="ro"><link rel="alternate" href="https://www.chess.com/sk/play/online" hreflang="sk"><link rel="alternate" href="https://www.chess.com/sl/play/online" hreflang="sl"><link rel="alternate" href="https://www.chess.com/tr/play/online" hreflang="tr"><link rel="alternate" href="https://www.chess.com/uk/play/online" hreflang="uk"><link rel="alternate" href="https://www.chess.com/af/play/online" hreflang="af"><link rel="alternate" href="https://www.chess.com/ar/play/online" hreflang="ar"><link rel="alternate" href="https://www.chess.com/az/play/online" hreflang="az"><link rel="alternate" href="https://www.chess.com/be/play/online" hreflang="be"><link rel="alternate" href="https://www.chess.com/bs/play/online" hreflang="bs"><link rel="alternate" href="https://www.chess.com/et/play/online" hreflang="et"><link rel="alternate" href="https://www.chess.com/fa/play/online" hreflang="fa"><link rel="alternate" href="https://www.chess.com/gl/play/online" hreflang="gl"><link rel="alternate" href="https://www.chess.com/he/play/online" hreflang="he"><link rel="alternate" href="https://www.chess.com/hi/play/online" hreflang="hi"><link rel="alternate" href="https://www.chess.com/id/play/online" hreflang="id"><link rel="alternate" href="https://www.chess.com/is/play/online" hreflang="is"><link rel="alternate" href="https://www.chess.com/ka/play/online" hreflang="ka"><link rel="alternate" href="https://www.chess.com/lv/play/online" hreflang="lv"><link rel="alternate" href="https://www.chess.com/ms/play/online" hreflang="ms"><link rel="alternate" href="https://www.chess.com/pt-BR/play/online" hreflang="pt-BR"><link rel="alternate" href="https://www.chess.com/sq/play/online" hreflang="sq"><link rel="alternate" href="https://www.chess.com/sr/play/online" hreflang="sr"><link rel="alternate" href="https://www.chess.com/sw/play/online" hreflang="sw"><link rel="alternate" href="https://www.chess.com/tl/play/online" hreflang="tl"><link rel="alternate" href="https://www.chess.com/vi/play/online" hreflang="vi"><link rel="alternate" href="https://www.chess.com/zh-HK/play/online" hreflang="zh-HK"><link rel="alternate" href="https://www.chess.com/zh-TW/play/online" hreflang="zh-TW"><link rel="alternate" href="https://www.chess.com/fil/play/online" hreflang="fil"><link rel="alternate" href="https://www.chess.com/nl-BE/play/online" hreflang="nl-BE"><link rel="alternate" href="https://www.chess.com/bn/play/online" hreflang="bn"><link rel="alternate" href="https://www.chess.com/tk/play/online" hreflang="tk"><link rel="alternate" href="https://www.chess.com/uz/play/online" hreflang="uz"><link rel="alternate" href="https://www.chess.com/ca/play/online" hreflang="ca">  
+        <link rel="canonical" href="https://www.chess.com/play/online">
+  
+    
+              
+    
+    <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
+
+      
+        
+  
+  <style type="text/css" id="board-styles-blank">
+      #board-blank, .fade-in-overlay { background-image: url('https://images.chesscomfiles.com/chess-themes/boards/green/150.png'); }
+      .coordinate-light { fill: #779952; } .coordinate-dark { fill: #edeed1; } .highlight { background-color: #ffff00; }
+      #board-blank .piece.wp, #board-blank .promotion-piece.wp { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wp.png'); }#board-blank .piece.wn, #board-blank .promotion-piece.wn { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wn.png'); }#board-blank .piece.wb, #board-blank .promotion-piece.wb { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wb.png'); }#board-blank .piece.wr, #board-blank .promotion-piece.wr { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wr.png'); }#board-blank .piece.wq, #board-blank .promotion-piece.wq { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wq.png'); }#board-blank .piece.wk, #board-blank .promotion-piece.wk { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wk.png'); }#board-blank .piece.bp, #board-blank .promotion-piece.bp { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bp.png'); }#board-blank .piece.bn, #board-blank .promotion-piece.bn { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bn.png'); }#board-blank .piece.bb, #board-blank .promotion-piece.bb { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bb.png'); }#board-blank .piece.br, #board-blank .promotion-piece.br { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/br.png'); }#board-blank .piece.bq, #board-blank .promotion-piece.bq { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bq.png'); }#board-blank .piece.bk, #board-blank .promotion-piece.bk { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bk.png'); }
+    </style><script src="https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"></script><script async="" src="https://c.amazon-adsystem.com/aax2/apstag.js"></script><script type="text/javascript" async="" src="https://c.aaxads.com/aax.js?pub=AAX3W8YGF&amp;hst=www.chess.com&amp;ver=1.2"></script><script charset="utf-8" src="/bundles/app/js/vendors~fcm-loader.chunk.client.3c9bc7b3.js"></script><script charset="utf-8" src="/bundles/app/js/fcm-loader.chunk.client.1654b11d.js"></script><script charset="utf-8" src="https://cdn.intergient.com/pageos/1.6.2/batchHandler.04bb1e00ea7004ed29f9.js"></script><script type="text/javascript" src="https://z.moatads.com/playwireprebidheader597261727146/moatheader.js" async=""></script><script src="https://cdn.intergi.com/pageos/js/libs/aws-sdk-kinesis.min.js"></script><script charset="utf-8" src="https://cdn.intergient.com/pageos/1.6.2/ccpa.435d070ca87e3d39eeb4.js"></script><script src="https://cdn.intergi.com/hera/releases/4.4.1/tyche.js" type="text/javascript"></script><script type="text/javascript" src="https://cdn.intergi.com/hera/releases/4.4.1/runtime.61e49f0e876f51548405.js"></script><script type="text/javascript" src="https://cdn.intergi.com/hera/releases/4.4.1/vendor/npm.core-js.ffb4b0a70697fbafb4fe.js"></script><script type="text/javascript" src="https://cdn.intergi.com/hera/releases/4.4.1/vendor/npm.babel.e42d14b31536f4c718ea.js"></script><script type="text/javascript" src="https://cdn.intergi.com/hera/releases/4.4.1/vendor/npm.lodash.922cd3f43a34caef1c38.js"></script><script type="text/javascript" src="https://cdn.intergi.com/hera/releases/4.4.1/vendor/npm.intersection-observer.8aa2efdfa26796cda0fc.js"></script><script type="text/javascript" src="https://cdn.intergi.com/hera/releases/4.4.1/vendor/npm.process.940d3a7ac2b6ed08f335.js"></script><script type="text/javascript" src="https://cdn.intergi.com/hera/releases/4.4.1/vendor/npm.webpack.1e0f2b4c3cee24713006.js"></script><script type="text/javascript" src="https://cdn.intergi.com/hera/releases/4.4.1/lib/lib-main.aa0becec495b9d9b6de4.js"></script><script type="text/javascript" src="https://cdn.intergi.com/hera/releases/4.4.1/main.82e393c909a07ba898b2.js"></script><script type="text/javascript" src="https://cdn.intergi.com/hera/releases/4.4.1/lib/lib.55782284870bfbbd6c84.js"></script><script type="text/javascript" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script><script type="text/javascript" src="https://cdn.intergi.com/prebid/prebid.js" async=""></script><meta http-equiv="origin-trial" content="A+b/H0b8RPXNaJgaNFpO0YOFuGK6myDQXlwnJB3SwzvNMfcndat4DZYMrP4ClJIzYWo3/yP2S+8FTZ/lpqbPAAEAAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="A9ZgbRtm4pU3oZiuNzOsKcC8ppFSZdcjP2qYcdQrFKVzkmiWH1kdYY1Mi9x7G8+PS8HV9Ha9Cz0gaMdKsiVZIgMAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxL6oBxcpn5rQDPKSAs+d0oxNyJYq2/4esBUh3Yx5z8QfcLu+AU8iFCXYRcr/CEEfDnkxxLTsvXPJFQBxHfvkgMAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A9KPtG5kl3oLTk21xqynDPGQ5t18bSOpwt0w6kGa6dEWbuwjpffmdUpR3W+faZDubGT+KIk2do0BX2ca16x8qAcAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A3HucHUo1oW9s+9kIKz8mLkbcmdaj5lxt3eiIMp1Nh49dkkBlg1Fhg4Fd/r0vL69mRRA36YutI9P/lJUfL8csQoAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A0OysezhLoCRYomumeYlubLurZTCmsjTb087OvtCy95jNM65cfEsbajrJnhaGwiTxhz38ZZbm+UhUwQuXfVPTg0AAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="AxoOxdZQmIoA1WeAPDixRAeWDdgs7ZtVFfH2y19ziTgD1iaHE5ZGz2UdSjubkWvob9C5PrjUfkWi4ZSLgWk3Xg8AAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7+rMYR5onPnACrz+niKSeFdH3xw1IyHo2AZSHmxrofRk9w4HcQPMYcpBUKu6OQ6zsdxf4m/vqa6tG6Na4OLpAQAAAB4eyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021031101.js" async=""></script><style type="text/css" id="pwCSSstyling">.pw-tag { text-align: center; opacity: 1}.pw-oop-tag {width: 1px; height: 1px; line-height:1px; position: fixed}.pw-tag-hidden { visibility: hidden; opacity: 0}.pw-in-article { padding:20px 0; }.pw-in-article_hidden { visibility: hidden; height:0; }.pw-fixed-mobile-leaderboard{ position: fixed;bottom: 0px;left: 50%;width: 320px;height:50px;margin-left:-160px;z-index: 2147483645;text-align: center;padding: 2px 0;background: rgba(0, 0, 0, 0.8);transition: opacity .6s ease-in}.fixed-mobile-close { cursor: pointer;border-top: 1px solid rgba(0,0,0,0.35);border-left: 1px solid rgba(0,0,0,0.35);border-right: 1px solid rgba(0,0,0,0.35);border-radius: 4px 4px 0 0; padding: 3px 6px 3px 6px;position: absolute; top: -22px; right: -1px; z-index: -1;background-color: rgba(0,0,0,0.55);box-shadow: inset 0 0 0 1px rgba(255,255,255,0.2);color: rgba(255,255,255,0.75);line-height: 1.2;font-size: 12px;font-family: Helvetica,Arial,sans-serif;-webkit-transition: all .5s ease-out;-moz-transition: all .5s ease-out;-o-transition: all .5s ease-out;transition: all .5s ease-out;}.pw-siderail-left-close { cursor: pointer;border-top: 1px solid rgba(0,0,0,0.35);border-left: 1px solid rgba(0,0,0,0.35);border-right: 1px solid rgba(0,0,0,0.35);border-radius: 4px 4px 0 0; padding: 3px 6px 3px 6px; position: absolute;top: -22px; left: -1px; z-index: -1; background-color: rgba(0,0,0,0.55);box-shadow: inset 0 0 0 1px rgba(255,255,255,0.2);color: rgba(255,255,255,0.75);line-height: 1.2;font-size: 12px;font-family: Helvetica,Arial,sans-serif;-webkit-transition: all .5s ease-out;-moz-transition: all .5s ease-out;-o-transition: all .5s ease-out;transition: all .5s ease-out;}.pw-siderail-right-close { cursor: pointer;border-top: 1px solid rgba(0,0,0,0.35);border-left: 1px solid rgba(0,0,0,0.35);border-right: 1px solid rgba(0,0,0,0.35);border-radius: 4px 4px 0 0; padding: 3px 6px 3px 6px; position: absolute;top: -22px; right: -1px; z-index: -1; background-color: rgba(0,0,0,0.55);box-shadow: inset 0 0 0 1px rgba(255,255,255,0.2);color: rgba(255,255,255,0.75);line-height: 1.2;font-size: 12px;font-family: Helvetica,Arial,sans-serif;-webkit-transition: all .5s ease-out;-moz-transition: all .5s ease-out;-o-transition: all .5s ease-out;transition: all .5s ease-out;}div[data-pw-desk="leaderboard_atf"].pw-sticky,div[data-pw-mobi="leaderboard_atf"].pw-sticky { z-index: 2147483645;position: fixed; top:0px; left:0px; width: 100%; padding: 20px 0;background: rgba(0,0,0,.2);overflow:hidden;transition: 750ms opacity ease-out;opacity: 1;border-bottom: 1px solid rgba(238, 238, 238, 0.4)}div[data-pw-desk="med_rect_atf"].pw-sticky { z-index: 2147483644;position: fixed; width: 300px; padding: 0; background: transparent;overflow:hidden;transition: 750ms opacity ease-out;opacity: 1;border-bottom: 20px solid #fff;border-top: 20px solid #fff}.pws-sticky:before {z-index: -1;-webkit-filter: blur(34px);width: 100%;height: 100%;content: "";position: absolute;top: 0px;left: 0px;background: rgba(0,0,0,.5);}.pw-sticky-hide{opacity: 0%;}#pw-oop-behind_page { z-index: 0}#pw-oop-above_page { z-index: 2147483647}#pw-oop-top_rail { top: 0px; left:0px}#pw-oop-left_rail { left: 0px; top: 0px; position: fixed;min-width:160px;height:600px}#pw-oop-right_rail { right: 0px; top: 0px; position: fixed;min-width:160px;height:600px}.pw-tps{ display: none }#tycheConsole{ background-color: #fff; border-top: 1px solid;font-family: Arial, Helvetica, sans-serif; font-size: 12px;position: fixed; bottom: 0; width: 100%; padding: 0 2% 2% 2%;z-index: 9999999999; box-sizing: border-box}#tycheConsole a:visited{ color: rgb(52, 152, 219) }#tycheConsole li:hover{background: rgba(52, 152, 219,.26)}.ad__name{ display:inline-block; width: 15%; font-weight:bold;}div[data-pw-desk="leaderboard_atf"] > div > iframe { margin:auto; }#pw-oop-bottom_rail > div > iframe { margin:auto; }#video_backfill {position: relative; top: 50%; transform: translateY(-50%); -ms-transform: translateY(-50%);z-index: 11}#video_backfill > .pw_report_ad_container { display: block}</style><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="prefetch" href="https://0ba1146cd0ccef10ab30ff66c2789024.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html"><link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html"><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><style type="text/css" id="board-styles-liveGame-9758866039">
+      #board-liveGame-9758866039, .fade-in-overlay { background-image: url('https://images.chesscomfiles.com/chess-themes/boards/green/150.png'); }
+      .coordinate-light { fill: #779952; } .coordinate-dark { fill: #edeed1; } .highlight { background-color: #ffff00; }
+      #board-liveGame-9758866039 .piece.wp, #board-liveGame-9758866039 .promotion-piece.wp { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wp.png'); }#board-liveGame-9758866039 .piece.wn, #board-liveGame-9758866039 .promotion-piece.wn { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wn.png'); }#board-liveGame-9758866039 .piece.wb, #board-liveGame-9758866039 .promotion-piece.wb { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wb.png'); }#board-liveGame-9758866039 .piece.wr, #board-liveGame-9758866039 .promotion-piece.wr { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wr.png'); }#board-liveGame-9758866039 .piece.wq, #board-liveGame-9758866039 .promotion-piece.wq { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wq.png'); }#board-liveGame-9758866039 .piece.wk, #board-liveGame-9758866039 .promotion-piece.wk { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wk.png'); }#board-liveGame-9758866039 .piece.bp, #board-liveGame-9758866039 .promotion-piece.bp { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bp.png'); }#board-liveGame-9758866039 .piece.bn, #board-liveGame-9758866039 .promotion-piece.bn { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bn.png'); }#board-liveGame-9758866039 .piece.bb, #board-liveGame-9758866039 .promotion-piece.bb { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bb.png'); }#board-liveGame-9758866039 .piece.br, #board-liveGame-9758866039 .promotion-piece.br { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/br.png'); }#board-liveGame-9758866039 .piece.bq, #board-liveGame-9758866039 .promotion-piece.bq { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bq.png'); }#board-liveGame-9758866039 .piece.bk, #board-liveGame-9758866039 .promotion-piece.bk { background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bk.png'); }
+    </style><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.chess.com"></script></head>
+
+
+
+  
+
+
+
+
+<body class="dark-mode board-layout with-players with-und scrollbar-obtrusive hide-board-icons">
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQJVC73"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div class="board-layout-nav">
+          <header id="tb">
+    <div class="menu">
+        <div class="action toggle open">
+      <div class="icon-font">
+        <span class="icon-font-chess menu"></span>
+      </div>
+    </div>
+    
+        <a href="https://www.chess.com/today" class="link chess-logo-wrapper sprite chess-logo" aria-label="Chess.com - Play Chess Online">
+    </a>
+      </div>
+  
+          <div class="menu">
+            <a href="https://www.chess.com/play" class="action play" aria-label="My Turn">
+        <div class="icon-font">
+          <span class="icon-font-chess chess-move"></span>
+        </div>
+                  <!---->
+              </a>
+      
+            <a href="https://www.chess.com/messages" class="action messages" aria-label="Messages">
+        <div class="icon-font">
+          <span class="icon-font-chess mail-alt"></span>
+        </div>
+                  <!---->
+              </a>
+      
+            <a class="action notifications" aria-label="Notifications">
+        <div class="icon-font">
+          <span class="icon-font-chess bell"></span>
+        </div>
+                  <span class="badge badge-alerts">1</span><!---->
+                <div id="popover-notifications"></div>
+      </a>
+      
+            <button type="button" class="action settings" aria-label="Settings">
+        <div class="icon-font">
+          <span class="icon-font-chess circle-gearwheel"></span>
+        </div>
+        <div id="popover-settings"></div>
+      </button>
+          </div>
+      </header>
+    
+
+
+
+
+<div id="login-register-modal"><!----></div>
+
+<div id="shareable-game-url-modal"></div>
+
+<div id="message-modal"><!----></div>
+
+<div id="upgrade-modal"></div>
+
+<div id="first-time-modal"></div>
+
+<div id="achievements-modal"></div>
+
+<div id="puzzle-battle-challenge-toaster"><!----></div>
+
+  <div class="opened-chats-list svelte-ayef2p"><!----></div>
+
+  <div id="offline-challenge-toaster" data-badge="challenges" data-badge-count="0"><!----></div>
+
+  <div id="old-browser-modal"></div>
+
+    
+<div id="sb" class="" data-constant-message-unread-count-max="100" data-notifications-limit="200" data-feature-chessboard-beta="" data-feature-chessboard-reporting-plugin="true" data-feature-chess-variants="true" data-feature-diagram-viewer-new-chessboard="" data-feature-endgames="" data-feature-events-redirect="" data-feature-library="" data-feature-game-analysis-support-for-game-pgn="true" data-feature-board-layout-resize-bottom="true" data-feature-old-board-image-size-150="true" data-feature-pgn-annotation-for-download="" data-feature-page-with-new-chessboard-and-diagrams-in-comments="true" data-feature-platform-user-notices="" data-feature-puzzle-rush-leaderboard-fix="true" data-feature-register-facebook="true" data-feature-redirect-to-web-page-play="" data-feature-seo-exit-retention-modal="true" data-feature-seo-first-time-modal="true" data-feature-ads-playwire-integration="true" data-feature-form-chips-new-ds="" data-is-live="" data-route-login-and-go="https://www.chess.com/login_and_go" data-feature-leaderboard-trend="" data-route-register="https://www.chess.com/register" data-admin-user-live-chess-priority="true" data-feature-payments-payu-redirect="" data-feature-v5-new-friends-redesign="true" data-feature-is-not-messageable-reason="true" data-feature-v5-new-clubs-pages="" data-feature-more-events="" data-feature-game-of-the-day-widget="true" data-feature-lessons-bookmarks="true" data-feature-puzzle-reset="" data-v3-event-emitter-migration="true">
+    <div class="action toggle close">
+    <div class="icon-font">
+      <span class="icon-font-chess x"></span>
+    </div>
+  </div>
+
+    <div class="menu top">
+    
+        <a aria-label="Chess.com - Play Chess Online" data-panel="notifications" class="link main-link chess-logo-wrapper sprite chess-logo" href="https://www.chess.com/today" target="_self">
+                        <span class="badge badge-alerts">1</span><!---->
+                  </a>
+    
+                <div class="nav-panel notifications"></div>
+      
+            <a data-panel="home" href="https://www.chess.com/home" target="_self" class="link home main-link">
+        <img class="image user-nav-avatar" height="24" width="24" src="https://images.chesscomfiles.com/uploads/v1/user/119659050.453d1b4c.48x48o.66faed008795.jpeg" alt="Home">
+        <span class="text">Home</span>
+                  <!---->
+              </a>
+      
+            <div class="nav-panel home"></div>
+          
+        
+        <a data-panel="play" href="https://www.chess.com/play" target="_self" class="link main-link top-level sprite play-top">
+      <span class="text">Play</span>
+              <!---->
+          </a>
+    
+        
+    <div class="nav-panel play" data-nav-panel="play" data-routes="{&quot;automate&quot;:&quot;https:\/\/www.chess.com\/automate&quot;,&quot;leaderboard&quot;:&quot;https:\/\/www.chess.com\/leaderboard\/live&quot;,&quot;live&quot;:&quot;https:\/\/www.chess.com\/live&quot;,&quot;daily&quot;:&quot;https:\/\/www.chess.com\/daily&quot;,&quot;computer&quot;:&quot;https:\/\/www.chess.com\/play\/computer&quot;,&quot;playOnline&quot;:&quot;https:\/\/www.chess.com\/play\/online&quot;,&quot;playPage&quot;:&quot;https:\/\/www.chess.com\/play&quot;,&quot;playOnlineNew&quot;:&quot;https:\/\/www.chess.com\/play\/online\/new&quot;,&quot;playFriend&quot;:&quot;https:\/\/www.chess.com\/play\/online\/friend&quot;,&quot;puzzleBattle&quot;:&quot;https:\/\/www.chess.com\/puzzles\/battle&quot;,&quot;puzzles&quot;:&quot;https:\/\/www.chess.com\/puzzles\/rush&quot;,&quot;tournaments&quot;:&quot;https:\/\/www.chess.com\/tournaments&quot;,&quot;library&quot;:&quot;https:\/\/www.chess.com\/library&quot;,&quot;fourPlayer&quot;:&quot;https:\/\/www.chess.com\/4-player-chess&quot;,&quot;gameArchive&quot;:&quot;https:\/\/www.chess.com\/games\/archive&quot;,&quot;variants&quot;:&quot;https:\/\/www.chess.com\/variants&quot;}">
+    </div>
+    
+        <a data-panel="puzzles" href="https://www.chess.com/puzzles" target="_self" class="link main-link top-level sprite puzzles-top">
+      <span class="text">Puzzles</span>
+    </a>
+    
+        
+    <div class="nav-panel puzzles" data-nav-panel="puzzles" data-routes="{&quot;dailyPuzzle&quot;:&quot;https:\/\/www.chess.com\/goto_daily_puzzle&quot;,&quot;drills&quot;:&quot;https:\/\/www.chess.com\/drills&quot;,&quot;endgames&quot;:&quot;https:\/\/www.chess.com\/endgames&quot;,&quot;puzzleBattle&quot;:&quot;https:\/\/www.chess.com\/puzzles\/battle&quot;,&quot;puzzles&quot;:&quot;https:\/\/www.chess.com\/puzzles\/rush&quot;,&quot;tactics&quot;:&quot;https:\/\/www.chess.com\/puzzles&quot;,&quot;soloChess&quot;:&quot;https:\/\/www.chess.com\/solo-chess&quot;}">
+    </div>
+    
+        <a data-panel="learn" href="https://www.chess.com/lessons" target="_self" class="link main-link top-level sprite learn-top">
+      <span class="text">Learn</span>
+              <span class="badge badge-lessonQuotaRefilled">★</span><!---->
+          </a>
+    
+        
+    <div class="nav-panel learn" data-routes="{&quot;articles&quot;:&quot;https:\/\/www.chess.com\/articles&quot;,&quot;tactics&quot;:&quot;https:\/\/www.chess.com\/puzzles&quot;,&quot;lessons&quot;:&quot;https:\/\/www.chess.com\/lessons&quot;,&quot;videos&quot;:&quot;https:\/\/www.chess.com\/videos&quot;,&quot;openings&quot;:&quot;https:\/\/www.chess.com\/openings&quot;,&quot;explorer&quot;:&quot;https:\/\/www.chess.com\/explorer&quot;,&quot;drills&quot;:&quot;https:\/\/www.chess.com\/drills&quot;,&quot;vision&quot;:&quot;https:\/\/www.chess.com\/vision&quot;,&quot;analysis&quot;:&quot;https:\/\/www.chess.com\/analysis&quot;}">
+    </div>
+    
+        
+    <a data-panel="today" href="https://www.chess.com/today" target="_self" class="link main-link top-level sprite today-top">
+      <span class="text">Today</span>
+    </a>
+    
+        
+    <div class="nav-panel today" data-routes="{&quot;chessToday&quot;:&quot;https:\/\/www.chess.com\/today&quot;,&quot;computerChampionship&quot;:&quot;https:\/\/www.chess.com\/computer-chess-championship&quot;,&quot;news&quot;:&quot;https:\/\/www.chess.com\/news&quot;,&quot;speedChessChampionship&quot;:&quot;https:\/\/www.chess.com\/article\/view\/2020-speed-chess-championship&quot;,&quot;proChessLeague&quot;:&quot;http:\/\/www.prochessleague.com&quot;,&quot;streamers&quot;:&quot;https:\/\/www.chess.com\/streamers&quot;}">
+    </div>
+    
+        <a data-panel="connect" href="https://www.chess.com/forum" target="_self" class="link main-link top-level sprite connect-top">
+      <span class="text">Connect</span>
+              <!---->
+          </a>
+    
+    
+    <div class="nav-panel connect" data-routes="{&quot;articles&quot;:&quot;https:\/\/www.chess.com\/articles&quot;,&quot;news&quot;:&quot;https:\/\/www.chess.com\/news&quot;,&quot;forums&quot;:&quot;https:\/\/www.chess.com\/forum&quot;,&quot;blogs&quot;:&quot;https:\/\/www.chess.com\/blogs&quot;,&quot;clubs&quot;:&quot;https:\/\/www.chess.com\/clubs&quot;,&quot;friends&quot;:&quot;https:\/\/www.chess.com\/home\/friends&quot;,&quot;members&quot;:&quot;https:\/\/www.chess.com\/members&quot;,&quot;coaches&quot;:&quot;https:\/\/www.chess.com\/coaches&quot;,&quot;chessToday&quot;:&quot;https:\/\/www.chess.com\/today&quot;}">
+    </div>
+
+        <a data-panel="more" class="link main-link top-level sprite more-top">
+      <span class="text">More</span>
+    </a>
+    
+        
+    <div class="nav-panel more" data-routes="{&quot;computerChampionship&quot;:&quot;https:\/\/www.chess.com\/computer-chess-championship&quot;,&quot;dailyPuzzle&quot;:&quot;https:\/\/www.chess.com\/goto_daily_puzzle&quot;,&quot;leaderboard&quot;:&quot;https:\/\/www.chess.com\/leaderboard\/live&quot;,&quot;liveRankings&quot;:&quot;https:\/\/www.chess.com\/ratings&quot;,&quot;masterGames&quot;:&quot;https:\/\/www.chess.com\/games&quot;,&quot;voteChess&quot;:&quot;https:\/\/www.chess.com\/votechess&quot;,&quot;soloChess&quot;:&quot;https:\/\/www.chess.com\/solo-chess&quot;,&quot;topPlayers&quot;:&quot;https:\/\/www.chess.com\/players&quot;,&quot;resourcesPage&quot;:&quot;https:\/\/www.chess.com\/resources&quot;,&quot;mobileApps&quot;:&quot;https:\/\/www.chess.com\/play\/apps&quot;,&quot;rules&quot;:&quot;https:\/\/www.chess.com\/learn-how-to-play-chess&quot;,&quot;terms&quot;:&quot;https:\/\/www.chess.com\/terms&quot;}">
+    </div>
+    
+                          <a href="https://www.chess.com/membership?c=navbarsvelte" target="_self" class="link main-link trial top-level sprite diamond-top">
+          <span class="text">Upgrade</span>
+        </a>
+                  
+              </div>
+    <div class="menu">
+            
+                  <a class="action ui-mode">
+        <div class="icon-font">
+          <span class="icon-font-chess darklight"></span>
+        </div>
+        <span class="light text">Light UI</span>
+        <span class="dark text">Dark UI</span>
+      </a>
+        
+              <a class="action resize">
+        <div class="collapse">
+          <div class="icon-font">
+            <span class="icon-font-chess nav-collapsed"></span>
+          </div>
+        </div>
+        <div class="expand">
+          <div class="icon-font" data-tooltip-show="collapsed-nav" data-tooltip-content="Expand">
+            <span class="icon-font-chess nav-expanded"></span>
+          </div>
+        </div>
+        <span class="text">Collapse</span>
+      </a>
+        
+              <a class="action link has-popover settings" href="https://www.chess.com/settings" target="_self">
+        <div class="icon-font" data-tooltip-show="collapsed-nav">
+          <span class="icon-font-chess circle-gearwheel"></span>
+        </div>
+        <span class="text">Settings</span>
+      </a>
+
+            <div class="svelte popover dark settings">
+                <div class="arrow"></div>
+        
+                <a href="https://www.chess.com/settings" target="_self">
+          <div class="icon-font icon">
+            <span class="icon-font-chess circle-gearwheel"></span>
+          </div>
+          <span class="title">All Settings</span>
+        </a>
+        
+                <a href="https://www.chess.com/settings/board" target="_self">
+          <div class="icon-font icon">
+            <span class="icon-font-chess chess-board-alt"></span>
+          </div>
+          <span class="title">Board &amp; Pieces</span>
+        </a>
+        
+                <a href="https://www.chess.com/settings/themes" target="_self">
+          <div class="icon-font icon">
+            <span class="icon-font-chess square-brush"></span>
+          </div>
+          <span class="title">Theme</span>
+        </a>
+        
+                <a class="logout">
+          <div class="icon-font icon">
+            <span class="icon-font-chess exit"></span>
+          </div>
+          <span class="title">Log Out</span>
+        </a>
+              </div>
+              
+        <a href="https://www.chess.com/search" target="_self" class="action search">
+      <div class="toggle-search-box" data-tooltip-show="collapsed-nav" data-tooltip-content="Search">
+        <div class="icon-font">
+          <span class="icon-font-chess magnifying-glass"></span>
+        </div>
+        <span class="nav-label">Search</span>
+      </div>
+            <div class="svelte popover search">
+        <div class="arrow"></div>
+        <form action="https://www.chess.com/search/redirect" method="GET">
+          <input type="text" name="q">
+        </form>
+      </div>
+          </a>
+    
+        <a class="action has-popover help">
+      <div class="icon-font">
+        <span class="icon-font-chess circle-question"></span>
+      </div>
+      <span class="text">Help</span>
+    </a>
+    
+        <div class="svelte dark popover help">
+            <div class="arrow"></div>
+      
+            <a class="help-scout">
+        <div class="icon-font icon">
+          <span class="icon-font-chess circle-question"></span>
+        </div>
+        <span class="title">Ask a Question</span>
+      </a>
+      
+            <a rel="noopener" href="https://support.chess.com/collection/136-community-safety" target="_blank">
+        <div class="icon-font icon">
+          <span class="icon-font-chess circle-block"></span>
+        </div>
+        <span class="title">Report Abuse</span>
+      </a>
+      
+            <a class="user-snap">
+        <div class="icon-font icon">
+          <span class="icon-font-chess lightbulb"></span>
+        </div>
+        <span class="title">Make a Suggestion</span>
+      </a>
+      
+            <a rel="noopener" href="https://support.chess.com/category/135-membership-and-billing" target="_blank">
+        <div class="icon-font icon">
+          <span class="icon-font-chess card"></span>
+        </div>
+        <span class="title">Billing Issues</span>
+      </a>
+      
+            <a class="user-snap">
+        <div class="icon-font icon">
+          <span class="icon-font-chess bug"></span>
+        </div>
+        <span class="title">Report a Bug</span>
+      </a>
+          </div>
+      </div>
+  </div>
+
+  <form class="form logout" method="post" action="https://www.chess.com/logout" data-logout-form="">
+    <input type="hidden" name="_csrf_token" value="E01d-OBti76w5vgs1z3zaVbG8lj5KNpc9BuzKls6K0g">
+  </form>
+
+    </div>
+
+  <div id="board-layout-main" class="board-layout-main" style="padding-inline-start: 1px;">
+          <div id="board-layout-player-top" class="board-layout-player board-layout-top">
+          <div class="player-component player-top"><!----> <!----> <!----> <div class="player-avatar"><img alt="bramgoethals" src="//images.chesscomfiles.com/uploads/user/73697318.27e0cf83.78x78o.61efdedf8430.jpeg" srcset="//images.chesscomfiles.com/uploads/user/73697318.27e0cf83.78x78o.61efdedf8430.jpeg, //images.chesscomfiles.com/uploads/user/73697318.27e0cf83.78x78o.61efdedf8430@2x.jpeg 2x" class="avatar-component player-image" width="40" height="40"> <div class="online-status-component"></div></div> <!----> <div class="player-tagline"><div class="user-tagline-component"><!----> <a class="user-username-component user-username-dark user-username-link user-tagline-username">bramgoethals</a> <span class="user-tagline-rating user-tagline-dark">
+    (1924)
+  </span> <div class="country-flags-component country-be"></div> <a href="/membership?c=flair" class="user-flair-icon-component"><!----></a> <div class="connection-component connection-excellent"><span class="icon-font-chess signal connection-icon connection-icon1 connection-icon2 connection-icon3 connection-icon4"></span> <span class="icon-font-chess signal connection-icon connection-icon2 connection-icon3 connection-icon4"></span> <span class="icon-font-chess signal connection-icon connection-icon3 connection-icon4"></span> <span class="icon-font-chess signal connection-icon connection-icon4"></span></div> <!----></div> <captured-pieces board-id="board-liveGame-9758866039" color="2" class="player-pieces">
+      <div>
+        <span class="captured-pieces-cpiece captured-pieces-w-pawn"></span><span class="captured-pieces-cpiece captured-pieces-score">+1</span></div>
+    </captured-pieces></div> <div class="clock-component clock-black clock-top clock-live clock-running player-clock"><div class="clock-bar"><div class="clock-remainder" style="width: 92%;"></div></div> <div class="clock-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" class="clock-timer" style="transform: rotate(4230deg);"><path d="M5.48,9a.93.93,0,0,0-.3.71v.58a.94.94,0,0,0,.3.71,1,1,0,0,0,.71.3h4.58a1,1,0,0,0,.71-.3.94.94,0,0,0,.29-.71V9.7A.92.92,0,0,0,11.48,9a1,1,0,0,0-.71-.27H6.19A1,1,0,0,0,5.48,9Z"></path><path d="M19.22,6.1a9.9,9.9,0,0,0-2.14-3.18A10.23,10.23,0,0,0,13.9.78,9.76,9.76,0,0,0,10,0,9.86,9.86,0,0,0,6.1.78,10,10,0,0,0,.78,6.1,9.81,9.81,0,0,0,0,10a9.81,9.81,0,0,0,.78,3.9A10,10,0,0,0,6.1,19.22,9.86,9.86,0,0,0,10,20a9.76,9.76,0,0,0,3.89-.78,10.23,10.23,0,0,0,3.18-2.14,9.9,9.9,0,0,0,2.14-3.18A9.81,9.81,0,0,0,20,10,9.81,9.81,0,0,0,19.22,6.1ZM17.07,13a7.65,7.65,0,0,1-1.65,2.42A7.81,7.81,0,0,1,13,17.06a7.46,7.46,0,0,1-3,.6,7.51,7.51,0,0,1-3-.6,7.74,7.74,0,0,1-2.43-1.65A8,8,0,0,1,2.94,13a7.46,7.46,0,0,1-.6-3,7.46,7.46,0,0,1,.6-3A8,8,0,0,1,4.58,4.59,7.74,7.74,0,0,1,7,2.94a7.51,7.51,0,0,1,3-.6,7.45,7.45,0,0,1,3,.6,7.74,7.74,0,0,1,2.43,1.65A7.65,7.65,0,0,1,17.07,7a7.46,7.46,0,0,1,.6,3A7.46,7.46,0,0,1,17.07,13Z"></path></svg></div> <span>9:13</span></div></div>
+      </div>
+        <div id="board-layout-chessboard" class="board-layout-chessboard board-board" style="width: 608px; height: 608px; padding-bottom: 0px;">
+              <div id="board-layout-evaluation" class="board-layout-evaluation">
+            <!---->
+        </div>
+                    <div id="board-layout-pieces" class="board-layout-pieces">
+            <div class="side-controls-component"><!----></div>
+        </div>
+              <chess-board class="board" id="board-liveGame-9758866039" data-test-animating="true"><svg viewBox="0 0 100 100" class="coordinates"><text x="0.75" y="3.5" font-size="2.8" class="coordinate-light">8</text><text x="0.75" y="15.75" font-size="2.8" class="coordinate-dark">7</text><text x="0.75" y="28.25" font-size="2.8" class="coordinate-light">6</text><text x="0.75" y="40.75" font-size="2.8" class="coordinate-dark">5</text><text x="0.75" y="53.25" font-size="2.8" class="coordinate-light">4</text><text x="0.75" y="65.75" font-size="2.8" class="coordinate-dark">3</text><text x="0.75" y="78.25" font-size="2.8" class="coordinate-light">2</text><text x="0.75" y="90.75" font-size="2.8" class="coordinate-dark">1</text><text x="10" y="99" font-size="2.8" class="coordinate-dark">a</text><text x="22.5" y="99" font-size="2.8" class="coordinate-light">b</text><text x="35" y="99" font-size="2.8" class="coordinate-dark">c</text><text x="47.5" y="99" font-size="2.8" class="coordinate-light">d</text><text x="60" y="99" font-size="2.8" class="coordinate-dark">e</text><text x="72.5" y="99" font-size="2.8" class="coordinate-light">f</text><text x="85" y="99" font-size="2.8" class="coordinate-dark">g</text><text x="97.5" y="99" font-size="2.8" class="coordinate-light">h</text></svg><!--/Coordinates--><div data-test-element="highlight" class="highlight square-24" style="background-color: rgb(255, 255, 0); opacity: 0.5;"></div><div data-test-element="highlight" class="highlight square-36" style="background-color: rgb(255, 255, 0); opacity: 0.5;"></div><!--/Squares--><!--/Blinking Squares--><!--/Effects--><div class="hover-square square-14" style="border-width: 3.8px; display: none;"></div><!--/Hover Square--><div class="piece wr square-11"></div><div class="piece wn square-21"></div><div class="piece wb square-31"></div><div class="piece wq square-14" style=""></div><div class="piece wk square-71" style=""></div><div class="piece wb square-52" style=""></div><div class="piece wn square-63" style=""></div><div class="piece wr square-61" style=""></div><div class="piece wp square-12"></div><div class="piece wp square-34" style=""></div><div class="piece wp square-44" style=""></div><div class="piece wp square-53" style=""></div><div class="piece wp square-62"></div><div class="piece wp square-72"></div><div class="piece wp square-82"></div><div class="piece bp square-17"></div><div class="piece bp square-27"></div><div class="piece bp square-37"></div><div class="piece bp square-46" style=""></div><div class="piece bp square-57"></div><div class="piece bp square-65" style=""></div><div class="piece bp square-76" style=""></div><div class="piece bp square-87"></div><div class="piece br square-18"></div><div class="piece bn square-36" style="transform: translate(146.667%, 306.667%); z-index: 10;"></div><div class="piece bb square-38"></div><div class="piece bq square-48"></div><div class="piece bk square-58"></div><div class="piece bb square-77" style=""></div><div class="piece bn square-66" style=""></div><div class="piece br square-88"></div><!--/Pieces--><!--/MoveHints--><!--/Capture Hints--><svg viewBox="0 0 100 100" class="arrows"></svg><!--/Arrows--><!--/Promotion Window--><!--/Fade Setup--></chess-board>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  <div id="login-modal"></div>
+      <div id="board-layout-controls" class="board-layout-controls" style="visibility: visible;">
+          <span id="board-controls-settings" class="board-layout-icon icon-font-chess circle-gearwheel"></span>
+  <span id="board-controls-focus" class="board-layout-icon icon-font-chess maximize"></span>
+  <span id="board-controls-theatre" class="board-layout-icon icon-font-chess theatre"></span>
+  <span id="board-controls-flip" class="board-layout-icon icon-font-chess repeat"></span>
+        <span class="board-layout-icon icon-font-chess resize"></span>
+      </div>
+      <div id="vote-info-modal"></div>
+    </div>
+          <div id="board-layout-player-bottom" class="board-layout-player board-layout-bottom">
+          <div class="player-component player-bottom"><!----> <!----> <!----> <div class="player-avatar"><img alt="MiniMaxer" src="//images.chesscomfiles.com/uploads/user/119659050.453d1b4c.78x78o.3538542043dc.jpeg" srcset="//images.chesscomfiles.com/uploads/user/119659050.453d1b4c.78x78o.3538542043dc.jpeg, //images.chesscomfiles.com/uploads/user/119659050.453d1b4c.78x78o.3538542043dc@2x.jpeg 2x" class="avatar-component player-image" width="40" height="40"> <div class="online-status-component"></div></div> <!----> <div class="player-tagline"><div class="user-tagline-component"><!----> <a class="user-username-component user-username-dark user-username-link user-tagline-username">MiniMaxer</a> <span class="user-tagline-rating user-tagline-dark">
+    (2313)
+  </span> <div class="country-flags-component country-us"></div> <a href="/membership?c=flair" class="user-flair-icon-component"><!----></a> <div class="connection-component connection-excellent"><span class="icon-font-chess signal connection-icon connection-icon1 connection-icon2 connection-icon3 connection-icon4"></span> <span class="icon-font-chess signal connection-icon connection-icon2 connection-icon3 connection-icon4"></span> <span class="icon-font-chess signal connection-icon connection-icon3 connection-icon4"></span> <span class="icon-font-chess signal connection-icon connection-icon4"></span></div> <!----></div> <captured-pieces board-id="board-liveGame-9758866039" color="1" class="player-pieces">
+      <div>
+        <span class="captured-pieces-cpiece captured-pieces-score"></span></div>
+    </captured-pieces></div> <div class="clock-component clock-white clock-bottom clock-live clock-running player-clock clock-player-turn"><div class="clock-bar"><div class="clock-remainder" style="width: 97%;"></div></div> <div class="clock-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" class="clock-timer" style="transform: rotate(1440deg);"><path d="M5.48,9a.93.93,0,0,0-.3.71v.58a.94.94,0,0,0,.3.71,1,1,0,0,0,.71.3h4.58a1,1,0,0,0,.71-.3.94.94,0,0,0,.29-.71V9.7A.92.92,0,0,0,11.48,9a1,1,0,0,0-.71-.27H6.19A1,1,0,0,0,5.48,9Z"></path><path d="M19.22,6.1a9.9,9.9,0,0,0-2.14-3.18A10.23,10.23,0,0,0,13.9.78,9.76,9.76,0,0,0,10,0,9.86,9.86,0,0,0,6.1.78,10,10,0,0,0,.78,6.1,9.81,9.81,0,0,0,0,10a9.81,9.81,0,0,0,.78,3.9A10,10,0,0,0,6.1,19.22,9.86,9.86,0,0,0,10,20a9.76,9.76,0,0,0,3.89-.78,10.23,10.23,0,0,0,3.18-2.14,9.9,9.9,0,0,0,2.14-3.18A9.81,9.81,0,0,0,20,10,9.81,9.81,0,0,0,19.22,6.1ZM17.07,13a7.65,7.65,0,0,1-1.65,2.42A7.81,7.81,0,0,1,13,17.06a7.46,7.46,0,0,1-3,.6,7.51,7.51,0,0,1-3-.6,7.74,7.74,0,0,1-2.43-1.65A8,8,0,0,1,2.94,13a7.46,7.46,0,0,1-.6-3,7.46,7.46,0,0,1,.6-3A8,8,0,0,1,4.58,4.59,7.74,7.74,0,0,1,7,2.94a7.51,7.51,0,0,1,3-.6,7.45,7.45,0,0,1,3,.6,7.74,7.74,0,0,1,2.43,1.65A7.65,7.65,0,0,1,17.07,7a7.46,7.46,0,0,1,.6,3A7.46,7.46,0,0,1,17.07,13Z"></path></svg></div> <span>9:43</span></div></div>
+      </div>
+          </div>
+
+  <div id="board-layout-sidebar" class="board-layout-sidebar">
+          <div class="sidebar-component"><div class="tabs-component tabs-with-dark-mode"><a data-tab="game" class="tabs-tab tabs-active"><span class="tabs-icon icon-font-chess rapid"></span> <span class="tabs-label">Game</span> <!----> <!----></a><a data-tab="newGame" class="tabs-tab"><span class="tabs-icon icon-font-chess square-plus"></span> <span class="tabs-label">New Game</span> <!----> <!----></a><a data-tab="games" class="tabs-tab"><span class="tabs-icon icon-font-chess chess-board"></span> <span class="tabs-label">Games</span> <!----> <!----></a><a data-tab="players" class="tabs-tab"><span class="tabs-icon icon-font-chess users-alt"></span> <span class="tabs-label">Players</span> <!----> <!----></a></div> <div class="tab-container-component tab-content-component"><!----> <div class="tab-content-component" data-tab-content="liveGameMoves"><!----> <!----> <div class="opening-component"><eco-opening board-id="board-liveGame-9758866039" link-to-explorer="true" class="opening-name eco-panel"><a class="eco-opening-text" href="/explorer?color=white&amp;moveList=d4+f5+e3+Nf6+Nf3+g6+Be2+Bg7+c4+d6+O-O+Nc6+b4+Nxb4+Qa4++Nc6&amp;ne=1&amp;ply=16" target="_blank">Dutch Defense</a></eco-opening></div> <div class="move-list-component"><move-list-wrapper id="move-list" scroll-container-id="move-list" board-id="board-liveGame-9758866039" timestamp-method="withBaseTime" class="move-list-move-list"><vertical-move-list scroll-container-id="move-list" board-id="board-liveGame-9758866039" timestamp-method="withBaseTime" class="move-list-move-list vertical-move-list timestamps-with-base-time" style="--timestampWidth:28px;"><div class="move" data-whole-move-number="1">1.<div data-ply="1" class="white node">d4</div><div data-ply="1" data-vml-element="timestamp" class="time-white" data-time="28" style="--timeValue:28; --timeBarWidth:2.57146px;">2.8</div><div data-ply="2" class="black node">f5</div><div data-ply="2" data-vml-element="timestamp" class="time-black" data-time="26" style="--timeValue:26; --timeBarWidth:2.38821px;">2.6</div></div><div class="move" data-whole-move-number="2">2.<div data-ply="3" class="white node">e3</div><div data-ply="3" data-vml-element="timestamp" class="time-white" data-time="25" style="--timeValue:25; --timeBarWidth:2.29654px;">2.5</div><div data-ply="4" class="black node">Nf6</div><div data-ply="4" data-vml-element="timestamp" class="time-black" data-time="21" style="--timeValue:21; --timeBarWidth:1.92968px;">2.1</div></div><div class="move" data-whole-move-number="3">3.<div data-ply="5" class="white node">Nf3</div><div data-ply="5" data-vml-element="timestamp" class="time-white" data-time="18" style="--timeValue:18; --timeBarWidth:1.65433px;">1.8</div><div data-ply="6" class="black node">g6</div><div data-ply="6" data-vml-element="timestamp" class="time-black" data-time="17" style="--timeValue:17; --timeBarWidth:1.56251px;">1.7</div></div><div class="move" data-whole-move-number="4">4.<div data-ply="7" class="white node">Be2</div><div data-ply="7" data-vml-element="timestamp" class="time-white" data-time="20" style="--timeValue:20; --timeBarWidth:1.83791px;">2.0</div><div data-ply="8" class="black node">Bg7</div><div data-ply="8" data-vml-element="timestamp" class="time-black" data-time="11" style="--timeValue:11; --timeBarWidth:1.01132px;">1.1</div></div><div class="move" data-whole-move-number="5">5.<div data-ply="9" class="white node">c4</div><div data-ply="9" data-vml-element="timestamp" class="time-white" data-time="18" style="--timeValue:18; --timeBarWidth:1.65433px;">1.8</div><div data-ply="10" class="black node">d6</div><div data-ply="10" data-vml-element="timestamp" class="time-black" data-time="13" style="--timeValue:13; --timeBarWidth:1.1951px;">1.3</div></div><div class="move" data-whole-move-number="6">6.<div data-ply="11" class="white node">O-O</div><div data-ply="11" data-vml-element="timestamp" class="time-white" data-time="20" style="--timeValue:20; --timeBarWidth:1.83791px;">2.0</div><div data-ply="12" class="black node">Nc6</div><div data-ply="12" data-vml-element="timestamp" class="time-black" data-time="12" style="--timeValue:12; --timeBarWidth:1.10321px;">1.2</div></div><div class="move" data-whole-move-number="7">7.<div data-ply="13" class="white node">b4</div><div data-ply="13" data-vml-element="timestamp" class="time-white" data-time="18" style="--timeValue:18; --timeBarWidth:1.65433px;">1.8</div><div data-ply="14" class="black node">Nxb4</div><div data-ply="14" data-vml-element="timestamp" class="time-black" data-time="313" style="--timeValue:313; --timeBarWidth:25.1483px;">31.3</div></div><div class="move" data-whole-move-number="8">8.<div data-ply="15" class="white node">Qa4+</div><div data-ply="15" data-vml-element="timestamp" class="time-white" data-time="19" style="--timeValue:19; --timeBarWidth:1.74613px;">1.9</div><div data-ply="16" class="black node selected">Nc6</div><div data-ply="16" data-vml-element="timestamp" class="time-black" data-time="48" style="--timeValue:48; --timeBarWidth:4.39727px;">4.8</div></div></vertical-move-list></move-list-wrapper> </div> <!----> <!----> <div class="live-game-buttons-component"><!----> <!----> <div class="live-game-buttons-playing"><div class="draw-button-component live-game-buttons-button" tabindex="-1"><span class="icon-font-chess draw draw-button-icon"></span> <span class="draw-button-label">Draw</span> <!----></div> <div class="resign-button-component live-game-buttons-button" tabindex="-1"><span class="icon-font-chess flag resign-button-icon"></span> <span class="resign-button-label">Resign</span> <!----></div></div> <!----> <!----> <!----> <!----> <!----> <!----> <div class="move-list-buttons-component live-game-buttons-arrows"><!----> <button class="icon-font-chess chevron-previous move-list-buttons-button"></button> <button class="icon-font-chess chevron-left move-list-buttons-button"></button> <button class="icon-font-chess chevron-right move-list-buttons-button"></button> <button class="icon-font-chess chevron-next move-list-buttons-button"></button> <button class="icon-font-chess move-list-buttons-button play"></button> <!----></div> <button class="icon-font-chess repeat live-game-buttons-button" tabindex="-1"></button> <button class="icon-font-chess circle-gearwheel live-game-buttons-button" tabindex="-1"></button></div> <div class="resizable-chat-area-component" style="height: 200px; min-height: 200px;"><div class="resizable-chat-area-resizer"></div> <div class="chat-room-component live-chat-room"><div class="chat-scroll-area-component"><div class="live-game-start-component" id="chat-dq2a77r"><strong>New Game</strong> <br> <span><a href="/member/minimaxer" target="_blank" class="user-username username">MiniMaxer</a> <span class="user-rating">(2298)</span> vs. <a href="/member/nil9492" target="_blank" class="user-username username">nil9492</a> <span class="user-rating">(1175)</span> (10 min)</span> <br> <span>win 0 / draw -8 / lose -16</span></div><div class="live-game-over-component" id="chat-br9kjfn"><strong>Game Over</strong> <br> <span><a href="https://www.chess.com/article/view/how-chess-games-can-end-8-ways-explained#checkmate" target="_blank"></a><a href="/member/minimaxer" target="_blank" class="user-username username">MiniMaxer</a> won by checkmate (10 min Rated)</span> <!----> <!----></div><div class="live-game-rate-sport-component" id="chat-jmlg2ac"><span>Was <a href="/member/nil9492" target="_blank" class="user-username username">nil9492</a> a good sport?</span> <span class="icon-font-chess thumbs-up live-game-rate-sport-goodSport"></span> <span class="icon-font-chess thumbs-down live-game-rate-sport-badSport"></span></div><div class="live-game-start-component" id="chat-425tmkd"><strong>New Game</strong> <br> <span><a href="/member/nil9492" target="_blank" class="user-username username">nil9492</a> <span class="user-rating">(1175)</span> [0] vs. <a href="/member/minimaxer" target="_blank" class="user-username username">MiniMaxer</a> <span class="user-rating">(2298)</span> [1] (10 min)</span> <br> <span>win 0 / draw -8 / lose -16</span></div><div title="" class="chat-message-component" id="chat-1951974"><span class="user-tagline-chat-component user-tagline-chat-darkMode"><!----> <a href="/membership?c=flair" class="user-flair-icon-component user-tagline-chat-membership"><!----></a> <a class="user-username-component user-username-current user-username-link user-tagline-chat-member">nil9492:</a></span> <span class="chat-message-content">Hello</span> <!----> <!----></div><div title="" class="chat-message-component" id="chat-1952327"><!----> <span class="chat-message-content">Hello</span> <!----> <!----></div><div class="live-game-draw-offer-component" id="chat-8jctsei"><a href="/member/nil9492" target="_blank" class="user-username username">nil9492</a> offered a draw</div><div class="console-message-component" id="chat-e9gwsh4"><a href="/member/minimaxer" target="_blank" class="user-username username">MiniMaxer</a> declined a draw</div><div class="live-game-over-component" id="chat-ip4vqki"><strong>Game Over</strong> <br> <span>Game aborted (10 min Rated)</span> <!----> <br>
+    Match Scores
+    <span><a href="/member/nil9492" target="_blank" class="user-username username">nil9492</a> [0] vs. <a href="/member/minimaxer" target="_blank" class="user-username username">MiniMaxer</a> [1]</span></div><div class="live-game-rate-sport-component" id="chat-20gp4f0"><span>Was <a href="/member/nil9492" target="_blank" class="user-username username">nil9492</a> a good sport?</span> <span class="icon-font-chess thumbs-up live-game-rate-sport-goodSport"></span> <span class="icon-font-chess thumbs-down live-game-rate-sport-badSport"></span></div><div class="live-guess-the-move-update-component" id="chat-6owqphj"><strong>Your Guess:</strong>
+  1...e5
+  <!----> <!----></div><div class="live-game-start-component" id="chat-507t5ei"><strong>New Game</strong> <br> <span><a href="/member/quentin131200" target="_blank" class="user-username username">Quentin131200</a> <span class="user-rating">(2015)</span> vs. <a href="/member/minimaxer" target="_blank" class="user-username username">MiniMaxer</a> <span class="user-rating">(2298)</span> (10 min)</span> <br> <span>win +3 / draw -5 / lose -13</span></div><div class="live-game-draw-offer-component" id="chat-5kr66os"><a href="/member/quentin131200" target="_blank" class="user-username username">Quentin131200</a> offered a draw</div><div class="console-message-component" id="chat-ewktdqj"><a href="/member/minimaxer" target="_blank" class="user-username username">MiniMaxer</a> declined a draw</div><div class="live-game-over-component" id="chat-8l4vcsh"><strong>Game Over</strong> <br> <span><a href="https://www.chess.com/article/view/how-chess-games-can-end-8-ways-explained#checkmate" target="_blank"></a><a href="/member/minimaxer" target="_blank" class="user-username username">MiniMaxer</a> won by checkmate (10 min Rated)</span> <br> <span>Your new Rapid rating is <strong>2313</strong> (+2).</span> <!----></div><div class="live-game-rate-sport-component" id="chat-ytwoc1y"><span>Was <a href="/member/quentin131200" target="_blank" class="user-username username">Quentin131200</a> a good sport?</span> <span class="icon-font-chess thumbs-up live-game-rate-sport-goodSport"></span> <span class="icon-font-chess thumbs-down live-game-rate-sport-badSport"></span></div><div class="live-game-start-component" id="chat-caw4w17"><strong>New Game</strong> <br> <span><a href="/member/minimaxer" target="_blank" class="user-username username">MiniMaxer</a> <span class="user-rating">(2313)</span> vs. <a href="/member/bramgoethals" target="_blank" class="user-username username">bramgoethals</a> <span class="user-rating">(1924)</span> (10 min)</span> <br> <span>win +2 / draw -6 / lose -14</span></div> <!----></div> <div class="chat-options-component"><a><span class="icon-font-chess chat-x chat-options-icon"></span></a> <!----> <!----></div> <div class="chat-input-component"><input type="text" maxlength="100" placeholder="Message..."> <div class="popup-component chat-input-emoticons"><div class="icon-font-component popup-icon"><span class="icon-font-chess smiley"></span></div> <!----></div> <!----> <!----></div></div></div></div> </div></div>
+  </div>
+
+  
+      <div id="board-layout-comments" class="board-layout-comments">
+        <div class="layout-two-column-component" id="play-comments-container">
+    <div class="layout-two-column-column-one">
+      <!---->
+    </div>
+  </div>
+    </div>
+  
+  
+      <div id="board-layout-ad" class="board-layout-ad" style="">
+        <div class="sidebar-ad"><div id="sky-atf"><div data-pw-desk="sky_atf" id="160x600_atf" class="pw-tag" data-google-query-id="CLaIwfyuuO8CFQVRhgodKngNGg"><div id="google_ads_iframe_/154013155/1024308/72720/1024308-72720-160x600/1024308-72720-160x600-CP/1024308-72720-160x600-CP-play_3__container__" style="border: 0pt none; display: inline-block; width: 160px; height: 600px;"><iframe frameborder="0" src="https://0ba1146cd0ccef10ab30ff66c2789024.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html" id="google_ads_iframe_/154013155/1024308/72720/1024308-72720-160x600/1024308-72720-160x600-CP/1024308-72720-160x600-CP-play_3" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="160" height="600" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="conversion-measurement ‘src’" data-google-container-id="11" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div></div> <a href="/membership?c=no_ads" target="_blank">Remove Ads</a></div>
+    </div>
+  
+    <div id="share-menu"></div>
+
+
+  <div id="show-nav-icon" class="icon-font-chess chess-pawn"></div>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  <div id="fair-play-modal"></div>
+  <!---->
+
+        <script>
+  window.PubSub = {};
+  window.PubSub.options = {
+    environment: 'prod',
+    url: {
+              socket: 'wss://services.chess.com/pubsub',
+        publish: 'https://services.chess.com/pubsub/publish',
+        error: 'https://services.chess.com/pubsub/errors',
+                  base: 'https://services.chess.com',
+          chat: 'https://services.chess.com/service/chat',
+          game: 'https://services.chess.com/service/play/',
+          matcher: 'https://services.chess.com/service/matcher/',
+                presence: 'https://services.chess.com/service/presence',
+          },
+    logSubscriptionFailures: false,
+  };
+</script>
+  
+    
+                                      
+  <div class="alert-flash-component alert-flash-nav"></div>
+
+      
+      
+      
+              <link href="https://betacssjs.chesscomfiles.com/bundles/app/css/play-vendors__beta.chunk.client.cb325a83.css" type="text/css" rel="stylesheet">
+        <link href="https://betacssjs.chesscomfiles.com/bundles/app/css/play__beta.client.4a92ac17.css" type="text/css" rel="stylesheet">
+      
+      
+    
+  <script type="text/javascript">
+    var Config = {
+      "cometd.url": "/cometd",
+      "domain.main": "//www.chess.com",
+      "domain.static": "//betacssjs.chesscomfiles.com",
+      "domain.files": "//files.chesscomfiles.com",
+      "domain.live": "//live.chess.com",
+      "domain.live2": "//live2.chess.com",
+      "domain.liveh2": "//liveh2.chess.com",
+      "domain.live3": "//live3.chess.com",
+      "domain.voice": "rtmp://voice.chess.com",
+      "domain.cssjs": "//betacssjs.chesscomfiles.com",
+      "domain.images": "//images.chesscomfiles.com",
+      "domain.avatars": "//avatars.chesscomfiles.com",
+      "domain.baseUrl": "",
+      "isFacebookCanvas": false,
+      "facebookId": "429665630433565",
+      "pathToEngineWorker": "/bundles/app/js/vendor/jschessengine/stockfish.6983901b.js",
+      "pathToEngineWorkerAlt": "/bundles/app/js/engine/stockfish.1de0d633.js",
+      "pathToJCE": "/bundles/app/js/vendor/jschessengine/jschessengine.min.5ea1f76f.js",
+      "pathToWasmEngine": "/bundles/app/js/vendor/jschessengine/stockfish.6103b42f.bin",
+      "pathToNonWasmEngine": "/bundles/app/js/vendor/jschessengine/stockfish.asm.1abfa10c.js",
+      "pathToKomodoWorker": "/bundles/app/js/vendor/jschessengine/komodo.75017b80.js",
+      "pathToWasmKomodo": "/bundles/app/js/vendor/jschessengine/komodo.b28431d8.bin",
+      "pathToNonWasmKomodo": "/bundles/app/js/vendor/jschessengine/komodo.asm.79a4950f.js",
+      "pathToKomodoLiteWorker": "/bundles/app/js/vendor/jschessengine/komodo-lite.eed10db8.js",
+      "pathToWasmKomodoLite": "/bundles/app/js/vendor/jschessengine/komodo-lite.9470d7b6.bin",
+      "pathToNonWasmKomodoLite": "/bundles/app/js/vendor/jschessengine/komodo-lite.asm.d60ca982.js",
+      "pathToKomodoTepWorker": "/bundles/app/js/vendor/jschessengine/komodo-tep.80782137.js",
+      "pathToWasmKomodoTep": "/bundles/app/js/vendor/jschessengine/komodo-tep.55e13ea5.wasm",
+      "pathToEcoJson": "/bundles/app/js/common/json/eco.cb92c466.json",
+      "pathToBook": "/bundles/app/js/vendor/jschessengine/books/book.c30917a9.json",
+      "pathToBookSmall": "/bundles/app/js/engine/book-small.c30917a9.json",
+      "pathToWebGL": "/bundles/app/js/vendor/webgl_three.61269fce.js",
+      "pathToGamePreviewLoader": "/bundles/web/images/game-preview-loading.8677fb94.png",
+      "pathToPersonalityBooks": {
+        "aggressive": "/bundles/app/js/vendor/jschessengine/books/personalities/aggressive.50a9b452.bin",
+        "balanced": "/bundles/app/js/vendor/jschessengine/books/personalities/balanced.71d69282.bin",
+        "beginner": "/bundles/app/js/vendor/jschessengine/books/personalities/beginner.f122c7c5.bin",
+        "classical": "/bundles/app/js/vendor/jschessengine/books/personalities/classical.2e31ad51.bin",
+        "f-pawner": "/bundles/app/js/vendor/jschessengine/books/personalities/f-pawner.bb8a15f1.bin",
+        "fischer": "/bundles/app/js/vendor/jschessengine/books/personalities/fischer.c93e412d.bin",
+        "gambit": "/bundles/app/js/vendor/jschessengine/books/personalities/gambit.3ef59ed2.bin",
+        "indian": "/bundles/app/js/vendor/jschessengine/books/personalities/indian.8e8f8dd6.bin",
+        "nakamura": "/bundles/app/js/vendor/jschessengine/books/personalities/nakamura.1b408716.bin",
+        "offbeat": "/bundles/app/js/vendor/jschessengine/books/personalities/offbeat.c125e5bf.bin",
+        "positional": "/bundles/app/js/vendor/jschessengine/books/personalities/positional.988b37b5.bin",
+        "quick_queen": "/bundles/app/js/vendor/jschessengine/books/personalities/quick_queen.523ee0a4.bin",
+        "rensch": "/bundles/app/js/vendor/jschessengine/books/personalities/rensch.f0d14299.bin",
+        "winger": "/bundles/app/js/vendor/jschessengine/books/personalities/winger.77d88765.bin"
+      },
+      "threadedEnginePaths": {
+        "stockfish": {
+          "multiThreaded": {
+            "loader": "/bundles/app/js/engine/stockfish.1de0d633.js",
+            "engine": "/bundles/app/js/engine/stockfish.609cf51a.wasm",
+          },
+          "singleThreaded": {
+            "loader": "/bundles/app/js/engine/stockfish-single.830cf9cc.js",
+            "engine": "/bundles/app/js/engine/stockfish-single.8ffa2b70.wasm",
+          },
+          "asm": "/bundles/app/js/engine/stockfish.asm.16fa8540.js",
+        },
+      },
+      "pathToTinyMCE": "/bundles/app/js/tinymce-lazy.client.7b71cc34.js",
+      "oldThemes": false,
+      "isLive": false,
+      "isStaff": false,
+      "noAvatar": '/bundles/web/images/user-image.007dad08.svg',
+      "ad.noAds": false,
+      "ad.layout": "ros",
+      "ad.disabledAds": []
+    };
+
+          Config.pathToFCMWorker = "/bundles/app/js/fcm-worker.client.f47a323a.js",
+    
+          Config.pathToDiagramViewerCSS =  "/bundles/app/css/diagram-viewer.client.df4f2e70.css",
+      Config.pathToDiagramViewerJS = "/bundles/app/js/diagram-viewer.client.da933322.js",
+    
+        window.__CHESSCOM_RTL__ = false;
+
+        //<![CDATA[
+    context = {"userId":"userId","user":{"id":119659050,"hasEmail":true,"username":"MiniMaxer","avatarUrl":"https:\/\/images.chesscomfiles.com\/uploads\/v1\/user\/119659050.453d1b4c.50x50o.6d8afbeca882.jpeg","settingsAvatarUrl":"https:\/\/images.chesscomfiles.com\/uploads\/v1\/user\/119659050.453d1b4c.161x161o.f28b852f75d6.jpeg","avatarLargeUrl":"https:\/\/images.chesscomfiles.com\/uploads\/v1\/user\/119659050.453d1b4c.100x100o.f2b0f7fbd8d4.jpeg","chessTitle":null,"country":{"code":"US","id":2,"name":"United States"},"membershipCode":"basic","rating":2638,"cohort":"","flairCode":"nothing","membershipLevel":10,"isActivated":true,"isEnabled":true,"isGuest":false,"isBasic":true,"isContentHidden":false,"isPremium":false,"isGold":false,"isDiamond":false,"isPlatinum":false,"isStaff":false,"isNewlyRegistered":false,"isClassicTheme":false,"optedBeta":false,"lastLoginDate":1616018648,"timezone":"America\/Los_Angeles","archiveView":"grid","fairPlayAgree":true,"features":{"usersettings":true,"themes":true},"isImpersonating":false,"eligibleFirstTrial":false,"registerDate":1612855281,"safeMode":false,"uuid":"68c10608-6aa7-11eb-8642-cf9270a88931","allowBrowserNotifications":[{"timestamp":1612855620,"allowed":false},{"timestamp":1615969805,"allowed":false}]},"diagramSettings":{"board":"green","piece":"neo"},"i18n":{"locale":"en_US","contentLanguage":"only_user","mobile":{"computer":"Computer","daily_chess":"Daily Chess","tactics":"Tactics","lessons":"Lessons","videos":"Videos","articles":"Articles","forums":"Forums","friends":"Friends","messages":"Messages","stats":"Stats","settings":"Settings","trophies":"Trophies"}},"csrf":{"token":"AZdJBqSM9vUbLGyCR7WDXJ8f7_SJlsf1Jsf7OyuOb1I","logout":"E01d-OBti76w5vgs1z3zaVbG8lj5KNpc9BuzKls6K0g"},"amplitudeKey":"5cc41a1e56d0ee35d4c85d1d4225d2d1","iterableKey":"f771b86cf083441f992a4bb01d3d600f","adyen":{"key":"10001|D97C83A6DB30A889AAC517489C56512C733B365B8E5E2E5CB5FD860751EC3EC14A145FE6FD2EF1A338D375DB3D9F7B988631B64D4B9C9BE3DE007D8C60649F2BAC7B0798A869892B683110B2FE53E89EBB9923A0EF7113FDEEEBC57FDB21AA8F99D3757DB7C8A8E6458D3B628B357396E77CD3C31158B203BEDAF3AC56E11A94C3BA745CAE7847B6C7D5C6B1D6E68204147A9B98EC334560F94A484FC5335F8AA4716BF13E0153B9B0E7FF75384449563F935AF0173C5F8F1CBE20B1C91593C2F7AF07A83E48F31DA8F4F5959687A682823216342C6E1B36771AC42C9BF0E03F443D07D239F25EB916BC15A908796C698D296130A9BA4A925684416F9C759143","originKey":"pub.v2.1114841580210853.aHR0cHM6Ly93d3cuY2hlc3MuY29t.g3hcnpsxbNsbEo3XJP_laQJwLDCkoYfA1YmHG6Kns8g","sdk":"https:\/\/checkoutshopper-live.adyen.com\/checkoutshopper\/sdk\/3.4.0\/adyen.js"},"iterableMuteApiCallsFeature":false};
+    //]]>
+    
+    context.version = '20210317084446';
+    context.branch = 'master';
+    context.commit = 'b61f52ef6ebff77e90e2ad96b65653be4bb9e9b7';
+    context.requestId = '9780d6b32fcdc96b8af01739e17a3672';
+    context.server = 'smyslov.chess.com';
+    context.locale = 'en_US';
+    context.environment = 'prod';
+    context.cookies = {
+      app: '',
+    };
+
+    context.ip = '99.153.245.98';
+    context.chessboardBeta = false
+  </script>
+
+  <div id="cdm-zone-end"></div>
+
+  
+
+    <script language="javascript">
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(registrations => {
+        registrations.forEach(registration => {
+          if (registration.active.scriptURL.includes('/service-worker.client.js')) {
+            registration.unregister();
+          }
+        });
+      });
+    }
+  </script>
+
+
+<script defer="" src="/bundles/app/js/client/es6-translations/es6-translation.en_US.a3670766.js"></script>
+
+<script defer="" src="/bundles/app/js/vendor.client.8196b135.js">
+</script>
+
+<script src="/bundles/app/js/amplitude.dll.3246da29.js"></script>
+
+          
+
+
+
+<script src="/bundles/app/js/core.dll.841288ce.js"></script>
+
+  <script defer="" src="/bundles/app/js/navigation.client.e328e7d5.js">
+  </script>
+  
+    <script src="/bundles/app/js/vue.dll.944f8238.js"></script>
+
+      
+      
+  
+      <script defer="" src="/bundles/app/js/base.client.baa60763.js">
+    </script>
+  
+  
+
+
+
+
+            
+  
+  
+
+
+        <script src="https://browser.sentry-cdn.com/5.19.1/bundle.min.js" crossorigin="anonymous"></script>
+
+    
+    <script>
+      window.chesscom = window.chesscom || {};
+      window.chesscom.sentry = {
+        appCookie: '',
+        incrementCallback: 'https://www.chess.com/metrics/fe_sentry',
+        key: '',
+      }
+    </script>
+
+    <script src="https://betacssjs.chesscomfiles.com/bundles/app/js/sentry.client.6d0ed1a7.js"></script>
+  
+  
+  
+  <script defer="" src="/bundles/app/js/pubsub-connection.client.85dfe64b.js"></script>
+
+            <script defer="" src="/bundles/app/js/chat.client.f3172e2a.js"></script>
+            <script type="text/javascript">
+  document.domain = Config['domain.main'].substr(6);
+
+  var TinymceConfig = {
+    editor_options: {
+      paste_as_text: true,
+      debounce: false,
+      baseURL: '/bundles/app/js/vendor/tinymce',
+      pathToTinyMCE: '/bundles/app/js/vendor/tinymce/web_vendor_tinymce.599b1213.js',
+      theme_url: '/bundles/app/js/vendor/tinymce/themes/modern/theme.min.7a368343.js',
+      content_css: '/bundles/app/css/tinymce-content.client.c4c188df.css',
+      skin_url: '/bundles/app/js/vendor/tinymce/skins/v2/lightgray',
+      external_plugins: {
+
+                'chessdiagram': 'https://betacssjs.chesscomfiles.com/bundles/app/js/tinymce/plugins/chessdiagram/plugin.bff514ba.js',
+                'imageuploader': 'https://betacssjs.chesscomfiles.com/bundles/app/js/tinymce/plugins/imageuploader.866a4038.js',
+                'smileys': 'https://betacssjs.chesscomfiles.com/bundles/app/js/tinymce/plugins/smileys.174224c3.js',
+                'advlist': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/advlist/plugin.min.07f871a0.js',
+                'autolink': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/autolink/plugin.min.9ec88f0a.js',
+                'link': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/link/plugin.min.da71d62b.js',
+                'lists': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/lists/plugin.min.9ed88739.js',
+                'charmap': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/charmap/plugin.min.3d42b6ec.js',
+                'print': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/print/plugin.min.3ce46fc7.js',
+                'preview': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/preview/plugin.min.6798465f.js',
+                'hr': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/hr/plugin.min.0911253e.js',
+                'anchor': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/anchor/plugin.min.36a2eff9.js',
+                'pagebreak': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/pagebreak/plugin.min.f5570341.js',
+                'spellchecker': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/spellchecker/plugin.min.c421941c.js',
+                'visualblocks': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/visualblocks/plugin.min.61cd5d79.js',
+                'visualchars': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/visualchars/plugin.min.db0c8ef3.js',
+                'code': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/code/plugin.min.7bf5c282.js',
+                'fullscreen': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/fullscreen/plugin.min.0e315429.js',
+                'insertdatetime': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/insertdatetime/plugin.min.9cbdd4c2.js',
+                'media': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/media/plugin.min.111e5c52.js',
+                'nonbreaking': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/nonbreaking/plugin.min.22788c4d.js',
+                'noneditable': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/noneditable/plugin.min.3337c8dc.js',
+                'table': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/table/plugin.min.d767b59d.js',
+                'directionality': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/directionality/plugin.min.884572e8.js',
+                'template': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/template/plugin.min.33d727b7.js',
+                'textcolor': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/textcolor/plugin.min.c4dc7699.js',
+                'paste': 'https://betacssjs.chesscomfiles.com/bundles/app/js/vendor/tinymce/plugins/paste/plugin.min.4bd0c8a7.js',
+        
+      }
+    },
+    theme_options: {"browser_spellcheck":true,"branding":false,"plugins":["autolink chessdiagram imageuploader smileys media spellchecker noneditable textcolor link lists hr"],"menubar":false,"toolbar1":"chessdiagram imageuploader smileys media bold italic forecolor fontsizeselect bullist numlist hr link unlink","theme":"modern","width":"100%","height":100,"auto_convert_smileys":true,"smileys":[[{"shortcut":":X","url":"\/bundles\/web\/images\/icons\/smileys\/1x\/angry.png","title":"angry"},{"shortcut":":-\/","url":"\/bundles\/web\/images\/icons\/smileys\/1x\/meh.png","title":"meh"},{"shortcut":":|","url":"\/bundles\/web\/images\/icons\/smileys\/1x\/frustrated.png","title":"frustrated"},{"shortcut":":)","url":"\/bundles\/web\/images\/icons\/smileys\/1x\/happy.png","title":"happy"},{"shortcut":":D","url":"\/bundles\/web\/images\/icons\/smileys\/1x\/grin.png","title":"grin"},{"shortcut":">:)","url":"\/bundles\/web\/images\/icons\/smileys\/1x\/evil.png","title":"evil"},{"shortcut":":((","url":"\/bundles\/web\/images\/icons\/smileys\/1x\/cry.png","title":"cry"},{"shortcut":":S","url":"\/bundles\/web\/images\/icons\/smileys\/1x\/nervous.png","title":"nervous"},{"shortcut":":(","url":"\/bundles\/web\/images\/icons\/smileys\/1x\/sad.png","title":"sad"},{"shortcut":":@","url":"\/bundles\/web\/images\/icons\/smileys\/1x\/shock.png","title":"shock"},{"shortcut":":O","url":"\/bundles\/web\/images\/icons\/smileys\/1x\/surprise.png","title":"surprise"},{"shortcut":";(","url":"\/bundles\/web\/images\/icons\/smileys\/1x\/tear.png","title":"tear"},{"shortcut":":P","url":"\/bundles\/web\/images\/icons\/smileys\/1x\/tongue.png","title":"tongue"},{"shortcut":";)","url":"\/bundles\/web\/images\/icons\/smileys\/1x\/wink.png","title":"wink"}],[{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/archive.png","title":"archive"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/articles.png","title":"articles"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/blitz.png","title":"blitz"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/blogs.png","title":"blogs"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/bullet.png","title":"bullet"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/castle.png","title":"castle"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/chessbook.png","title":"chessbook"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/clock.png","title":"clock"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/clubs.png","title":"clubs"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/coaches.png","title":"coaches"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/computer.png","title":"computer"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/daily.png","title":"daily"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/fork.png","title":"fork"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/videos.png","title":"videos"}],[{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/devices.png","title":"devices"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/diamond.png","title":"diamond"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/draw.png","title":"draw"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/explorer.png","title":"explorer"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/fish.png","title":"fish"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/forums.png","title":"forums"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/friends.png","title":"friends"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/gold.png","title":"gold"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/lessons.png","title":"lessons"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/live.png","title":"live"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/messages.png","title":"messages"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/news.png","title":"news"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/openings.png","title":"openings"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/peshka.png","title":"peshka"}],[{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/pin.png","title":"pin"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/platinum.png","title":"platinum"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/playhand.png","title":"playhand"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/resign.png","title":"resign"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/settings.png","title":"settings"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/skewer.png","title":"skewer"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/stats.png","title":"stats"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/tactics.png","title":"tactics"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/themes.png","title":"themes"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/thumbdown.png","title":"thumbdown"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/thumbup.png","title":"thumbup"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/tournaments.png","title":"tournaments"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/trophies.png","title":"trophies"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/votechess.png","title":"votechess"}],[{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/half.png","title":"half"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/0-0-0.png","title":"0-0-0"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/0-0.png","title":"0-0"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/chesspawn.png","title":"chesspawn"}],[{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/bp.png","title":"bp"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/bb.png","title":"bb"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/bn.png","title":"bn"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/br.png","title":"br"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/bq.png","title":"bq"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/bk.png","title":"bk"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/wp.png","title":"wp"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/wb.png","title":"wb"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/wn.png","title":"wn"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/wr.png","title":"wr"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/wq.png","title":"wq"},{"url":"\/bundles\/web\/images\/icons\/smileys\/1x\/wk.png","title":"wk"}]],"theme_advanced_toolbar_location":"top","theme_advanced_path":false,"theme_advanced_statusbar_location":"bottom","theme_advanced_resize_horizontal":false,"theme_advanced_resizing":true,"theme_advanced_resizing_use_cookie":false,"font_formats":"Apple System=-apple-system, BlinkMacSystemFont;Arial=arial,helvetica,sans-serif;Courier New=courier new,courier;Helvetica=helvetica;Tahoma=tahoma,arial,helvetica,sans-serif;Times New Roman=times new roman,times;Segoe UI=\"Segoe UI\";","relative_urls":false,"remove_script_host":false,"convert_urls":false,"content_css":"asset[bundles\/app\/css\/tinymce-content.client.css]","paste_webkit_styles":"all","fontsize_formats":"8px 10px 11px 12px 14px 18px 24px 36px"}
+  };
+</script>
+
+  
+      <script defer="" src="https://betacssjs.chesscomfiles.com/bundles/app/js/board-layout.client.83a8a71d.js"></script>
+  
+  
+
+
+  <script type="text/javascript">
+      window.Config['cometd.transport'] = 'ssl-websocket';
+  
+      window.Config['cometd.network'] = 'live2';
+  
+  
+      var idleTimeoutMinutes = Number(20);
+    if (idleTimeoutMinutes) {
+      window.Config['cometd.disconnectTimeout'] = idleTimeoutMinutes * 60000;
+      window.Config['cometd.beforeDisconnectTimeout'] = (idleTimeoutMinutes / 6) * 60000;
+    }
+  
+  window.chesscom = window.chesscom || {};
+</script>
+  <script>
+    window.chesscom.showAds = Boolean(1);
+    window.chesscom.blackAvatar = "https://betacssjs.chesscomfiles.com/bundles/web/images/black_400.918cdaa6.png";
+    window.chesscom.whiteAvatar = "https://betacssjs.chesscomfiles.com/bundles/web/images/white_400.09ae248e.png";
+    window.chesscom.isLibraryHomeViewEnabled = false;
+    window.chesscom.isReconnectPreviousSessionEnabled = false;
+    window.chesscom.isMultithreadedStockfishEnabled = true;
+    window.chesscom.isChessboardReportingPluginEnabled = true;
+    window.chesscom.statsGames = 11453398;
+    window.chesscom.statsMembersOnline = 419453;
+
+    if (window.context.user) {
+      window.context.user.hasSupportRole = false;
+    }
+
+    const isRcnFeatureEnabled = false;
+    const forceConnectToLive = false;
+    const isUrlContainsRcnFlag = window.location.search.includes('network=rcn');
+
+    window.chesscom.isRcnEnabled = !forceConnectToLive && (isRcnFeatureEnabled || isUrlContainsRcnFlag);
+  </script>
+
+  
+          <script defer="" src="https://betacssjs.chesscomfiles.com/bundles/app/js/play-vendors__beta.client.6c4bdba9.js"></script>
+      <script defer="" src="https://betacssjs.chesscomfiles.com/bundles/app/js/play__beta.client.86815b41.js"></script>
+    
+  
+    
+        <script defer="" src="/bundles/app/js/fcm.client.c48aef93.js">
+    </script>
+  
+  
+      <div id="checkmate"></div>   
+    <div id="notification-toasters"><div class="toasters-container svelte-62ipgl"><div class="toasters-list svelte-62ipgl"></div></div></div>
+
+        <div id="board-popover"></div>
+    <div id="confirm-popover"></div>
+    <div id="confirm-popover-inline"></div>
+    <div id="cookie-banner"></div>
+    <div id="form-datepicker"></div>
+    <div id="language-picker-modal"></div>
+    <div id="message-popover"></div>
+    <div id="modal-video"></div>
+    <div id="trophy-popover"></div>
+    <div id="user-popover"></div>
+          <div id="notifications-request" username="MiniMaxer">
+      </div>
+    
+      
+  
+  <!---->
+  
+
+<div class="svelte-tooltip"></div><div class="tooltip tip vue-tooltip" style="transform: translate(-100%, -100%);"><div class="arrow"></div> <div class="inner"></div></div><script id="tyche" src="//cdn.intergient.com/pageos/pageos.js" async="" type="text/javascript"></script><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/game-start.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/game-start.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-start.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/game-start.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/game-end.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/game-end.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-end.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/game-end.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/capture.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/capture.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/capture.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/capture.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/castle.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/castle.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/castle.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/castle.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/premove.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/premove.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/premove.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/premove.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/move-self.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/move-self.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-self.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/move-self.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/move-check.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/move-check.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-check.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/move-check.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/move-opponent.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/move-opponent.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-opponent.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/move-opponent.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/promote.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/promote.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/promote.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/promote.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/notify.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/notify.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/notify.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/notify.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/tenseconds.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/tenseconds.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/tenseconds.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/tenseconds.wav" type="audio/wav"></audio><script type="text/javascript" src="https://mb.moatads.com/yi.js?ud=0&amp;qn=%604%7BZEYwoqI%24%5BK%2BdLLU)%2CMm~tM!90vv9L%24%2FoDb%2FG)lKr%23Oy%2CNFJMfD%5Bqir1fcSC%3AU%3FWOvTh%7CzFK%3F%5B%22l!j%3F%5DQB3%2Bye%7Cw%2Ckw4oS%7B(JwgoHZASm!HmtmC%3D%5EI5%5D0cxz%3B(IA%24Jz_%7CX_h)G%3E3%5D*%25%3BhyzBcM1q4%2Cby_h%3BNpIu%7Czvcp%3B%5Bpwxnd5X%241%5ETmZi%3AUH%3C8%2B7N6UQ%2FXv%2CN%2F%2Fs1S*qks!%3Ex%3FjcReUP2%3CowMFK%3A%3AAjGT%2F2CD%3Amqo13%24(%25B)Lp%22KC&amp;th=2582494866&amp;tf=Id8O-DxRgoC-HFvgE-CSa7H-XSSptC-j7VIQD-HFvgE-nMzjG-&amp;vi=111111&amp;qp=10000&amp;is=BBBBB2BBEYBvGl2BBCBBtUTBBRmsqbKW8BsrBu0rCFE48CRBeeBS2hWTMBBQeQBBn2soYggyUig0CBlWZ0uBBCCCCCCOgRBBiOfnE6Bkg7Oxib8MxOtJYHCBdm5kBhIcC9Y8oBXckXBR76iUUsJBCBBBBBBBBBWBSqj3BBBZeGV2BBBCMciUBBBjgEBBBBBB94UMgTdJMtEcpMBBBQBBBniOccBBBBBB47kNwxBbBBBBBBBBBhcjG6BBJM2L4Bk8BwCBQmIoRBBCzBz1BBCTClBBrbGBC4ehueB57NG9aJeRzBqEKiuwBBBB&amp;iv=8&amp;qt=0&amp;gz=1&amp;hh=0&amp;hn=0&amp;tw=null&amp;qc=12&amp;qd=66&amp;qf=945&amp;qe=892&amp;qh=945&amp;qg=1014&amp;qm=420&amp;qa=1920&amp;qb=1080&amp;qi=1920&amp;qj=1044&amp;to=00&amp;po=1-0020002000002120&amp;vy=ot%24b%5Bh%40%22oDkC%3FH2%25v%5EbmqMs%3Cex1b9p%3FGq%2F9*qU4A&amp;qr=0&amp;url=https%3A%2F%2Fwww.chess.com%2Fplay%2Fonline&amp;confidence=2&amp;pcode=playwireprebidheader597261727146&amp;callback=MoatNadoAllJsonpRequest_83067614"></script><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/illegal.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/illegal.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/illegal.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/illegal.wav" type="audio/wav"></audio><div id="adBanner" class="adLeaderboard adBanner" style="background-color: transparent; height: 1px; width: 1px; position: fixed; bottom: -10px; left: -10px;">&nbsp;</div><iframe id="pw_user_data" src="https://cdn.intergient.com/pageos/1.6.2/iframe/iframe.html" style="display: none; height: 0px; width: 0px; position: fixed; bottom: -99999px;"></iframe><img src="https://c.aaxads.com/pxusr.gif" style="display: none !important;"><img src="https://www.aaxdetect.com/pxext.gif" style="display: none !important;"><audio preload="auto"><source src="/bundles/web/sounds/event-end.mp3" type="audio/mpeg"></audio><audio preload="auto"><source src="/bundles/web/sounds/event-start.mp3" type="audio/mpeg"></audio><audio preload="auto"><source src="//images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/game-end.webm" type="audio/webm"><source src="//images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/game-end.ogg" type="audio/ogg"><source src="//images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-end.mp3" type="audio/mpeg"><source src="//images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/game-end.wav" type="audio/wav"></audio><audio preload="auto"><source src="//images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/game-start.webm" type="audio/webm"><source src="//images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/game-start.ogg" type="audio/ogg"><source src="//images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-start.mp3" type="audio/mpeg"><source src="//images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/game-start.wav" type="audio/wav"></audio><audio preload="auto"><source src="/bundles/web/sounds/shoutout.mp3" type="audio/mpeg"></audio><audio preload="auto"><source src="//images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/tenseconds.webm" type="audio/webm"><source src="//images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/tenseconds.ogg" type="audio/ogg"><source src="//images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/tenseconds.mp3" type="audio/mpeg"><source src="//images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/tenseconds.wav" type="audio/wav"></audio><script src="/bundles/app/js/checkmate-legacy.client.64b101c7.js" defer=""></script><iframe src="https://s.amazon-adsystem.com/iu3?cm3ppd=1&amp;d=dtb-pub&amp;csif=t&amp;dl=gg_n-index_pm-db5_rbd_n-emx_ppt_ox-db5_dm_cnv_an-db5_dmx_3lift" style="display: none;"></iframe><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/game-start.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/game-start.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-start.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/game-start.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/game-end.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/game-end.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-end.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/game-end.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/capture.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/capture.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/capture.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/capture.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/castle.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/castle.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/castle.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/castle.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/premove.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/premove.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/premove.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/premove.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/move-self.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/move-self.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-self.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/move-self.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/move-check.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/move-check.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-check.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/move-check.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/move-opponent.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/move-opponent.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-opponent.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/move-opponent.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/promote.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/promote.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/promote.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/promote.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/notify.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/notify.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/notify.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/notify.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/tenseconds.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/tenseconds.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/tenseconds.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/tenseconds.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/illegal.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/illegal.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/illegal.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/illegal.wav" type="audio/wav"></audio><iframe id="google_osd_static_frame_73714753740" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/game-start.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/game-start.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-start.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/game-start.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/game-end.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/game-end.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-end.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/game-end.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/capture.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/capture.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/capture.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/capture.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/castle.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/castle.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/castle.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/castle.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/premove.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/premove.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/premove.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/premove.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/move-self.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/move-self.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-self.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/move-self.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/move-check.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/move-check.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-check.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/move-check.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/move-opponent.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/move-opponent.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-opponent.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/move-opponent.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/promote.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/promote.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/promote.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/promote.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/notify.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/notify.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/notify.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/notify.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/tenseconds.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/tenseconds.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/tenseconds.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/tenseconds.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/illegal.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/illegal.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/illegal.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/illegal.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/game-start.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/game-start.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-start.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/game-start.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/game-end.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/game-end.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-end.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/game-end.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/capture.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/capture.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/capture.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/capture.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/castle.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/castle.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/castle.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/castle.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/premove.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/premove.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/premove.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/premove.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/move-self.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/move-self.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-self.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/move-self.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/move-check.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/move-check.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-check.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/move-check.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/move-opponent.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/move-opponent.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-opponent.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/move-opponent.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/promote.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/promote.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/promote.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/promote.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/notify.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/notify.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/notify.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/notify.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/tenseconds.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/tenseconds.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/tenseconds.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/tenseconds.wav" type="audio/wav"></audio><script type="text/javascript" src="https://geo.moatads.com/n.js?e=35&amp;ud=0&amp;qn=%604%7BZEYwoqI%24%5BK%2BdLLU)%2CMm~tM!90vv9L%24%2FoDb%2FG)lKr%23Oy%2CNFJMfD%5Bqir1fcSC%3AU%3FWOvTh%7CzFK%3F%5B%22l!j%3F%5DQB3%2Bye%7Cw%2Ckw4oS%7B(JwgoHZASm!HmtmC%3D%5EI5%5D0cxz%3B(IA%24Jz_%7CX_h)G%3E3%5D*%25%3BhyzBcM1q4%2Cby_h%3BNpIu%7Czvcp%3B%5Bpwxnd5X%241%5ETmZi%3AUH%3C8%2B7N6UQ%2FXv%2CN%2F%2Fs1S*qks!%3Ex%3FjcReUP2%3CowMFK%3A%3AAjGT%2F2CD%3Amqo13%24(%25B)Lp%22KC&amp;th=2582494866&amp;tf=Id8O-DxRgoC-HFvgE-CSa7H-XSSptC-j7VIQD-HFvgE-nMzjG-&amp;vi=111111&amp;qp=10000&amp;is=BBBBB2BBEYBvGl2BBCBBtUTBBRmsqbKW8BsrBu0rCFE48CRBeeBS2hWTMBBQeQBBn2soYggyUig0CBlWZ0uBBCCCCCCOgRBBiOfnE6Bkg7Oxib8MxOtJYHCBdm5kBhIcC9Y8oBXckXBR76iUUsJBCBBBBBBBBBWBSqj3BBBZeGV2BBBCMciUBBBjgEBBBBBB94UMgTdJMtEcpMBBBQBBBniOccBBBBBB47kNwxBbBBBBBBBBBhcjG6BBJM2L4Bk8BwCBQmIoRBBCzBz1BBCTClBBrbGBC4ehueB57NG9aJeRzBqEKiuwBBBB&amp;iv=8&amp;qt=0&amp;gz=1&amp;hh=0&amp;hn=0&amp;tw=null&amp;qc=12&amp;qd=66&amp;qf=945&amp;qe=892&amp;qh=945&amp;qg=1014&amp;qm=420&amp;qa=1920&amp;qb=1080&amp;qi=1920&amp;qj=1044&amp;to=00&amp;po=1-0020002000002120&amp;vy=ot%24b%5Bh%40%22oDkC%3FH2%25v%5EbmqMs%3Cex1b9p%3FGq%2F9*qU4A&amp;qr=0&amp;url=https%3A%2F%2Fwww.chess.com%2Fplay%2Fonline&amp;confidence=2&amp;pcode=playwireprebidheader597261727146&amp;ql=%3B%5BpwxndB%4029HuiPpj%2B%3CveqQS%7CwR3yCQV%3F(%2Fg%7DLyc3A_h%2B%22oD&amp;qo=0&amp;vf=1&amp;vg=100&amp;i=ADTHEORENTV2&amp;hp=1&amp;wf=1&amp;vb=2&amp;cm=11&amp;kq=1&amp;hq=0&amp;hs=0&amp;hu=0&amp;hr=0&amp;ht=1&amp;dnt=0&amp;bq=0&amp;f=0&amp;j=https%3A%2F%2Fwww.chess.com&amp;t=1616019318673&amp;de=610613954336&amp;m=0&amp;ar=b6cd16e-clean&amp;iw=b222816&amp;q=19&amp;cb=0&amp;ym=0&amp;cu=1616019318673&amp;ll=7&amp;lm=0&amp;ln=1&amp;r=0&amp;em=0&amp;en=0&amp;d=215%3A8023%3ARubicon%3A191901&amp;zMoatIMP=08a6e601-876e-11eb-af9b-12dfb5140957&amp;zMoatJS=-&amp;zMoatDR=-&amp;zGSRC=1&amp;gu=https%3A%2F%2Fwww.chess.com%2Fgame%2Flive%2F9758268747&amp;id=1&amp;ii=4&amp;bo=100598&amp;bd=undefined&amp;gw=adtheorent107077183660&amp;fd=1&amp;ac=1&amp;it=500&amp;ti=0&amp;ih=1&amp;pe=1%3A979%3A979%3A10780%3A1472&amp;fs=188403&amp;na=1544546138&amp;cs=0&amp;callback=DOMlessLLDcallback_75662770"></script><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/illegal.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/illegal.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/illegal.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/illegal.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/game-start.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/game-start.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-start.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/game-start.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/game-end.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/game-end.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-end.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/game-end.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/capture.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/capture.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/capture.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/capture.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/castle.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/castle.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/castle.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/castle.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/premove.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/premove.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/premove.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/premove.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/move-self.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/move-self.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-self.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/move-self.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/move-check.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/move-check.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-check.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/move-check.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/move-opponent.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/move-opponent.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-opponent.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/move-opponent.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/promote.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/promote.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/promote.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/promote.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/notify.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/notify.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/notify.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/notify.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/tenseconds.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/tenseconds.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/tenseconds.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/tenseconds.wav" type="audio/wav"></audio><audio preload="auto"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/illegal.webm" type="audio/webm"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/illegal.ogg" type="audio/ogg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/illegal.mp3" type="audio/mpeg"><source src="https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/illegal.wav" type="audio/wav"></audio></body><iframe sandbox="allow-scripts allow-same-origin" id="43bf5d24397413b" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://eus.rubiconproject.com/usync.html?us_privacy=1NNY">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="44f1bc946e56d22" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://us-u.openx.net/w/1.0/pd?plm=6&amp;ph=36f43d7a-82bf-4fdf-8a09-9bd06a2b981b&amp;gdpr=0&amp;us_privacy=1NNY">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="4593b3e3baa4e94" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://ads.pubmatic.com/AdServer/js/showad.js#PIX&amp;kdntuid=1&amp;p=158326&amp;us_privacy=1NNY">
+    </iframe></html>

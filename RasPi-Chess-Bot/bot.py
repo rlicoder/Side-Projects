@@ -1,3 +1,6 @@
+import chess
+import chess.engine
+from rpiengine import getMove
 from selenium import webdriver
 from time import sleep
 from stockfish import Stockfish
@@ -6,24 +9,7 @@ import random
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import StaleElementReferenceException
 
-settings = open("settings.txt", "r")
-thr = settings.readline()
-mintime = settings.readline()
-level = settings.readline()
-mindep = settings.readline()
-hashsize = settings.readline()
-con = settings.readline()
-slow = settings.readline()
-timecons = settings.readline()
-delayon = bool(settings.readline())
-beg_delay = int(settings.readline())
-mid_delay = int(settings.readline())
-end_delay = int(settings.readline())
-settings.close()
-
-stockfish = Stockfish('/home/royce/Desktop/Side-Projects/Chess Bot Terminal/stockfish', parameters={"Threads": thr, "Minimum Thinking Time": mintime, "Skill Level": level, "Min Split Depth": mindep, "Hash": hashsize, "Contempt": con, "Slow Mover": slow})
-
-bot = webdriver.Firefox()
+bot = webdriver.Chrome()
 
 sleep(1)
 
@@ -66,27 +52,8 @@ while (cont != 'q'):
             pat[0] = pat[0].replace('data-whole-move-number="', '')
             pat[0] = pat[0].replace('"', '')
             turnnum = int(pat[0])
-        if delayon:
-            if turnnum <= 10:
-                offset = random.randint(0,beg_delay)
-                timecons = 20
-            elif turnnum >= 10 and turnnum <= 30:
-                offset = random.randint(0,mid_delay)
-                timecons = 500
-            elif turnnum >= 31 and turnnum <=50:
-                offset = random.randint(0,end_delay)
-                timecons = 250
-                stockfish.set_depth(7)
-            else:
-                offset = 0
-                timecons = 50
-                stockfish.set_depth(18)
-            sleep(offset/1000)
         FEN, dirx, diry = parse(bot)
-        stockfish.set_fen_position(FEN)
-        move = stockfish.get_best_move_time(timecons)
-        print(move)
-        print(stockfish.get_evaluation())
+        move = str(getMove(FEN))
         posx = int(move[1])
         posy = int(ord(move[0]) - 96)
         search = "square-"
@@ -104,18 +71,16 @@ while (cont != 'q'):
         webdriver.ActionChains(bot).drag_and_drop_by_offset(piece, dify * diry, difx * dirx).perform()
         html = bot.page_source
     sleep(random.randint(0,500)/1000)
-    try:
-        nextb = bot.find_element_by_xpath('/html/body/div[3]/div/div[2]/div[2]/div[5]/div[1]/button[2]')
-    except NoSuchElementException:
-        nextb = bot.find_element_by_xpath('/html/body/div[3]/div/div[2]/div[2]/div[4]/div[1]/button[2]')
+    nextb = bot.find_element_by_xpath('//button[normalize-space()="New 10 min"]')
     html = bot.page_source
+    sleep(1)
     nextb.click()
-    sleep(3)
+    sleep(1)
     while (html.find('Draw') == -1):
         html = bot.page_source
         try:
             nextb.click()
-            sleep(.1)
+            sleep(1)
             nextb.click()
         except StaleElementReferenceException:
             break
@@ -123,4 +88,5 @@ while (cont != 'q'):
             break       
         sleep(10)
 bot.quit()
-stockfish.stockfish
+
+
