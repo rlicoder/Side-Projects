@@ -1,17 +1,20 @@
 import chess
 import chess.engine
 from rpiengine import getMove
+import logging
 from selenium import webdriver
 from time import sleep
-from stockfish import Stockfish
 from parse import *
 import random
-from selenium.common.exceptions import NoSuchElementException
-from selenium.common.exceptions import StaleElementReferenceException
+from selenium.common.exceptions import *
+#from selenium.common.exceptions import NoSuchElementException
+#from selenium.common.exceptions import StaleElementReferenceException
+logging.basicConfig(format='%(asctime)s %(lineno)d %(message)s')
 
 bot = webdriver.Chrome()
 bot.set_page_load_timeout(20)
 
+logging.debug('Logging in to Chess.com'_)
 bot.get('https://www.chess.com/home')
 email = bot.find_element_by_xpath('//*[@id="username"]')
 email.send_keys('MiniMaxer')
@@ -19,15 +22,18 @@ passw = bot.find_element_by_xpath('//*[@id="password"]')
 passw.send_keys('HPziac9W4JRiwkE')
 signin = bot.find_element_by_xpath('//*[@id="login"]')
 signin.click()
+logging.debug('Logged in')
 
+logging.debug('Getting time controls')
 time = input("time control?")
 cont = "New " + time + " min"
-print(cont)
+logging.debug('Time controls set to: %s', cont)
 
 while (cont != 'q'):
+    logging.debug('Fetching html')
     html = bot.page_source
+    logging.debug('Fetched')
     while (html.find(cont)) == -1:
-        sleep(.5)
         html = bot.page_source
         if html.find('<text x="10" y="99" font-size="2.8" class="coordinate-dark">h</text>') != -1:
             look = "black"
@@ -56,9 +62,12 @@ while (cont != 'q'):
         elif turnnum > 10 and turnnum < 30:
             time = random.randint(0,5)
         else:
-            time = 1
+            time = .1
+        logggin.debug('Turn #%d, Delay:%d', turnnum, time)
         FEN, dirx, diry = parse(bot)
+        logging.debug('Fen: %s, x_dir: %d, y_dir: %d', FEN, dirx, diry)
         move = str(getMove(FEN, time))
+        logging.debug('Chosen Move: %s', move)
         posx = int(move[1])
         posy = int(ord(move[0]) - 96)
         search = "square-"
@@ -82,14 +91,17 @@ while (cont != 'q'):
     nextb = bot.find_element_by_xpath(buttontext)
     html = bot.page_source
     sleep(1)
+    logging.debug('Next match clicked')
     nextb.click()
     sleep(1)
     while (html.find('Draw') == -1):
         html = bot.page_source
         try:
+            sleep(.5)
             nextb.click()
-            sleep(1)
+            sleep(.5)
             nextb.click()
+            logging.debug('Clicked twice')
         except StaleElementReferenceException:
             break
         except StaleElementException:
