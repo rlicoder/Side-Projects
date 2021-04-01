@@ -1,368 +1,571 @@
-Frostbites Frozen Delights
-9513524903
-Greek Street Grill
-9513520801
-Sushi OK
-9516898054
-Monty’s Good Burger
-2139150257
-The Salted Pig
-9517425664
-Habanero Mexican Grill
-9512249145
-The Low-Key Poke Joint
-9512997699
-Pho Star Bowl
-9513529548
-Kabob House
-9513539711
-Burger Boss
-9516566500
-Sushi Asahi
-9516371313
-Oasis Vegetarian Cafe
-9516885423
-Elias Pita
-9516866800
-Simple Simon’s Bakery & Bistro
-9513696030
-Daily Brew Coffee House
-9513527477
-Sam’s Bann Thai
-9517427694
-Kraemer’s Coffee Bistro
-9516864400
-ProAbition
-9512222110
-Koreana Grill
-9516889000
-Flavor Theory
-9519779698
-Wang Cho Korean BBQ
-9517888889
-The Upper Crust Sandwich Shoppe
-9517843149
-Anchos Southwest Grill & Bar
-9513520240
-Riverside Cookie Shoppe
-9516866374
-Toi Moi
-9513434146
-Blaze Pizza
-9517893212
-Steve’s Donuts
-9513237153
-Kimchichanga
-9516849800
-Market Broiler - Riverside
-9512769007
-Poke Bistro
-9513948580
-Le Chat Noir
-9517869266
-D’caesaro Pizza & Italian Restaurant
-9516870777
-Heroes Restaurant and Brewery
-9512480722
-Al Karam Pakistani Cuisine
-9517425610
-Pier 
-9513419297
-Fufu’s Mid East Grill
-9515954527
-Lift Coffee Roasters
-9517427413
-Thompson Brewing
-9512897533
-El Habanero
-9513435868
-Marios Place
-9516847755
-Papa Joe’s Pizza
-9516809090
-Green Taco
-9513532272
-W Wolfskill
-9513741174
-Punjab Palace
-9516869968
-Jade China
-9516539200
-The ‘U’ Pitas & Bowls
-9514271322
-El Trigo
-9517876937
-Cardelli’s Italian Market Deli & Catering
-9513600747
-Antonio Pizza
-9517761888
-Best Thai Cuisine
-9516824251
-Uncle Chuang’s Bakery
-9512758800
-Riverside Thai Kitchen
-9517296675
-Boba Tea House
-9517847148
-Arcade Coffee Roasters
-9512666839
-Tim Boba
-9514621929
-Namaste Indian Kitchen
-9512755316
-Kountry Folks Homestyle Restaurant
-9513540437
-Cupcakes and Curiosities
-9514526271
-Los Jilberto’s Taco Shop
-9516836748
-Freshii
-9512289303
-Backstreet Restaurant
-9516836650
-The Rustik Fork Eatery
-9516563555
-Panini Kabob Grill - Riverside
-9513526318
-Seafood and Crawfish
-9513595999
-Isabella’s Cupcakes & More
-9517829200
-Espettos Grill
-9515340250
-Taiyos Sushi & Poki
-9513431112
-R Burgers
-9517844350
-The Sub Station
-9516834523
-Sushi Station
-9517890068
-Tuxies Juices
-9517811048
-Gandhi Indian Cuisine
-9516534147
-Punjab Palace
-9513518968
-Yard House
-9516889273
-Riverside Food Lab
-9515954520
-Molinos Coffee
-9512767147
-Genkiyaki
-9517839110
-Taco Station
-9517828226
-Grapow Thai
-9517801132
-The Lobby
-9517425020
-Angel Thai Cuisine
-9517881995
-Teriyaki Plus
-9517888337
-Top Grill
-9515308668
-Joe’s Sushi Japanese Restaurant
-9513531929
-Lindmair Bakery
-9516882131
-El Torito
-9516846816
-Ooka Japanese Restaurant
-9517790099
-Royal Orchid Thai Restaurant
-9513546100
-Goodwin’s Organics Cafe
-9516822667
-Chilitos Mexican Grill
-9515091002
-Sushi R
-9516821323
-Boba Fiend Tea House
-9518230700
-Coffee Court Bistro
-9513280866
-Nothing Bundt Cakes
-9517871885
-MOD Pizza
-9513745255
-Star Crab
-9519779441
-Mi Lindo Apatzingan
-9516880908
-Back to the Grind
-9517840800
-Yoli’s Mexican Grill
-9518017104
-Enzo’s Pizza & Pasta
-9513512375
-El Fogon Mexican Grill Riverside
-9517828959
-Little Green Onions
-9513281273
-Marisa’s Italian Deli
-9517883899
-Butch’s Grinders
-9517818511
-Mission Inn Restaurant
-8883264448
-Peking Chinese Restaurant
-9516874822
-D’Elia’s Grinders
-9516837380
-Sushingon
-9512249590
-Ten Ren’s Tea Time
-9516865597
-Tummy Stuffer
-9513691266
-Duane’s Prime Steak & Seafood
-8883264448
-Zen Street
-9516833648
-Joanna’s Cafe
-9517898843
-Masala Mischief
-9512449692
-Tio’s Tacos
-9517880230
-Morefire Thai
-9513591331
-Islands Restaurant
-9517827471
-Antonious Pizza & Cafe
-9516828861
-Gram’s Mission BBQ
-9517828219
-Rockstar Shrimp
-9515308620
-Tony’s Mexican Grill
-9517296141
-Poke Bar University Village
-9514058233
-The Brickwood
-9512502712
-Big Sky Bistro
-9513281688
-Mezcal Cantina Y Cocina
-9518882240
-California Fish Grill
-9514056880
-Royal Orchid Thai II
-9517863930
-Pig Pen Delicacy
-9515954520
-Pho Ha #
-9516800790
-Yvette’s Bakery
-9517425541
-Placita
-9514058730
-Taqueria Tomateros
-9092571545
-Pho Anh
-9519779889
-The Cookie Plug
-9515050146
-Big Tuna
-9513430201
-Subs & Spuds
-9513691491
-Sushi Okoku
-9513432225
-Olivia’s Mexican Restaurant
-9516892131
-CakeBox Cake, Cookie & Candy Supplies
-9516604179
-El Patron Downtown Riverside
-9517771131
-Pokilicious Riverwalk
-9513761377
-La Michoacana Ice Cream
-9512489142
-DeMatteo’s Pizza
-9516826198
-Taqueria el Flaco
-9513531415
-Crave Coffee & Tea
-9512899436
-Pacific Cabin Sushi Restaurant
-9517820888
-Kung Fu Tea
-9512549609
-Zorba’s Burgers
-9516865830
-Lucky Wok
-9516882888
-La Bufadora Baja Grill
-9517762881
-Thai Bay Cafe
-9516876968
-Charley Rokks BBQ
-9517740039
-Mariscos Del Pacifico
-9515886758
-Mr You Chinese Food
-9516812111
-Fire Up Bar & Grill
-9512899071
-Fusion Restaurant & Bar
-9515308272
-Amy’s
-9516890296
-Oishii Sushi
-9517842550
-OK Tofu House
-9515090808
-Dhat Creole Grill
-9515954529
-Pho 
-9516882671
-De Via Bella’s Pizza & Sports Bar
-9513580621
-Sweet Tooth Candy Buffets
-8667404199
-Soup Shoppe
-9517814710
-Pho Ha #
-9512353377
-Ding Tea Riverside
-9514299706
-Presidential Lounge
-9517840300
-Time 
-9513492486
-RiverCrust Deli
-9516568145
-Joe Aguilar’s Templo Del Sol
-9516826562
-Sharetea
-9514065165
-Spoonful Yogurt Cafe
-9517295882
-The Cheesecake Factory
-9513524600
-Viano’s Pizza & Pasta
-9517803000
-Farfallas Cucina Italiana
-9513545100
-Johnny’s Burgers
-9516873599
+Papa Joes Pizza
+9516881188
+10555 Indiana Ave
+
+Capones Pizza
+9516893520
+7201 Arlington Ave
+
 First Class Pizza & Pub
 9513547900
-Capone’s Pizza
-9516893520
-Las Campanas
-8883264448
-Johnny’s Burgers
+4290 Riverwalk Pkwy
+
+Johnnys Burgers
 9517844882
-Los Cabos Tacos
-9513522653
+3545 Central Ave
+
 East Coast Bagel
 9517810310
-Love Amaro Pizzeria
-7193109283
-Retro Taco
-9517425606
+5225 Canyon Crest Dr
+
+Manna Grill
+9515308033
+1201 University Ave
+
+Greek Street Grill
+9513520801
+3312 La Sierra Ave
+
+Sushi OK
+9516898054
+5228 Arlington Ave
+
+Monty’s Good Burger
+2139150257
+3605 Market St
+
+The Salted Pig
+9517425664
+3750 Main St
+
+Habanero Mexican Grill
+9512249145
+2472 University Ave
+
+The Low-Key Poke Joint
+9512997699
+11860 Magnolia Ave
+
+Pho Star Bowl
+9513529548
+10051 Magnolia Ave
+
+Kabob House
+9513539711
+10901 Magnolia Ave
+
+Burger Boss
+9516566500
+2585 Canyon Springs Pkwy
+
+Oasis Vegetarian Cafe
+9516885423
+11550 Pierce St
+
+Elias Pita
+9516866800
+1490 University Ave
+
+Simple Simon’s Bakery & Bistro
+9513696030
+3639 Main St
+
+Daily Brew Coffee House
+9513527477
+2955 Van Buren Blvd
+
+Sam’s Bann Thai
+9517427694
+3203 Mission Inn Ave
+
+Kraemer’s Coffee Bistro
+9516864400
+6734 Brockton Ave
+
+ProAbition
+9512222110
+3597 Main St
+
+Koreana Grill
+9516889000
+10051 Magnolia Ave
+
+The Upper Crust Sandwich Shoppe
+9517843149
+3573 Main St
+
+Wang Cho Korean BBQ
+9517888889
+3639 Riverside Plaza Dr
+
+Anchos Southwest Grill & Bar
+9513520240
+10773 Hole Ave
+
+Riverside Cookie Shoppe
+9516866374
+6737 Brockton Ave
+
+Toi Moi
+9513434146
+10181 Hole Ave
+
+Blaze Pizza
+9517893212
+3540 Riverside Plaza Dr
+
+Steve’s Donuts
+9513237153
+7201 Arlington Ave
+
+Kimchichanga
+9516849800
+1995 University Ave
+
+Le Chat Noir
+9517869266
+9th St
+
+Market Broiler - Riverside
+9512769007
+3525 Merrill Ave
+
+D’caesaro Pizza & Italian Restaurant
+9516870777
+6160 Arlington Ave
+
+Heroes Restaurant and Brewery
+9512480722
+3397 Mission Inn Ave
+
+Al Karam Pakistani Cuisine
+9517425610
+3457 Arlington Ave
+
+Pier 
+9513419297
+3555 Riverside Plaza Dr
+
+Lift Coffee Roasters
+9517427413
+2060 Chicago Ave
+
+Fufu’s Mid East Grill
+9515954527
+3605 Market Street
+
+El Habanero
+9513435868
+6160 Arlington Ave
+
+Green Taco
+9513532272
+3812 Pierce St
+
+Marios Place
+9516847755
+3646 Mission Inn Ave
+
+W Wolfskill
+9513741174
+4281 Main St
+
+Thompson Brewing
+9512897533
+9900 Indiana Ave
+
+Punjab Palace
+9516869968
+1766 University Ave
+
+Jade China
+9516539200
+2712 Canyon Springs Pkwy
+
+El Trigo
+9517876937
+4155 Park Ave
+
+Cardelli’s Italian Market Deli & Catering
+9513600747
+7786 Limonite Ave
+
+Antonio Pizza
+9517761888
+195 E Alessandro Blvd
+
+Best Thai Cuisine
+9516824251
+1735 Spruce St
+
+Riverside Thai Kitchen
+9517296675
+7755 California Ave
+
+Arcade Coffee Roasters
+9512666839
+3672 Chicago Ave
+
+Tim Boba
+9514621929
+1450 University Ave
+
+Boba Tea House
+9517847148
+767 W Blaine St
+
+Namaste Indian Kitchen
+9512755316
+6061 Magnolia Ave
+
+Kountry Folks Homestyle Restaurant
+9513540437
+3653 La Sierra Ave
+
+Cupcakes and Curiosities
+9514526271
+3569 Main St
+
+Los Jilberto’s Taco Shop
+9516836748
+1635 University Ave
+
+The Rustik Fork Eatery
+9516563555
+1355 E Alessandro Blvd
+
+Freshii
+9512289303
+3434 Arlington Ave
+
+Isabella’s Cupcakes & More
+9517829200
+5225 Canyon Crest Dr
+
+Seafood and Crawfish
+9513595999
+10173 Magnolia Ave
+
+Espettos Grill
+9515340250
+5225 Canyon Crest Dr
+
+Taiyos Sushi & Poki
+9513431112
+11120 Magnolia Ave
+
+R Burgers
+9517844350
+1666 University Ave
+
+Panini Kabob Grill - Riverside
+9513526318
+1298 Galleria At Tyler
+
+Sushi Station
+9517890068
+19029 Van Buren Blvd
+
+Gandhi Indian Cuisine
+9516534147
+1355 E Alessandro Blvd
+
+Punjab Palace
+9513518968
+10359 Magnolia Ave
+
+Tuxies Juices
+9517811048
+6030 Magnolia Ave
+
+Yard House
+9516889273
+3775 Tyler St
+
+Riverside Food Lab
+9515954520
+3605 Market St
+
+Molinos Coffee
+9512767147
+3660 Mission Inn Ave
+
+Grapow Thai
+9517801132
+497 Alessandro Blvd
+
+Genkiyaki
+9517839110
+1400 University Ave
+
+Taco Station
+9517828226
+4088 Mission Inn Ave
+
+Teriyaki Plus
+9517888337
+7120 Indiana Ave
+
+Top Grill
+9515308668
+5225 Canyon Crest Dr
+
+Lindmair Bakery
+9516882131
+9230 Magnolia Ave
+
+Joe’s Sushi Japanese Restaurant
+9513531929
+9555 Magnolia Ave
+
+El Torito
+9516846816
+3639 Riverside Plaza Dr
+
+The Lobby
+9517425020
+3730 Main St
+
+Royal Orchid Thai Restaurant
+9513546100
+9791 Magnolia Ave
+
+Ooka Japanese Restaurant
+9517790099
+3525 Riverside Plaza Dr
+
+Goodwin’s Organics Cafe
+9516822667
+191 W Big Springs Rd
+
+Sushi R
+9516821323
+1630 Spruce St
+
+MOD Pizza
+9513745255
+3444 Arlington Ave
+
+Coffee Court Bistro
+9513280866
+10th St
+
+Boba Fiend Tea House
+9518230700
+3375 Iowa Ave
+
+Nothing Bundt Cakes
+9517871885
+3639 Riverside Plaza Dr
+
+Star Crab
+9519779441
+10051 Magnolia Ave
+
+Yoli’s Mexican Grill
+9518017104
+3225 Market St
+
+Enzo’s Pizza & Pasta
+9513512375
+10170 Indiana Ave
+
+Back to the Grind
+9517840800
+3575 University Ave
+
+El Fogon Mexican Grill Riverside
+9517828959
+765 Blaine St
+
+Little Green Onions
+9513281273
+6723 Brockton Ave
+
+Butch’s Grinders
+9517818511
+4602 Pine St
+
+Marisa’s Italian Deli
+9517883899
+5225 Canyon Crest Dr
+
+Peking Chinese Restaurant
+9516874822
+11170 Magnolia Ave
+
+D’Elia’s Grinders
+9516837380
+2093 University Ave
+
+Sushingon
+9512249590
+6060 Magnolia Ave
+
+Tummy Stuffer
+9513691266
+1159 Iowa Ave
+
+Zen Street
+9516833648
+3600 Central Ave
+
+Joanna’s Cafe
+9517898843
+17950 Van Buren Blvd
+
+Tio’s Tacos
+9517880230
+3948 Mission Inn Ave
+
+Morefire Thai
+9513591331
+2955 Van Buren Blvd
+
+Antonious Pizza & Cafe
+9516828861
+6701 Indiana Ave
+
+Islands Restaurant
+9517827471
+3645 Central Ave
+
+Masala Mischief
+9512449692
+1223 University Ave
+
+Royal Orchid Thai II
+9517863930
+1450 University Ave
+
+Poke Bar University Village
+9514058233
+3740 Iowa Ave
+
+Big Sky Bistro
+9513281688
+1575 University Ave
+
+Rockstar Shrimp
+9515308620
+767 W Blaine St
+
+The Brickwood
+9512502712
+3653 Main St
+
+Gram’s Mission BBQ
+9517828219
+3527 Main St
+
+Placita
+9514058730
+1805 University Ave
+
+Pig Pen Delicacy
+9515954520
+3605 Market St
+
+The Cookie Plug
+9515050146
+2915 Van Buren Blvd
+
+Yvette’s Bakery
+9517425541
+6729 Indiana Ave
+
+Taqueria Tomateros
+9092571545
+9164 Magnolia Ave
+
+Pho Anh
+9519779889
+5646 Van Buren Blvd
+
+El Patron Downtown Riverside
+9517771131
+3204 Mission Inn Ave
+
+Big Tuna
+9513430201
+4270 Riverwalk Pkwy
+
+Olivia’s Mexican Restaurant
+9516892131
+9447 Magnolia Ave
+
+CakeBox Cake, Cookie & Candy Supplies
+9516604179
+3557 Main St
+
+Subs & Spuds
+9513691491
+5225 Canyon Crest Dr
+
+La Michoacana Ice Cream
+9512489142
+3961 Chicago Ave
+
+Sushi Okoku
+9513432225
+10380 Magnolia Ave
+
+Pokilicious Riverwalk
+9513761377
+4290 Riverwalk Pkwy
+
+Pacific Cabin Sushi Restaurant
+9517820888
+9th St
+
+Fire Up Bar & Grill
+9512899071
+3750 University Ave
+
+Lucky Wok
+9516882888
+2995 Van Buren Blvd
+
+La Bufadora Baja Grill
+9517762881
+497 E Alessandro Blvd
+
+Thai Bay Cafe
+9516876968
+7549 Arlington Ave
+
+Mr You Chinese Food
+9516812111
+10255 Mission Blvd
+
+Mariscos Del Pacifico
+9515886758
+10436 Magnolia Ave
+
+Taqueria el Flaco
+9513531415
+4080 Tyler St
+
+Charley Rokks BBQ
+9517740039
+5145 Jurupa Ave
+
+Fusion Restaurant & Bar
+9515308272
+6749 Brockton Ave
+
+Amy’s
+9516890296
+10635 Magnolia Ave
+
+Oishii Sushi
+9517842550
+6133 Magnolia Ave
+
+Dhat Creole Grill
+9515954529
+3605 Market St
+
+Pho 
+9516882671
+4557 La Sierra Ave

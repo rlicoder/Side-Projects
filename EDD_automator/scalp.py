@@ -20,29 +20,38 @@ for j in cities:
 
         table = soup.find_all('div', class_= re.compile('^scrollablePhotos'))
 
-        f = open ('places.txt', 'a')
-        #print(url)
+        f = open('places.txt', 'a', encoding='utf-8')
+        d = open('debug.txt', 'a', encoding='utf-8')
         for i in range(0, len(table)):
             if i == 0:
                 continue
-            if (table[i] is None):
+            if table[i] is None:
+                continue
+            if table[i].get_text().find('$') == -1:
                 continue
             raw_title = re.search('\D+?(?=\d)', table[i].get_text())
             if raw_title is None:
                 continue
             raw_title_text = unicodedata.normalize('NFKD', raw_title.group())
-            title = re.sub('(\d+?|)\. ', '', raw_title_text)
             raw_phone = re.search('\(\d{3}\) \d{3}-\d{4}', table[i].get_text())
             if raw_phone is None:
                 continue
+            address = re.search('\d+\D+$', table[i].get_text().replace(raw_phone.group(), '')).group()
+            if address is None:
+                continue
+            title = re.sub('\d*?\. ', '', raw_title_text)
             phone = re.sub('\D', '', raw_phone.group())
-            if not title:
+            if not title or len(title) == 0:
                 continue
-            if not phone:
+            if not phone or len(phone) == 0:
                 continue
-            f.write(title)
+            if not address or len(address) == 0:
+                continue
+            f.write(str(title))
             f.write('\n')
-            f.write(phone)
+            f.write(str(phone))
             f.write('\n')
+            f.write(str(address))
+            f.write('\n\n')
 
 
