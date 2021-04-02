@@ -19,9 +19,22 @@ class Session
 
 int main()
 {
-    int login_id;
+    //get login information
+    string login_id;
+    string last_name;
+    string dob;
     cout << "Enter your student id: ";
     cin >> login_id;
+    cout << "Enter your last name: ";
+    cin >> last_name;
+    cout << "Enter your DOB: MMDDYYYY";
+    cin >> dob;
+
+    //hash the login information
+    string str = login_id + last_name + dob;
+    str = hash(str);
+
+
 
     menu();
 
