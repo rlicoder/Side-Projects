@@ -644,3 +644,15 @@ JavaScript error: resource://gre/modules/TelemetryEnvironment.jsm, line 1117: Ty
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1617921517053	geckodriver	INFO	Listening on 127.0.0.1:33169
+1617921518053	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5tkSTW"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617921519366	Marionette	INFO	Listening on port 40149
+1617921519471	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617921534273	Marionette	INFO	Stopped listening on port 40149
+1617921683327	geckodriver	INFO	Listening on 127.0.0.1:51607
+1617921683330	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekriPU2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617921684746	Marionette	INFO	Listening on port 41939
+1617921684847	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617921709132	Marionette	INFO	Stopped listening on port 41939

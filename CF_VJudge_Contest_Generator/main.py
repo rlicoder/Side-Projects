@@ -6,7 +6,6 @@ from random import randint
 from form import Ui_gui
 from scalp import *
 from bot import *
-from threading import Thread
 
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QApplication, QWidget
@@ -159,9 +158,8 @@ class gui(QWidget):
         self.ui.linkText.setText(text)
 
     def createContest(self):
-        thread = Thread(target=self.createContestThread)
         self.ui.createButton.setEnabled(False)
-        thread.start()
+        self.createContestThread()
         self.ui.createButton.setEnabled(True)
 
     def updateListThread(self):
@@ -176,8 +174,7 @@ class gui(QWidget):
         QtWidgets.QMessageBox.about(self, 'Success!', 'Done updating the problem list')
 
     def updateList(self):
-        thread = Thread(target=self.updateListThread)
-        thread.start()
+        self.updateListThread
 
     def setMax(self, val):
         if val > self.ui.upperBoundDiffBox.value():
