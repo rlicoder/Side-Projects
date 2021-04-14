@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#include "Session.hpp"
+#include "Date.hpp"
 
 using namespace std;
 
@@ -12,9 +14,9 @@ int main()
     {
         classes.push_back(str);
     }
-    for (int i = 0; i < classes.size(); i++)
+    for (int i = 0; i < (int)classes.size(); i++)
     {
-        cout << classes[i] << endl;
+        cout << i+1 << ": " << classes[i] << endl;
     }
-
+    cin >> choice;
 }

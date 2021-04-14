@@ -24,3 +24,5 @@ class Date
         void setMinute(int sminute) { this->minute = sminute; };
 
 };
+
+#endif
