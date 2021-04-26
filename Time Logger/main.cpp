@@ -1,22 +1,31 @@
 #include <bits/stdc++.h>
+#include <ctime>
 #include "Session.hpp"
 #include "Date.hpp"
+#include "View.hpp"
+#include "Controller.hpp"
+#include "Model.hpp"
 
 using namespace std;
 
 int main()
 {
-    vector<string> classes;
-    ifstream in ("classes.txt");
 
-    string str;
-    while (in >> str)
+    Model sys;
+    View mainmenu("mainmenu.txt");
+    Controller mainMenuCont(mainmenu.getSize());
+
+    do
     {
-        classes.push_back(str);
+	mainmenu.display();
+	mainMenuCont.TakeInput();
     }
-    for (int i = 0; i < (int)classes.size(); i++)
-    {
-        cout << i+1 << ": " << classes[i] << endl;
-    }
-    cin >> choice;
+    while(sys.handleLogin(mainMenuCont.ReturnInput()));
+
+    View studentmenu("studentmenu.txt");
+    Controller studentMenuCont(studentmenu.getSize());
+
+    studentmenu.display();
+    studentMenuCont.TakeInput();
+
 }

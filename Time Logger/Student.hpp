@@ -11,10 +11,7 @@ class Student
         vector<Session> sessions;
     public:
         //hash constructor
-        Student(string encryption);
-
-        //new student constructor
-        Student(string username, string password);
+        Student(string studentid);
 
 };
 
