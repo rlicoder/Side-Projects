@@ -47,6 +47,12 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <cTool>
+          <commandlineTool>gcc</commandlineTool>
+        </cTool>
+        <ccTool>
+          <standard>11</standard>
+        </ccTool>
       </compileType>
       <item path="Controller.cpp" ex="false" tool="1" flavor2="0">
       </item>

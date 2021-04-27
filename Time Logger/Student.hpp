@@ -8,10 +8,15 @@ using namespace std;
 class Student
 {
     private:
+        string name;
+        string id;
         vector<Session> sessions;
     public:
-        //hash constructor
-        Student(string studentid);
+        Student(string sname, string sid);
+        
+        void pushSession(Session s);
+        
+        void displayAllInfo();
 
 };
 

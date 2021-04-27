@@ -19,13 +19,24 @@ int main()
     {
 	mainmenu.display();
 	mainMenuCont.TakeInput();
+        string str;
+        switch(mainMenuCont.ReturnInput())
+        {
+            case 1: 
+                cout << "Enter ID: ";
+                cin >> str;
+                if (sys.handleLogin(str))
+                {
+                    break;
+                }
+                sys.getAdmin() ? sys.handleAdmin() : sys.handleStudent();
+                break;
+            case 2:
+                cout << "Program Terminated";
+                exit(1);
+            default:
+                break;
+        }
     }
-    while(sys.handleLogin(mainMenuCont.ReturnInput()));
-
-    View studentmenu("studentmenu.txt");
-    Controller studentMenuCont(studentmenu.getSize());
-
-    studentmenu.display();
-    studentMenuCont.TakeInput();
-
+    while(mainMenuCont.ReturnInput() != 2);
 }
