@@ -2,34 +2,44 @@
 #include "View.hpp"
 #include "Controller.hpp"
 #include "Student.hpp"
+#include "Date.hpp"
 
 Model::Model()
 {
     this->loggedin = false;
     this->admin = false;
     this->currentid = "";
+    this->currentname = "";
+    this->currentsession = "";
+    this->insession = false;
+
     
     ifstream in;
     in.open("classes.txt");
 
-    string str;
+    string str, str2;
     while (in >> str)
     {
         classes.push_back(str);
     }
     in.close();
 
-    in.open("ids.txt");
-    while (in >> str)
+    in.ignore();
+    in.open("valid_student_ids.txt");
+    while (getline(in, str))
     {
-	valid_student_ids.push_back(str);
+	in >> str2;
+	valid_student_ids.push_back({str, str2});
+	in.ignore();
     }
     in.close();
     
     in.open("admin_ids.txt");
-    while (in >> str)
+    while (getline(in, str))
     {
-        valid_admin_ids.push_back(str);
+	in >> str2;
+        valid_admin_ids.push_back({str, str2});
+	in.ignore();
     }
     in.close();
     
@@ -56,25 +66,26 @@ Model::Model()
     
 };
 
-bool Model::handleLogin(string id)
+bool Model::handleLogin(string name, string id)
 {
-    if (id != "")
+    if (id != "" && name != "")
     {
 	for (int i = 0; i < valid_student_ids.size(); i++)
 	{
-	    if (valid_student_ids[i] == id)
+	    if (valid_student_ids[i] == make_pair(name, id))
 	    {
 		this->loggedin = true;
 		this->currentid = id;
+		this->currentname = name;
                 this->admin = false;
 	    }
 	}
-        for (int i = 0; i < valid_admin_ids[i].size(); i++)
+        for (int i = 0; i < valid_admin_ids.size(); i++)
         {
-            if (valid_admin_ids[i] == id)
+            if (valid_admin_ids[i] == make_pair(name, id))
             {
                 this->loggedin = true;
-                this->currentid = true;
+                this->currentid = id;
                 this->admin = true;
             }
         }
@@ -96,9 +107,25 @@ void Model::handleStudent()
 {
     View studentMenu("studentmenu.txt");
     Controller studentMenuCont(studentMenu.getSize());
+    if (this->insession)
+    {
+	cout << "Current Session: " << this->currentsession << endl;
+    }
     studentMenu.display();
     studentMenuCont.TakeInput();
-    this->studentSwitch(studentMenuCont.ReturnInput());
+    while(this->studentSwitch(studentMenuCont.ReturnInput()))
+    {
+	if (this->insession)
+	{
+	    cout << "Current Session: " << this->currentsession << endl;
+	}
+	else
+	{
+	    cout << "You are currently not in a session" << endl;
+	}
+	studentMenu.display();
+	studentMenuCont.TakeInput();
+    }
 };
 
 void Model::handleAdmin()
@@ -109,7 +136,6 @@ void Model::handleAdmin()
     adminMenuCont.TakeInput();
     while (this->adminSwitch(adminMenuCont.ReturnInput()))
     {
-        this->update();
         adminMenu.display();
         adminMenuCont.TakeInput();
     }
@@ -128,20 +154,59 @@ bool Model::adminSwitch(int choice)
             return true;
         case 3:
             this->createClass();
+	    this->updateClass();
             return true;
         case 4: 
             this->deleteClass();
+	    this->updateClass();
             return true;
+	case 5:
+	    this->addStudent();
+	    this->updateStudent();
+	    return true;
+	case 6:
+	    this->deleteStudent();
+	    this->updateStudent();
+	    return true;
         default:
+	    this->admin = false;
+	    this->loggedin = false;
+	    this->currentid = "";
             return false;
             break;
             
     }
 };
 
-void Model::studentSwitch(int choice)
+bool Model::studentSwitch(int choice)
 {
-    
+    switch(choice)
+    {
+	case 1:
+	    this->joinClass();
+	    return true;
+	case 2:
+	    this->leaveClass();
+	    this->updateHours();
+	    return true;
+	case 3:
+	    this->checkHours();
+	    return true;
+	case 4:
+	    if (this->insession)
+	    {
+		this->leaveClass();
+		this->updateHours();
+	    }
+	    this->loggedin = false;
+	    this->currentid = "";
+	    this->currentname = "";
+	    this->currentsession = "";
+	    return false;
+	default:
+	    cout << "Error";
+	    return false;
+    }
 };
 
 void Model::displayStudents()
@@ -178,7 +243,7 @@ void Model::deleteClass()
     classes.erase(classes.begin() + delClassCont.ReturnInput()-1);
 }
 
-void Model::update()
+void Model::updateClass()
 {
     ofstream out;
     out.open("classes.txt");
@@ -187,4 +252,124 @@ void Model::update()
         out << classes[i] << endl;
     }
     out.close();
+};
+
+void Model::updateHours()
+{
+    ofstream out;
+    out.open("studentdata.txt");
+    for (int i = 0; i < students.size(); i++)
+    {
+	out << students[i].getID() << endl;
+	out << students[i].getName() << endl;
+	for (int j = 0; j < students[i].getSize(); j++)
+	{
+	    out << students[i].getSessionClassName(j) << endl;
+	    out << students[i].getSessionStartUnix(j) << endl;
+	    out << students[i].getSessionEndUnix(j) << endl;
+	}
+	out << -1 << endl;
+    }
+    out << -1 << endl;
+    out.close();
+};
+
+void Model::joinClass()
+{
+    if (this->insession)
+    {
+	cout << "Error, you are already in a session" << endl;
+	return;
+    }
+    View joinClassMenu("classes.txt");
+    Controller joinClassCont(joinClassMenu.getSize());
+
+    joinClassMenu.display();
+    joinClassCont.TakeInput();
+
+    this->insession = true;
+    this->currentsession = classes[joinClassCont.ReturnInput()-1];
+
+    start = time(0);
+};
+
+void Model::leaveClass()
+{
+    if (!this->insession)
+    {
+	cout << "Error, you are not currently in a session" << endl;
+	return;
+    }
+    this->insession = false;
+
+    end = time(0);
+
+    Session a(currentsession, start, end);
+
+    this->currentsession = "";
+
+    for (int i = 0; i < students.size(); i++)
+    {
+	if (students[i].getID() == currentid)
+	{
+	    students[i].pushSession(a);
+	}
+    }
+};
+
+void Model::checkHours()
+{
+    map<string, int> times;
+    for (int i = 0; i < students.size(); i++)
+    {
+	if (students[i].getName() == this->currentname && students[i].getID() == this->currentid)
+	{
+	    for (int j = 0; j < students[i].getSize(); j++)
+	    {
+		times[students[i].getSessionClassName(j)] += students[i].getSessionEndUnix(j) - students[i].getSessionStartUnix(j);
+	    }
+	}
+    }
+    for (auto it : times)
+    {
+	cout << it.first << ": " << it.second << endl;
+    }
+};
+
+void Model::addStudent()
+{
+    cin.ignore();
+    cout << "Enter a student's first and last name: ";
+    string str, str2;
+    getline(cin, str);
+    cout << "Enter the student's ID: ";
+    cin >> str2;
+    this->pushStudent(make_pair(str, str2));
+};
+
+void Model::pushStudent(pair<string, string> a)
+{
+    valid_student_ids.push_back(a);
+};
+
+void Model::deleteStudent()
+{
+    View delStudentMenu("valid_student_ids.txt");
+    Controller delStudentCont(delStudentMenu.getSize());
+
+    delStudentMenu.display();
+    delStudentCont.TakeInput();
+
+    valid_student_ids.erase(valid_student_ids.begin() + (delStudentCont.ReturnInput() % 2 == 0 ? delStudentCont.ReturnInput()-1 : delStudentCont.ReturnInput()) / 2);
+};
+
+void Model::updateStudent()
+{
+    ofstream out;
+    out.open("valid_student_ids.txt");
+    for (int i = 0; i < valid_student_ids.size(); i++)
+    {
+	out << valid_student_ids[i].first << endl;
+	out << valid_student_ids[i].second << endl;
+    }
 };

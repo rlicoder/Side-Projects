@@ -23,3 +23,18 @@ void Student::displayAllInfo()
         sessions[i].getEnd().output();
     }
 };
+
+int Student::getSessionStartUnix(int i)
+{
+    return sessions[i].getStartUnixTime();
+};
+
+int Student::getSessionEndUnix(int i)
+{
+    return sessions[i].getEndUnixTime();
+};
+
+string Student::getSessionClassName(int i)
+{
+    return sessions[i].getClassName();
+};

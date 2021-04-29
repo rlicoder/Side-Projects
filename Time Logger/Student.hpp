@@ -17,6 +17,18 @@ class Student
         void pushSession(Session s);
         
         void displayAllInfo();
+	
+	string getID() { return this->id; };
+
+	string getName() { return this->name; };
+
+	string getSessionClassName(int i);
+
+	int getSessionStartUnix(int i);
+
+	int getSessionEndUnix(int i);
+
+	int getSize() { return this->sessions.size(); };
 
 };
 

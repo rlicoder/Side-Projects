@@ -13,6 +13,7 @@ View::View(string filename)
 
 void View::display()
 {
+    cout << endl;
     for (int i = 0; i < choices.size(); i++)
     {
 	cout << i+1 << ": " << choices[i] << endl;

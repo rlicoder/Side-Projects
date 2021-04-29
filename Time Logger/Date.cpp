@@ -5,6 +5,7 @@ using namespace std;
 
 Date::Date(int secs)
 {
+    this->unixtime = secs;
     vector<int> days_in_month {31,28,31,30,31,30,31,31,30,31,30,31};
     this->year = 1970;
     while (secs - (this->isLeap() ? 366 : 365) * 24 * 60 * 60 > 0)
@@ -39,6 +40,11 @@ Date::Date(int secs)
 	secs -= 60*60;
     }
     this->hour += 17;
+    if (this->hour > 23)
+    {
+	hour -= 24;
+	this->day++;
+    }
     
     this->minute = 0;
     while (secs - 60 > 0)

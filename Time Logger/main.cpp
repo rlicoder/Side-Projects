@@ -19,13 +19,16 @@ int main()
     {
 	mainmenu.display();
 	mainMenuCont.TakeInput();
-        string str;
+        string str, str2;
         switch(mainMenuCont.ReturnInput())
         {
             case 1: 
+		cin.ignore();
+		cout << "Enter first and last name: ";
+		getline(cin, str);
                 cout << "Enter ID: ";
-                cin >> str;
-                if (sys.handleLogin(str))
+                cin >> str2;
+                if (sys.handleLogin(str, str2))
                 {
                     break;
                 }

@@ -11,6 +11,8 @@ class Date
         int hour;
         int minute;
 	int seconds;
+
+	int unixtime;
     public:
 	Date(int);
 	
@@ -20,6 +22,7 @@ class Date
         int getHour() { return hour; };
         int getMinute() { return minute; };
 	int getSeconds() { return seconds; };
+	int getUnixTime() { return this->unixtime; };
 
         void setMonth(int smonth) { this->month = smonth; };
         void setDay(int sday) { this->day = sday; };

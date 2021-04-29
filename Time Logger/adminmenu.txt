@@ -2,6 +2,6 @@ View all students
 View all classes
 Create a class
 Delete a class
-Clear all hours
-Edit student hours
+Add a student
+Delete a student
 Logout

@@ -15,7 +15,9 @@ class Session
         Session(string sclass_name, int sstart, int send);
         
         Date getStart() { return start; };
+	int getStartUnixTime() { return start.getUnixTime(); };
         Date getEnd() { return end; };
+	int getEndUnixTime() { return end.getUnixTime(); }; 
         string getClassName() { return class_name; };
 
 };

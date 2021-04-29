@@ -1,3 +1,4 @@
 Join a class
+Leave current class
 Check your hours
 Exit

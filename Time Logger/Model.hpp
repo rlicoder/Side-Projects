@@ -9,26 +9,32 @@ class Model
 {
     private:
 	vector<string> classes;
-	vector<string> valid_student_ids;
-        vector<string> valid_admin_ids;
+	vector<pair<string,string>> valid_student_ids;
+        vector<pair<string,string>> valid_admin_ids;
         vector<Student> students;
 
 	bool loggedin;
         bool admin;
+	bool insession;
+	string currentsession;
 	string currentid;
+	string currentname;
+
+	int start;
+	int end;
 	
     public:
 	Model();
         
         bool getAdmin() { return this->admin; };
 
-	bool handleLogin(string id);
+	bool handleLogin(string name, string id);
         
         void handleStudent();
         
         void handleAdmin();
         
-        void studentSwitch(int choice);
+        bool studentSwitch(int choice);
         
         bool adminSwitch(int choice);
         
@@ -40,7 +46,23 @@ class Model
         
         void deleteClass();
         
-        void update();
+        void updateClass();
+
+	void updateHours();
+
+	void joinClass();
+
+	void leaveClass();
+
+	void checkHours();
+
+	void addStudent();
+
+	void pushStudent(pair<string,string> a);
+
+	void updateStudent();
+
+	void deleteStudent();
 
 };
 
