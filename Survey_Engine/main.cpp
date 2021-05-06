@@ -33,6 +33,7 @@ int main()
                 break;
             case 2:
                 cout << "Program Terminated" << endl;
+		sys.saveInfo();
                 exit(0);
             default:
                 break;
@@ -40,7 +41,5 @@ int main()
     }
     while(mainMenuCont.ReturnInput() != 2);
 
-    sys.saveInfo();
-    
     return 0;
 }

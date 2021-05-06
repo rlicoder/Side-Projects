@@ -1,5 +1,0 @@
-Join a class
-Leave a class
-Check your hours
-Logout
-

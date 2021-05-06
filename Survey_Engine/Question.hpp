@@ -17,6 +17,8 @@ class Question
 
 	string getQuestion();
 
+	string getLitQuestion() { return this->question; };
+
 	int getType() { return this->type; };
 
 	string getExtraQ(int choice);

@@ -6,13 +6,13 @@ What is your student id?
 1
 Select your class: 
 3
-MAT-1A
-GEO-1A
-PHY-4B
+MAT-1
+MAT-2
+MAT-3
 2
-Select topics you are interested in:
+Select your favorite subject(s): 
 4
-Osu!
-Chess
-Apex Legends
 Physics
+Computer Science
+Math
+English

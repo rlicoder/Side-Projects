@@ -18,6 +18,8 @@ class Surveyee
 	void getSurveyResults();
 
 	void insertSurvey(Form x);
+
+	string saveResults();
 };
 
 #endif /* SURVEYEE_HPP */

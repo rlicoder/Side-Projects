@@ -316,10 +316,11 @@ void Model::saveInfo()
 	out << surveys[i].getQuestionSize() << endl;
 	for (int j = 0; j < surveys[i].getQuestionSize(); j++)
 	{
-	    out << surveys[i].getQuestionType(i) << endl;
-	    out << surveys[i].getQuestion(j).getQuestion() << endl;
+	    out << surveys[i].getQuestion(j).getType() << endl;
+	    out << surveys[i].getQuestion(j).getLitQuestion() << endl;
 	    if (surveys[i].getQuestion(j).getExtraQSize() != 0)
 	    {
+		out << surveys[i].getQuestion(j).getExtraQSize() << endl;
 		for (int k = 0; k < surveys[i].getQuestion(j).getExtraQSize(); k++)
 		{
 		    out << surveys[i].getQuestion(j).getExtraQ(k) << endl;
@@ -327,4 +328,26 @@ void Model::saveInfo()
 	    }
 	}
     }
+    out.close();
+
+    out.open("surveydata.txt");
+    out << sample.size() << endl;
+    for (int i = 0; i <  sample.size(); i++)
+    {
+	out << sample[i].saveResults();
+    }
+    out.close();
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
