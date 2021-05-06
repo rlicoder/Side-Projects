@@ -1,0 +1,4 @@
+Create a survey
+Delete a survey
+View survey results
+Logout
