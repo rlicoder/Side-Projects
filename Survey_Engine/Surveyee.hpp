@@ -10,7 +10,7 @@ class Surveyee
 	string id;
     public:
 	Surveyee();
-	Surveyee(string name, string id);
+	Surveyee(string sname, string sid);
 
 	string getName() { return this->name; };
 	string getID() { return this->id; };
@@ -20,6 +20,9 @@ class Surveyee
 	void insertSurvey(Form x);
 
 	string saveResults();
+
+	void pushSurvey(vector<Form> a);
+
 };
 
 #endif /* SURVEYEE_HPP */

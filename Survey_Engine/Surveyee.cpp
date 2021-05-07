@@ -6,6 +6,7 @@ Surveyee::Surveyee(string sname, string sid)
     this->id = sid;
 };
 
+
 void Surveyee::getSurveyResults()
 {
     for (int i = 0; i < answered.size(); i++)
@@ -28,12 +29,17 @@ string Surveyee::saveResults()
     str += to_string((int)answered.size()) + '\n';
     for (int i = 0; i < answered.size(); i++)
     {
-	str += (int)answered[i].getQuestionSize() + '\n';
-	for (int j = 0; j < answered[i].getQuestionSize(); j++)
+	str += answered[i].getName() + '\n';
+	str += to_string((int)answered[i].getAnswerSize()) + '\n';
+	for (int j = 0; j < answered[i].getAnswerSize(); j++)
 	{
 	    str += answered[i].getAnswer(j);
-	    str += " \n";
 	}
     }
     return str;
 }
+
+void Surveyee::pushSurvey(vector <Form> a)
+{
+    this->answered = a;
+};

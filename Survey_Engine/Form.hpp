@@ -14,6 +14,8 @@ class Form
     public:
 	Form(string filename);
 
+	Form(string sname, vector<string> a);
+	
 	string getName() { return this->formName; };
 	
 	void takeInput();
@@ -24,11 +26,13 @@ class Form
 
 	int getAnswerSize (int i) { return answers[i].size(); };
 
-	int getQuestionSize() { return this->questions.size(); };
+	int getQuestionSize();
 
 	int getQuestionType(int i);
 
 	Question getQuestion(int i) { return this->questions[i]; };
+
+	int getAnswerSize();
 
 };
 

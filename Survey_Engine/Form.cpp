@@ -70,6 +70,16 @@ Form::Form(string filename)
     answers = vector<vector<string>>((int)questions.size(), vector<string>());
 }
 
+Form::Form(string sname, vector<string> a)
+{
+    this->formName = sname;
+    this->answers = vector<vector<string>> (a.size(), vector<string>());
+    for (int i = 0; i < a.size(); i++)
+    {
+	answers[i].push_back(a[i]);
+    }
+};
+
 void Form::takeInput()
 {
     cin.ignore();
@@ -122,7 +132,7 @@ string Form::getAnswer(int i)
 
 void Form::outputAnswers()
 {
-    for (int i = 0; i < questions.size(); i++)
+    for (int i = 0; i < answers.size(); i++)
     {
 	cout << getAnswer(i) << endl;
     }
@@ -132,3 +142,13 @@ int Form::getQuestionType(int i)
 {
     return questions[i].getType();
 };
+
+int Form::getQuestionSize()
+{
+    return this->questions.size();
+};
+
+int Form::getAnswerSize()
+{
+    return this->answers.size();
+}

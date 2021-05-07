@@ -29,8 +29,7 @@ Model::Model()
     {
 	in >> str2;
 	valid_student_ids.push_back({str, str2});
-	Surveyee s(str, str2);
-	sample.push_back(s);
+	sample.emplace_back(str, str2);
 	in.ignore();
     }
     in.close();
@@ -50,6 +49,38 @@ Model::Model()
 	Form x(str);
 	surveys.push_back(x);
     }
+
+    in.open("surveydata.txt");
+    int n, ns, nq;
+    in >> n;
+    in.ignore();
+    for (int i = 0; i < n; i++)
+    {
+	getline(in, str);
+	getline(in, str2);
+	in >> ns;
+	in.ignore();
+	if (ns == 0)
+	{
+	    continue;
+	}
+	vector<Form> z;
+	for (int i = 0; i < ns; i++)
+	{
+	    string s;
+	    getline(in, s);
+	    in >> nq;
+	    in.ignore();
+	    vector<string> a(nq);
+	    for (int i = 0; i < nq; i++)
+	    {
+		getline(in, a[i]);
+	    }
+	    z.emplace_back(s, a);
+	}
+	this->pushSurvey(str, str2, z);
+    }
+    in.close();
 };
 
 bool Model::handleLogin(string name, string id)
@@ -339,6 +370,16 @@ void Model::saveInfo()
     out.close();
 };
 
+void Model::pushSurvey(string name, string id, vector<Form> a)
+{
+    for (int i = 0; i < sample.size(); i++)
+    {
+	if (sample[i].getName() == name && sample[i].getID() == id)
+	{
+	    sample[i].pushSurvey(a);
+	}
+    }
+};
 
 
 

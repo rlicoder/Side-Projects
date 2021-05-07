@@ -56,6 +56,8 @@ class Model
 	void outputAllSurveyNames();
 
 	void saveInfo();
+
+	void pushSurvey(string name, string id, vector<Form> a);
 };
 
 #endif /* MODEL_HPP */
