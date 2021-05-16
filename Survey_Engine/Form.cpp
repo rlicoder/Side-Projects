@@ -9,6 +9,7 @@ Form::Form(string filename)
     ifstream in;
     in.open(filename);
 
+    //read in the size of the questions needed to iterate through
     int size;
     in >> size;
     for (int i = 0; i < size; i++)
@@ -17,8 +18,10 @@ Form::Form(string filename)
 	string str;
 	in >> type;
 	in.ignore();
+	//based on the question type
 	switch(type)
 	{
+	    //only have to take in the literal question
 	    case SHORT_ANSWER:
 	    {
 		getline(in, str);
@@ -26,6 +29,7 @@ Form::Form(string filename)
 		break;
 	    }
 
+	    //have to take in the extra elements
 	    case MULTIPLE_CHOICE:
 	    {
 		string s;
@@ -41,6 +45,7 @@ Form::Form(string filename)
 		questions.emplace_back(MULTIPLE_CHOICE, str, qs);
 		break;
 	    }
+	    //same as mult choice
 	    case CHECK_BOX:
 	    {
 		string s;
@@ -72,6 +77,7 @@ Form::Form(string filename)
 
 Form::Form(string sname, vector<string> a)
 {
+    //constructor for a form that already has the answers
     this->formName = sname;
     this->answers = vector<vector<string>> (a.size(), vector<string>());
     for (int i = 0; i < a.size(); i++)
@@ -90,18 +96,21 @@ void Form::takeInput()
 	int choice;
 	switch(questions[i].getType())
 	{
+	    //just take the short answer response
 	    case SHORT_ANSWER:
 	    {
 		getline(cin, ans);
 		answers[i].push_back(ans);
 		break;
 	    }
+	    //take in only one choice
 	    case MULTIPLE_CHOICE:
 	    {
 		cin >> choice;
 		answers[i].push_back(questions[i].getExtraQ(--choice));
 		break;
 	    }
+	    //take in many choices until -1 is reached
 	    case CHECK_BOX:
 	    {
 		cin >> choice;
@@ -122,6 +131,7 @@ void Form::takeInput()
 
 string Form::getAnswer(int i)
 {
+    //output the answers
     string str = "";
     for (int j = 0; j < answers[i].size(); j++)
     {
@@ -132,12 +142,14 @@ string Form::getAnswer(int i)
 
 void Form::outputAnswers()
 {
+    //iterate through each
     for (int i = 0; i < answers.size(); i++)
     {
 	cout << getAnswer(i) << endl;
     }
 };
 
+//all basic getters
 int Form::getQuestionType(int i)
 {
     return questions[i].getType();

@@ -6,6 +6,7 @@
 
 Model::Model()
 {
+    //basic init
     this->loggedin = false;
     this->admin = false;
     this->currentid = "";
@@ -13,6 +14,7 @@ Model::Model()
     this->currentsession = "";
     this->insession = false;
 
+    //read in data from files
     
     ifstream in;
     in.open("classes.txt");
@@ -47,6 +49,7 @@ Model::Model()
     string id, name, class_name;
     int start, end;
     in >> id;
+    //read in survey data from students
     while (id != "-1")
     {
         in.ignore();
@@ -70,8 +73,10 @@ bool Model::handleLogin(string name, string id)
 {
     if (id != "" && name != "")
     {
+	//go through each valid id
 	for (int i = 0; i < valid_student_ids.size(); i++)
 	{
+	    //student login success
 	    if (valid_student_ids[i] == make_pair(name, id))
 	    {
 		this->loggedin = true;
@@ -82,6 +87,7 @@ bool Model::handleLogin(string name, string id)
 	}
         for (int i = 0; i < valid_admin_ids.size(); i++)
         {
+	    //admin login success
             if (valid_admin_ids[i] == make_pair(name, id))
             {
                 this->loggedin = true;
@@ -92,6 +98,7 @@ bool Model::handleLogin(string name, string id)
     }
     if (this->loggedin)
     {
+	//outputting login result to the user
 	cout << "Login Successful" << endl;
         cout << (this->admin ? "Admin" : "Student") << endl;
 	return false;
@@ -100,6 +107,7 @@ bool Model::handleLogin(string name, string id)
     {
 	cout << "Login Unsuccessful" << endl;
     }
+    //return that the login was successful, otherwise, continue login loop
     return true;
 }
 
@@ -107,6 +115,7 @@ void Model::handleStudent()
 {
     View studentMenu("studentmenu.txt");
     Controller studentMenuCont(studentMenu.getSize());
+    //tell the user what class they're in
     if (this->insession)
     {
 	cout << "Current Session: " << this->currentsession << endl;
@@ -115,6 +124,7 @@ void Model::handleStudent()
     studentMenuCont.TakeInput();
     while(this->studentSwitch(studentMenuCont.ReturnInput()))
     {
+	//tell the user if they are in a class or not
 	if (this->insession)
 	{
 	    cout << "Current Session: " << this->currentsession << endl;
@@ -134,6 +144,7 @@ void Model::handleAdmin()
     Controller adminMenuCont(adminMenu.getSize());
     adminMenu.display();
     adminMenuCont.TakeInput();
+    //take admin menu input
     while (this->adminSwitch(adminMenuCont.ReturnInput()))
     {
         adminMenu.display();
@@ -144,6 +155,7 @@ void Model::handleAdmin()
 
 bool Model::adminSwitch(int choice)
 {
+    //switch branching. function names pretty self explanatory.
     switch(choice)
     {
         case 1: 
@@ -180,6 +192,7 @@ bool Model::adminSwitch(int choice)
 
 bool Model::studentSwitch(int choice)
 {
+    //switch for student. also self explanatory
     switch(choice)
     {
 	case 1:
@@ -211,6 +224,7 @@ bool Model::studentSwitch(int choice)
 
 void Model::displayStudents()
 {
+    //output all students.
     for (int i = 0; i < students.size(); i++)
     {
         students[i].displayAllInfo();
@@ -219,6 +233,7 @@ void Model::displayStudents()
 
 void Model::displayClasses()
 {
+    //output the name of all classes.
     for (int i = 0; i < classes.size(); i++)
     {
         cout << classes[i] << endl;
@@ -235,6 +250,7 @@ void Model::createClass()
 
 void Model::deleteClass()
 {
+    //delete string from vector. Does not affect previous logs.
     int choice;
     View delClass("classes.txt");
     Controller delClassCont(delClass.getSize());
@@ -245,6 +261,7 @@ void Model::deleteClass()
 
 void Model::updateClass()
 {
+    //rewrite classes into database.
     ofstream out;
     out.open("classes.txt");
     for (int i = 0; i < classes.size(); i++)
@@ -260,10 +277,12 @@ void Model::updateHours()
     out.open("studentdata.txt");
     for (int i = 0; i < students.size(); i++)
     {
+	//output name and id
 	out << students[i].getID() << endl;
 	out << students[i].getName() << endl;
 	for (int j = 0; j < students[i].getSize(); j++)
 	{
+	    //output the class name, and their start/end times
 	    out << students[i].getSessionClassName(j) << endl;
 	    out << students[i].getSessionStartUnix(j) << endl;
 	    out << students[i].getSessionEndUnix(j) << endl;
@@ -278,6 +297,7 @@ void Model::joinClass()
 {
     if (this->insession)
     {
+	//check if the user is already in a session
 	cout << "Error, you are already in a session" << endl;
 	return;
     }
@@ -287,9 +307,11 @@ void Model::joinClass()
     joinClassMenu.display();
     joinClassCont.TakeInput();
 
+    //successful login
     this->insession = true;
     this->currentsession = classes[joinClassCont.ReturnInput()-1];
 
+    //init timer
     start = time(0);
 };
 
@@ -302,14 +324,17 @@ void Model::leaveClass()
     }
     this->insession = false;
 
+    //end timer;
     end = time(0);
 
+    //create the session and push it in
     Session a(currentsession, start, end);
 
     this->currentsession = "";
 
     for (int i = 0; i < students.size(); i++)
     {
+	//validate id, ids should be unique
 	if (students[i].getID() == currentid)
 	{
 	    students[i].pushSession(a);
@@ -319,7 +344,9 @@ void Model::leaveClass()
 
 void Model::checkHours()
 {
+    //create a map, key is class name, value is time spent total
     map<string, int> times;
+    //iterate through all classes, add up all the times.	
     for (int i = 0; i < students.size(); i++)
     {
 	if (students[i].getName() == this->currentname && students[i].getID() == this->currentid)
@@ -330,6 +357,7 @@ void Model::checkHours()
 	    }
 	}
     }
+    //output results
     for (auto it : times)
     {
 	cout << it.first << ": " << it.second << endl;
@@ -344,11 +372,13 @@ void Model::addStudent()
     getline(cin, str);
     cout << "Enter the student's ID: ";
     cin >> str2;
+    //basic student creation
     this->pushStudent(make_pair(str, str2));
 };
 
 void Model::pushStudent(pair<string, string> a)
 {
+    //push a pair value to valid student id's
     valid_student_ids.push_back(a);
 };
 
@@ -360,12 +390,16 @@ void Model::deleteStudent()
     delStudentMenu.display();
     delStudentCont.TakeInput();
 
+    //using vector erase to destroy a pair based erase.
+    //input can take either the value for the id or the name.
+    //math magic :P
     valid_student_ids.erase(valid_student_ids.begin() + (delStudentCont.ReturnInput() % 2 == 0 ? delStudentCont.ReturnInput()-1 : delStudentCont.ReturnInput()) / 2);
 };
 
 void Model::updateStudent()
 {
     ofstream out;
+    //rewrite student data to the database
     out.open("valid_student_ids.txt");
     for (int i = 0; i < valid_student_ids.size(); i++)
     {
