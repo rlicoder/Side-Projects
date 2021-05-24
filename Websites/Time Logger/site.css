@@ -1,0 +1,47 @@
+#main
+{
+    margin: auto;
+}
+
+header img
+{
+    width: 100%;
+    height: 90%;
+    opacity: .5;
+}
+
+.button
+{
+    display: block;
+    width: 60%;
+    background-color: #00B2EE ;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center; 
+}
+
+body
+{
+    background-color: indianred;
+}
+
+.flex-container
+{
+    display: flex ;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+div#loginForm
+{
+    display: none;
+}
+
+div#signUpForm
+{
+    display: none;
+}

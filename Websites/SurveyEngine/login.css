@@ -1,0 +1,9 @@
+div#signUpForm {
+    display: none;
+    text-align: left;
+}
+
+div#loginForm {
+    display: none;
+    text-align: left;
+}

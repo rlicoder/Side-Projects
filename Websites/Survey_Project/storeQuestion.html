@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Question Added To Survey</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="getForm.js"></script>
+        <script type="text/javascript" src="Survey.js"></script>
+        <script type="text/javascript" src="Question.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>The Question You Added</h1>
+        <script>
+            //Make an object from name/values in url
+            var url = document.location.href;           //Url of page
+            var count = 0;                              //Loop counter
+            var ans = [];                               //Answer array
+            var survey;                                 //Survey Object
+            var qstnArr = [];                           //Array of Questions
+            $_GET = getForm(url);                       //Url name/value pairs
+            
+            //Decode values, replace + with ' ', and place answers in array
+            for(property in $_GET){
+                var str = $_GET[property];              //Extract value
+                var dec = decodeURIComponent(str);      //Decode url segment
+                var clean = dec.replace(/\++/g, " ");   //Replace + with " "
+                $_GET[property] = clean;                //Replace cleaned string
+                ++count;                                //Increment loop counter
+                if(count > 2 && clean != "")
+                    ans.push(clean);                    //Add answer to array
+            }
+            //Create the new Question object
+            var newQstn = new Question($_GET["Number"], $_GET["Question"], ans);
+            
+            //Display the Question to test it
+            newQstn.display();
+            
+            //Add Question to Survey
+            if(!localStorage.getItem("JSONSurvey")){
+                qstnArr.push(newQstn);
+                survey = new Survey("The Name of The Survey", 
+                    "The Description of This Survey", qstnArr);
+            }
+            else{
+                var str = localStorage.getItem("JSONSurvey");
+                var obj = JSON.parse(str);
+                survey = SurveyCopy(obj);
+                survey.quesNum.push(newQstn);
+            }
+            //Store Survey in localStorage
+            var text = JSON.stringify(survey);
+            localStorage.setItem("JSONSurvey", text);
+        </script>
+        <a href="AddSurveyQuestion.html">Add Another Question</a>
+        <a href="viewSurvey.html">View Survey</a>
+    </body>
+</html>
