@@ -77,10 +77,11 @@ while (cont != 'q'):
         webdriver.ActionChains(bot).drag_and_drop_by_offset(piece, dify * diry, difx * dirx).perform()
         html = bot.page_source
     sleep(random.randint(0,500)/1000)
-    buttontext = '//button[normalize-space()="'
-    buttontext += cont
-    buttontext += "]"
-    nextb = bot.find_element_by_xpath(buttontext)
+    #buttontext = '//button[normalize-space()="'
+    #buttontext += cont
+    #buttontext += "]"
+    #nextb = bot.find_element_by_xpath(buttontext)
+    nextb = bot.find_elements_class_name('ui_v5-button-component ui_v5-button-basic')[1];
     html = bot.page_source
     sleep(1)
     nextb.click()
