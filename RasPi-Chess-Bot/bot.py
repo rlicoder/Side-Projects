@@ -11,6 +11,8 @@ from selenium.common.exceptions import *
 
 bot = webdriver.Chrome()
 options = webdriver.ChromeOptions()
+options.add_experimental_option("excludeSwitches", ["enable-automation"])
+options.add_experimental_option('useAutomationExtension', False)
 options.add_argument("--disable-blink-features=AutomationControlled")
 driver = webdriver.Chrome(options=options)
 bot.set_page_load_timeout(20)
@@ -81,7 +83,10 @@ while (cont != 'q'):
     #buttontext += cont
     #buttontext += "]"
     #nextb = bot.find_element_by_xpath(buttontext)
-    nextb = bot.find_elements_class_name('ui_v5-button-component ui_v5-button-basic')[1];
+    nextbarr = bot.find_elements_by_class_name('ui_v5-button-component ui_v5-button-basic')
+    print("len of array is: " + str(len(nextbarr)))
+    nextb = nextbarr[len(nextbarr)-1]
+
     html = bot.page_source
     sleep(1)
     nextb.click()

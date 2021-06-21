@@ -1167,3 +1167,174 @@ bb 48bk 26bp 76bp 67bp 56bp 36bp 35bp 15wp 75wp 64wp 55wp 14wb 21wk 34
 bb 48bk 26bp 76bp 67bp 56bp 36bp 35bp 15wp 75wp 64wp 55wp 14wb 54wk 34
 bb 48bk 27bp 76bp 67bp 56bp 36bp 35bp 15wp 75wp 64wp 55wp 14wb 54wk 34
 bb 48bk 27bp 76bp 67bp 56bp 36bp 35bp 15wp 75wp 64wp 55wp 14wb 54wk 34
+br 88bn 78bb 68bk 58bq 48bb 38bn 28br 18bp 87bp 77bp 67bp 57bp 47bp 37bp 27bp 17wp 82wp 72wp 62wp 54wp 42wp 32wp 22wp 12wr 81wn 71wb 61wk 51wq 41wb 31wn 21wr 11
+br 88bn 78bb 68bk 58bq 48bb 38bn 28br 18bp 87bp 77bp 67bp 56bp 47bp 37bp 27bp 17wp 82wp 72wp 62wp 54wp 42wp 32wp 22wp 12wr 81wn 71wb 61wk 51wq 41wb 31wn 21wr 11
+br 88bn 78bb 68bk 58bq 48bb 38bn 28br 18bp 87bp 77bp 67bp 56bp 45bp 37bp 27bp 17wp 82wp 72wp 62wp 54wp 42wp 32wp 22wp 12wr 81wn 71wb 61wk 51wq 41wb 31wn 33wr 11
+br 88bn 78bb 24bk 58bq 48bb 38bn 28br 18bp 87bp 77bp 67bp 56bp 45bp 37bp 27bp 17wp 82wp 72wp 62wp 54wp 44wp 32wp 22wp 12wr 81wn 71wb 61wk 51wq 41wb 31wn 33wr 11
+br 88bn 78bb 24bk 58bq 48bb 38bn 28br 18bp 87bp 77bp 67bp 56bp 45bp 35bp 27bp 17wp 82wp 72wp 62wp 55wp 44wp 32wp 22wp 12wr 81wn 71wb 61wk 51wq 41wb 31wn 33wr 11
+br 88bn 78bb 24bk 58bq 48bb 38bn 28br 18bp 87bp 77bp 67bp 56bp 45bp 44bp 27bp 17wp 82wp 72wp 62wp 55wp 32wp 22wp 12wr 81wn 71wb 61wk 51wq 74wb 31wn 33wr 11
+br 88bn 78bb 24bk 58bq 48bb 38bn 36br 18bp 87bp 77bp 67bp 56bp 45bp 27bp 17wp 82wp 72wp 62wp 55wp 32wp 22wp 12wr 81wn 71wb 61wk 51wq 44wb 31wn 33wr 11
+br 88bn 78bb 24bk 58bq 15bb 38bn 36br 18bp 87bp 77bp 67bp 56bp 45bp 27bp 17wp 82wp 72wp 62wp 55wp 32wp 22wp 12wr 81wn 71wb 25wk 51wq 44wb 31wn 33wr 11
+br 88bn 78bb 24bk 58bq 15bb 38br 18bp 87bp 77bp 67bp 56bp 45bp 36bp 17wp 82wp 72wp 62wp 55wp 32wp 22wp 12wr 81wn 71wk 51wq 44wb 31wn 33wr 11
+br 88bn 78bb 24bk 58bq 15bb 38br 18bp 87bp 77bp 67bp 56bp 45bp 35bp 17wp 82wp 72wp 62wp 55wp 32wp 22wp 12wr 81wn 52wk 51wq 44wb 31wn 33wr 11
+br 88bn 57bb 24bk 58bq 15bb 38br 18bp 87bp 77bp 67bp 56bp 45bp 35bp 17wp 82wp 72wp 62wp 55wp 32wp 22wp 12wr 81wn 52wk 51wq 74wb 31wn 33wr 11
+br 88bn 57bb 24bk 58bq 15bb 16br 18bp 87bp 77bp 67bp 56bp 45bp 35bp 17wp 82wp 72wp 62wp 55wp 32wp 22wp 13wr 81wn 52wk 51wq 74wb 31wn 33wr 11
+br 88bn 57bk 58bq 11bb 16br 18bp 87bp 77bp 67bp 56bp 45bp 35bp 17wp 82wp 72wp 62wp 55wp 32wp 22wp 24wr 81wn 52wk 51wq 74wb 31wn 33
+br 88bn 65bk 58bq 11bb 16br 18bp 87bp 77bp 67bp 56bp 45bp 35bp 17wp 82wp 72wp 62wp 55wp 32wp 22wp 24wr 61wn 52wk 71wq 74wb 31wn 33
+br 88bn 65bk 58bq 11bb 27br 18bp 87bp 77bp 67bp 56bp 45bp 35bp 17wp 82wp 72wp 62wp 55wp 32wp 22wp 25wr 61wn 52wk 71wq 74wb 31wn 33
+br 88bn 73bk 58bq 11bb 27br 18bp 87bp 77bp 67bp 56bp 45bp 35bp 17wp 82wp 72wp 62wp 55wp 32wp 22wp 25wr 61wk 71wq 74wb 31wn 33
+br 88bn 73bk 58bq 33bb 27br 18bp 87bp 77bp 67bp 56bp 45bp 35bp 17wp 82wp 72wp 62wp 55wp 32wp 23wp 25wr 61wk 71wq 74wb 31
+br 88bk 58bq 73bb 27br 18bp 87bp 77bp 67bp 56bp 45bp 35bp 17wp 82wp 72wp 62wp 55wp 32wp 23wp 25wr 61wk 71wb 31
+br 88bk 58bb 27br 18bp 87bp 77bp 67bp 56bp 45bp 35bp 16wp 82wp 72wp 73wp 55wp 32wp 23wp 25wr 61wk 71wb 31
+br 88bk 58bb 27br 18bp 87bp 77bp 67bp 56bp 44bp 35bp 16wp 82wp 72wp 73wp 55wp 32wp 23wp 26wr 61wk 71wb 31
+br 88bk 58bb 27br 48bp 87bp 77bp 67bp 56bp 44bp 35bp 16wp 82wp 72wp 73wp 55wp 32wp 23wp 26wr 61wk 71wb 42
+br 88bk 58bb 27br 45bp 87bp 77bp 67bp 56bp 44bp 35bp 16wp 82wp 72wp 73wp 55wp 32wp 24wp 26wr 61wk 71wb 42
+br 88bk 58bb 27br 45bp 87bp 77bp 67bp 56bp 44bp 34bp 16wp 82wp 72wp 73wp 55wp 32wp 24wp 26wr 51wk 71wb 42
+br 88bk 58bb 27br 45bp 87bp 77bp 67bp 56bp 43bp 34bp 16wp 82wp 72wp 73wp 55wp 33wp 24wp 26wr 51wk 71wb 42
+br 88bk 47bb 27br 45bp 87bp 77bp 67bp 56bp 43bp 34bp 16wp 82wp 72wp 73wp 55wp 33wp 24wp 26wr 54wk 71wb 42
+br 38bk 47bb 27br 45bp 87bp 77bp 67bp 56bp 43bp 16wp 82wp 72wp 73wp 55wp 33wp 24wp 26wr 34wk 71wb 42
+br 33bk 47bb 27br 45bp 87bp 77bp 67bp 56bp 43bp 16wp 82wp 72wp 73wp 55wp 24wp 26wr 54wk 71wb 42
+bk 47bb 27br 45bp 87bp 77bp 67bp 56bp 42bp 16wp 82wp 72wp 73wp 55wp 24wp 26wr 54wk 71wb 33
+bk 47bb 27br 42bp 87bp 77bp 67bp 56bp 16wp 82wp 72wp 73wp 55wp 24wp 26wr 54wk 71
+bk 47bb 27br 72bp 87bp 77bp 67bp 56bp 16wp 82wp 73wp 55wp 24wp 26wr 34wk 71
+bk 47bb 36br 72bp 87bp 77bp 67bp 56bp 16wp 82wp 73wp 55wp 24wp 26wr 34wk 61
+bk 36br 72bp 87bp 77bp 67bp 56bp 16wp 82wp 73wp 55wp 24wp 26wk 61
+bk 26bp 87bp 77bp 67bp 56bp 16wp 82wp 73wp 55wp 24wk 72
+bk 25bp 87bp 77bp 67bp 56bp 16wp 82wp 73wp 55wp 24wk 63
+bk 24bp 87bp 77bp 67bp 56bp 16wp 82wp 73wp 55wk 53
+bk 34bp 87bp 77bp 67bp 56bp 16wp 82wp 73wp 55wk 42
+bk 44bp 87bp 77bp 67bp 56bp 16wp 84wp 73wp 55wk 42
+bk 55bp 87bp 77bp 67bp 56bp 16wp 85wp 73wk 42
+bk 65bp 87bp 77bp 67bp 56bp 16wp 85wp 73wk 43
+bk 74bp 87bp 77bp 67bp 56bp 16wp 85wp 73wk 44
+bk 85bp 87bp 77bp 67bp 56bp 16wp 73wk 35
+bk 74bp 87bp 77bp 67bp 56bp 16wp 73wk 46
+bk 74bp 87bp 77bp 67bp 56bp 15wp 73wk 57
+bk 74bp 87bp 77bp 56bp 14wp 73wk 67
+bk 74bp 87bp 56bp 13wp 73wk 77
+bk 74bp 87bp 56bp 12wp 73wk 67
+bk 74bp 8711 bqwp 73wk 56
+bk 73bp 8711 bqwk 67
+bk 73bp 8711 bqwk 67
+br 88bn 78bb 68bk 58bq 48bb 38bn 28br 18bp 87bp 77bp 67bp 55bp 47bp 37bp 27bp 17wp 82wp 72wp 62wp 54wp 42wp 32wp 22wp 12wr 81wn 63wb 61wk 51wq 41wb 31wn 21wr 11
+br 88bn 78bb 68bk 58bq 48bb 38bn 28br 18bp 87bp 77bp 67bp 55bp 47bp 37bp 27bp 17wp 82wp 72wp 62wp 54wp 42wp 32wp 22wp 12wr 81wn 63wb 61wk 51wq 41wb 31wn 21wr 11
+br 88bn 78bb 68bk 58bq 48bb 38bn 36br 18bp 87bp 77bp 67bp 55bp 47bp 37bp 27bp 17wp 82wp 72wp 62wp 54wp 42wp 32wp 22wp 12wr 81wn 63wb 25wk 51wq 41wb 31wn 21wr 11
+br 88bn 78bb 68bk 58bq 48bb 38br 18bp 87bp 77bp 67bp 55bp 47bp 37bp 27bp 17wp 82wp 72wp 62wp 54wp 42wp 32wp 22wp 12wr 81wn 44wb 25wk 51wq 41wb 31wn 21wr 11
+br 88bn 78bb 68bk 58bq 48bb 38br 18bp 87bp 77bp 67bp 44bp 47bp 37bp 27bp 17wp 82wp 72wp 62wp 54wp 42wp 32wp 22wp 12wr 61wb 25wk 71wq 41wb 31wn 21wr 11
+br 88bn 78bb 68bk 58bq 48bb 38br 18bp 87bp 77bp 67bp 44bp 47bp 36bp 27bp 17wp 82wp 72wp 62wp 54wp 42wp 32wp 22wp 12wr 61wb 14wk 71wq 41wb 31wn 21wr 11
+br 88bn 78bb 57bk 58bq 48bb 38br 18bp 87bp 77bp 67bp 44bp 47bp 36bp 27bp 17wp 82wp 72wp 62wp 54wp 42wp 32wp 22wp 12wr 61wb 23wk 71wq 41wb 31wn 21wr 11
+br 88bn 66bb 57bk 58bq 48bb 38br 18bp 87bp 77bp 67bp 44bp 47bp 36bp 27bp 17wp 82wp 72wp 62wp 54wp 43wp 32wp 22wp 12wr 61wb 23wk 71wq 41wb 31wn 21wr 11
+br 88bn 66bb 57bk 58bq 48bb 38br 18bp 87bp 77bp 67bp 44bp 36bp 27bp 17wp 82wp 72wp 62wp 45wp 43wp 32wp 22wp 12wr 61wb 23wk 71wq 41wb 31wn 21wr 11
+br 88bn 45bb 57bk 58bq 48bb 38br 18bp 87bp 77bp 67bp 44bp 36bp 27bp 17wp 82wp 72wp 62wp 43wp 32wp 22wp 12wr 61wb 23wk 71wq 63wb 31wn 21wr 11
+br 88bn 45bb 57bk 58bq 48bb 56br 18bp 87bp 77bp 67bp 44bp 36bp 27bp 17wp 82wp 72wp 62wp 43wp 32wp 22wp 12wr 61wb 23wk 71wq 63wb 31wn 42wr 11
+br 68bn 45bb 57bk 78bq 48bb 56br 18bp 87bp 77bp 67bp 44bp 36bp 27bp 17wp 82wp 72wp 62wp 43wp 32wp 22wp 12wr 61wb 23wk 71wq 63wb 31wn 54wr 11
+br 68bn 45bb 57bk 78bq 48bb 56br 18bp 87bp 77bp 67bp 44bp 36bp 27bp 15wp 82wp 72wp 62wp 43wp 32wp 22wp 14wr 61wb 23wk 71wq 63wb 31wn 54wr 11
+br 68bn 45bb 57bk 78bq 48bb 56br 18bp 87bp 77bp 65bp 44bp 36bp 27bp 15wp 82wp 72wp 62wp 43wp 32wp 22wp 14wr 61wb 23wk 71wq 63wb 31wn 73wr 11
+br 68bn 45bb 24bk 78bq 48bb 56br 18bp 87bp 77bp 65bp 44bp 36bp 27bp 15wp 82wp 72wp 62wp 43wp 32wp 22wp 14wr 61wb 23wk 71wq 63wb 64wn 73wr 11
+br 68bb 24bk 78bq 48bb 56br 18bp 87bp 77bp 65bp 44bp 36bp 27bp 15wp 82wp 72wp 62wp 43wp 32wp 22wp 14wr 61wb 23wk 71wq 64wn 73wr 11
+br 68bb 24bk 78bq 48br 18bp 87bp 77bp 65bp 44bp 36bp 27bp 15wp 82wp 72wp 62wp 43wp 23wp 22wp 14wr 61wk 71wq 64wn 73wr 11
+br 68bb 24bk 78bq 45br 18bp 87bp 77bp 65bp 44bp 36bp 27bp 15wp 82wp 72wp 62wp 43wp 23wp 22wp 14wr 61wk 71wq 64wn 85wr 11
+br 68bb 24bk 78bq 45br 18bp 87bp 77bp 65bp 44bp 35bp 27bp 15wp 82wp 72wp 62wp 43wp 23wp 22wp 14wr 61wk 71wq 64wn 85wr 31
+br 68bb 24bk 78bq 23br 18bp 87bp 77bp 65bp 44bp 35bp 27bp 15wp 82wp 72wp 62wp 43wp 22wp 14wr 61wk 71wq 37wn 85wr 31
+br 67bb 24bk 78bq 23br 18bp 87bp 77bp 65bp 44bp 35bp 27bp 15wp 82wp 72wp 62wp 43wp 22wp 14wr 61wk 71wq 26wn 85wr 31
+br 67bb 24bk 78bq 43br 18bp 87bp 77bp 65bp 44bp 35bp 27bp 15wp 82wp 72wp 62wp 22wp 14wr 61wk 71wq 56wn 85wr 31
+br 67bb 24bk 78bq 54br 18bp 87bp 77bp 65bp 44bp 35bp 27bp 15wp 82wp 72wp 62wp 22wp 14wr 61wk 71wq 26wn 85wr 31
+br 67bb 24bk 78bq 54br 18bp 87bp 77bp 64bp 44bp 35bp 27bp 15wp 82wp 72wp 63wp 22wp 14wr 61wk 71wq 26wn 85wr 31
+br 67bb 24bk 78br 18bp 87bp 77bp 64bp 43bp 35bp 27bp 15wp 82wp 72wp 54wp 22wp 14wr 61wk 71wq 26wn 85wr 31
+br 67bb 42bk 78br 18bp 87bp 77bp 64bp 43bp 35bp 27bp 15wp 82wp 72wp 54wp 22wp 14wr 61wk 71wq 26wn 85wr 41
+br 67bk 78br 18bp 87bp 77bp 63bp 43bp 35bp 27bp 15wp 82wp 72wp 54wp 22wp 14wr 61wk 71wq 26wn 85wr 42
+br 67bk 78br 18bp 87bp 77bp 43bp 35bp 27bp 15wp 82wp 72wp 54wp 22wp 14wr 61wk 71wq 26wn 85wr 62
+bk 78br 18bp 87bp 77bp 43bp 35bp 27bp 15wp 82wp 72wp 54wp 22wp 14wr 62wk 71wq 26wn 85
+bk 78br 18bp 87bp 77bp 42bp 35bp 27bp 15wp 82wp 72wp 54wp 22wp 14wr 62wk 71wq 56wn 85
+bk 88br 18bp 87bp 77bp 35bp 27bp 15wp 82wp 72wp 54wp 22wp 14wr 42wk 71wq 56wn 85
+bk 88br 78bp 87bp 77bp 35bp 27bp 15wp 82wp 72wp 54wp 22wp 14wr 47wk 71wq 56wn 85
+bk 88br 78bp 87bp 77bp 35bp 26bp 15wp 82wp 72wp 54wp 22wp 14wr 47wk 71wq 67wn 85
+bk 88br 78bp 86bp 77bp 35bp 26bp 15wp 82wp 72wp 54wp 22wp 14wr 47wk 71wq 76wn 85
+bk 88br 78bp 86bp 35bp 25bp 15wp 82wp 72wp 54wp 22wp 14wr 77wk 71wq 76wn 85
+br 88bn 78bb 68bk 58bq 48bb 38bn 28br 18bp 87bp 77bp 67bp 57bp 47bp 37bp 27bp 17wp 82wp 72wp 62wp 52wp 42wp 32wp 22wp 12wr 81wn 63wb 61wk 51wq 41wb 31wn 21wr 11
+br 88bn 78bb 68bk 58bq 48bb 38bn 28br 18bp 87bp 77bp 67bp 55bp 47bp 37bp 27bp 17wp 82wp 72wp 62wp 54wp 42wp 32wp 22wp 12wr 81wn 63wb 61wk 51wq 41wb 31wn 21wr 11
+br 88bn 78bb 68bk 58bq 48bb 38bn 36br 18bp 87bp 77bp 67bp 55bp 47bp 37bp 27bp 17wp 82wp 72wp 62wp 54wp 42wp 32wp 22wp 12wr 81wn 63wb 34wk 51wq 41wb 31wn 21wr 11
+br 88bn 66bb 68bk 58bq 48bb 38bn 36br 18bp 87bp 77bp 67bp 55bp 47bp 37bp 27bp 17wp 82wp 72wp 62wp 54wp 43wp 32wp 22wp 12wr 81wn 63wb 34wk 51wq 41wb 31wn 21wr 11
+br 88bn 66bb 35bk 58bq 48bb 38bn 36br 18bp 87bp 77bp 67bp 55bp 47bp 37bp 27bp 17wp 83wp 72wp 62wp 54wp 43wp 32wp 22wp 12wr 81wn 63wb 34wk 51wq 41wb 31wn 21wr 11
+br 68bn 66bb 35bk 78bq 48bb 38bn 36br 18bp 87bp 77bp 67bp 55bp 47bp 37bp 27bp 17wp 83wp 72wp 62wp 54wp 43wp 32wp 22wp 12wr 81wn 63wb 34wk 51wq 41wb 31wn 33wr 11
+br 68bn 66bb 35bk 78bq 48bb 38bn 36br 18bp 87bp 77bp 67bp 55bp 46bp 37bp 27bp 17wp 83wp 72wp 62wp 54wp 43wp 32wp 22wp 12wr 61wn 63wb 34wk 71wq 41wb 31wn 33wr 11
+br 68bn 66bb 35bk 78bq 48bb 38bn 15br 18bp 87bp 77bp 67bp 55bp 46bp 37bp 27bp 17wp 83wp 72wp 62wp 54wp 43wp 32wp 22wp 12wr 61wn 63wb 23wk 71wq 41wb 31wn 33wr 11
+br 68bn 66bb 35bk 78bq 48bb 47bn 15br 18bp 87bp 77bp 67bp 55bp 46bp 37bp 27bp 17wp 83wp 72wp 62wp 54wp 43wp 32wp 22wp 12wr 61wn 63wb 23wk 71wq 41wb 75wn 33wr 11
+br 68bn 66bb 35bk 78bq 48bb 47bn 15br 18bp 86bp 77bp 67bp 55bp 46bp 37bp 27bp 17wp 83wp 72wp 62wp 54wp 43wp 32wp 22wp 12wr 61wn 63wb 23wk 71wq 41wb 84wn 33wr 11
+br 68bn 66bb 35bk 78bq 48bb 47bn 15br 18bp 86bp 77bp 67bp 55bp 46bp 37bp 25bp 17wp 83wp 72wp 62wp 54wp 43wp 32wp 22wp 12wr 61wn 63wb 23wk 71wq 41wb 84wn 45wr 11
+br 68bn 66bb 35bk 78bq 48bb 47bn 15br 18bp 86bp 75bp 67bp 55bp 46bp 37bp 25bp 17wp 83wp 72wp 62wp 54wp 43wp 32wp 22wp 12wr 61wn 63wb 23wk 71wq 41wb 73wn 45wr 11
+br 68bn 66bb 35bk 78bq 48bb 47bn 15br 18bp 86bp 75bp 67bp 55bp 46bp 37bp 24bp 17wp 83wp 72wp 62wp 54wp 43wp 32wp 22wp 12wr 61wn 42wb 23wk 71wq 41wb 73wn 45wr 11
+br 68bb 35bk 78bq 48bb 47bn 15br 18bp 86bp 75bp 67bp 55bp 46bp 37bp 24bp 17wp 83wp 72wp 62wp 54wp 43wp 32wp 22wp 12wr 61wn 42wb 45wk 71wq 41wb 73wr 11
+br 68bb 35bk 78bq 48bb 47bn 15br 18bp 86bp 75bp 67bp 55bp 46bp 36bp 24bp 17wp 83wp 72wp 62wp 54wp 43wp 32wp 22wp 12wr 61wn 42wb 23wk 71wq 41wb 73wr 11
+br 68bb 44bk 78bq 48bb 47bn 15br 18bp 86bp 75bp 67bp 55bp 46bp 36bp 24bp 17wp 83wp 72wp 62wp 54wp 43wp 32wp 22wp 12wr 61wn 42wb 23wk 71wq 41wb 73wr 21
+br 68bb 44bk 77bq 48bb 47bn 15br 18bp 86bp 75bp 67bp 55bp 46bp 36bp 24bp 17wp 83wp 72wp 62wp 54wp 43wp 32wp 22wp 12wr 61wn 42wb 23wk 71wq 85wb 73wr 21
+br 68bb 44bk 77bq 48bb 47br 18bp 86bp 75bp 67bp 55bp 46bp 36bp 24bp 17wp 83wp 72wp 62wp 54wp 43wp 32wp 22wp 12wr 61wn 23wk 71wq 85wb 73wr 21
+br 68bb 26bk 77bq 48bb 47br 18bp 86bp 75bp 67bp 55bp 46bp 36bp 24bp 17wp 83wp 72wp 62wp 54wp 43wp 32wp 22wp 12wr 61wn 42wk 71wq 85wb 73wr 21
+br 68bb 26bk 77bq 48bb 47br 18bp 86bp 75bp 55bp 46bp 36bp 24bp 17wp 83wp 72wp 62wp 65wp 43wp 32wp 22wp 12wr 61wn 42wk 71wq 85wb 73wr 21
+br 68bb 26bk 77bq 48bb 65br 18bp 86bp 75bp 55bp 46bp 36bp 24bp 17wp 83wp 72wp 62wp 43wp 32wp 22wp 12wr 61wn 34wk 71wq 85wb 73wr 21
+br 68bb 44bk 77bq 48bb 65br 18bp 86bp 75bp 55bp 46bp 36bp 24bp 17wp 83wp 72wp 62wp 43wp 32wp 22wp 12wr 61wn 34wk 71wq 52wb 73wr 21
+br 68bb 44bk 77bq 48bb 65br 18bp 86bp 75bp 55bp 46bp 36bp 17wp 83wp 72wp 62wp 43wp 32wp 22wp 23wr 61wn 34wk 71wq 52wb 73wr 21
+br 66bb 44bk 77bq 48bb 65br 18bp 86bp 75bp 55bp 46bp 36bp 17wp 83wp 72wp 62wp 43wp 32wp 22wp 23wr 61wn 53wk 71wq 52wb 73wr 21
+br 66bb 44bk 77bq 48bb 76br 18bp 86bp 75bp 55bp 46bp 36bp 17wp 83wp 72wp 62wp 43wp 32wp 22wp 23wr 61wn 53wk 82wq 52wb 73wr 21
+br 66bb 44bk 77bq 57bb 76br 18bp 86bp 75bp 55bp 46bp 36bp 17wp 83wp 72wp 62wp 43wp 33wp 22wp 23wr 61wn 53wk 82wq 52wb 73wr 21
+br 66bb 26bk 77bq 57bb 76br 18bp 86bp 75bp 55bp 46bp 36bp 17wp 83wp 72wp 62wp 43wp 33wp 22wp 23wr 61wn 53wk 82wq 52wb 73wr 41
+br 66bb 26bk 77bq 57bb 76br 18bp 85bp 75bp 55bp 46bp 36bp 17wp 83wp 72wp 63wp 43wp 33wp 22wp 23wr 61wn 53wk 82wq 52wb 73wr 41
+br 66bb 26bk 77bq 57bb 76br 18bp 85bp 75bp 46bp 36bp 17wp 83wp 72wp 63wp 54wp 33wp 22wp 23wr 61wn 53wk 82wq 52wb 73wr 41
+br 66bb 26bk 77bq 57bb 76br 18bp 85bp 46bp 36bp 17wp 74wp 72wp 63wp 54wp 33wp 22wp 23wr 61wn 53wk 82wq 52wb 73wr 41
+br 66bb 26bk 77bq 57bb 76br 18bp 46bp 36bp 17wp 72wp 63wp 54wp 33wp 22wp 23wr 61wn 74wk 82wq 52wb 73wr 41
+br 66bb 26bk 77bq 57bb 76br 88bp 46bp 36bp 17wp 72wp 63wp 54wp 33wp 22wp 23wr 61wn 74wk 82wq 52wb 84wr 41
+br 66bb 26bk 77bq 57bb 76br 84bp 46bp 36bp 17wp 72wp 63wp 54wp 33wp 22wp 23wr 61wn 74wk 73wq 52wr 41
+br 68bb 26bk 77bq 57bb 76br 84bp 46bp 36bp 17wp 72wp 63wp 54wp 33wp 22wp 23wr 61wn 53wk 73wq 52wr 41
+br 68bb 26bk 77bq 57bb 76br 54bp 46bp 36bp 17wp 72wp 63wp 33wp 22wp 23wr 61wn 65wk 73wq 52wr 41
+br 68bb 26bk 77bq 57bb 65bp 46bp 36bp 17wp 72wp 54wp 33wp 22wp 23wr 61wk 73wq 52wr 41
+br 68bb 26bk 77bq 75bb 65bp 46bp 36bp 17wp 72wp 54wp 33wp 22wp 23wr 61wk 73wq 74wr 41
+br 68bb 26bk 77bq 74bb 65bp 46bp 36bp 17wp 72wp 54wp 33wp 22wp 23wr 61wk 82wr 41
+br 88bn 78bb 68bk 58bq 48bb 38bn 28br 18bp 87bp 77bp 67bp 56bp 47bp 37bp 27bp 17wp 82wp 72wp 62wp 54wp 42wp 32wp 22wp 12wr 81wn 71wb 61wk 51wq 41wb 31wn 21wr 11
+br 88bn 78bb 68bk 58bq 48bb 38bn 28br 18bp 87bp 77bp 67bp 56bp 45bp 37bp 27bp 17wp 82wp 72wp 62wp 54wp 42wp 32wp 22wp 12wr 81wn 71wb 61wk 51wq 41wb 31wn 33wr 11
+br 88bn 78bb 24bk 58bq 48bb 38bn 28br 18bp 87bp 77bp 67bp 56bp 45bp 37bp 27bp 17wp 82wp 72wp 62wp 54wp 44wp 32wp 22wp 12wr 81wn 71wb 61wk 51wq 41wb 31wn 33wr 11
+br 88bn 57bb 24bk 58bq 48bb 38bn 28br 18bp 87bp 77bp 67bp 56bp 45bp 37bp 27bp 17wp 82wp 72wp 62wp 55wp 44wp 32wp 22wp 12wr 81wn 71wb 61wk 51wq 41wb 31wn 33wr 11
+br 88bn 57bb 24bk 58bq 48bb 38bn 28br 18bp 87bp 77bp 67bp 56bp 45bp 35bp 27bp 17wp 82wp 72wp 62wp 55wp 44wp 32wp 22wp 12wr 81wn 71wb 61wk 51wq 74wb 31wn 33wr 11
+br 88bn 57bb 24bk 58bq 48bb 38bn 36br 18bp 87bp 77bp 67bp 56bp 45bp 27bp 17wp 82wp 72wp 62wp 55wp 35wp 32wp 22wp 12wr 81wn 71wb 61wk 51wq 74wb 31wn 33wr 11
+br 78bn 57bb 24bk 58bq 48bb 38bn 36br 18bp 87bp 67bp 56bp 45bp 27bp 17wp 82wp 72wp 62wp 55wp 35wp 32wp 22wp 12wr 81wn 71wb 61wk 51wq 77wb 31wn 33wr 11
+br 78bn 57bb 24bk 58bq 48bb 38bn 36br 18bp 67bp 56bp 44bp 27bp 17wp 82wp 72wp 62wp 55wp 35wp 32wp 22wp 12wr 81wn 71wb 61wk 51wq 87wb 31wn 33wr 11
+br 78bn 57bb 24bk 58bq 15bb 38bn 36br 18bp 67bp 56bp 44bp 27bp 17wp 82wp 72wp 62wp 55wp 35wp 32wp 22wp 13wr 81wn 71wb 61wk 51wq 87wb 31wn 33wr 11
+br 78bn 57bk 58bq 11bb 38bn 36br 18bp 67bp 56bp 44bp 27bp 17wp 82wp 72wp 62wp 55wp 35wp 32wp 22wp 24wr 81wn 71wb 61wk 51wq 87wb 31wn 33
+br 78bn 57bk 58bq 11bb 38bn 24br 18bp 67bp 56bp 44bp 27bp 17wp 82wp 72wp 62wp 55wp 35wp 32wp 22wr 81wn 71wb 61wk 51wq 87wb 31wn 52
+br 78bn 57bk 58bq 11bb 47bn 24br 18bp 67bp 56bp 44bp 27bp 17wp 84wp 72wp 62wp 55wp 35wp 32wp 22wr 81wn 71wb 61wk 51wq 87wb 31wn 52
+br 78bn 57bk 58bq 11bb 25bn 24br 18bp 67bp 56bp 44bp 27bp 17wp 84wp 72wp 62wp 55wp 35wp 32wp 22wr 83wn 71wb 61wk 51wq 87wb 31wn 52
+br 78bn 57bk 58bq 11bb 25bn 24br 18bp 67bp 56bp 43bp 27bp 17wp 84wp 72wp 62wp 55wp 35wp 32wp 23wr 83wn 71wb 61wk 51wq 87wb 31wn 52
+br 78bn 57bk 38bq 11bb 25bn 24br 48bp 67bp 56bp 27bp 17wp 84wp 72wp 62wp 55wp 35wp 43wp 23wr 83wn 71wb 61wk 51wq 87wb 31wn 52
+br 78bn 57bk 38bq 11bb 43bn 24br 48bp 56bp 27bp 17wp 84wp 72wp 62wp 55wp 35wp 23wr 83wn 71wb 61wk 51wq 67wb 31wn 52
+br 78bn 57bk 38bq 11bb 52bn 24br 48bp 56bp 27bp 17wp 84wp 72wp 64wp 55wp 35wp 23wr 83wn 71wb 61wk 51wq 67wb 31
+br 78bn 36bk 38bq 11bn 24br 48bp 56bp 27bp 17wp 84wp 72wp 64wp 55wp 35wp 23wr 83wn 52wb 61wk 51wq 67wb 31
+br 78bn 36bk 38bq 11bn 43br 48bp 56bp 27bp 17wp 84wp 73wp 64wp 55wp 35wp 23wr 83wn 52wb 61wk 51wq 67wb 31
+br 78bn 36bk 38bq 11bn 55br 48bp 56bp 27bp 17wp 84wp 73wp 64wp 35wp 23wr 83wn 52wb 61wk 42wq 67wb 31
+br 78bn 36bk 38bq 11bn 67br 48bp 56bp 27bp 17wp 84wp 73wp 64wp 35wp 23wr 83wn 52wb 61wk 53wb 31
+br 78bn 36bk 38bq 11bn 67br 48bp 55bp 27bp 17wp 84wp 73wp 64wp 35wp 23wr 83wn 52wb 72wk 53wb 31
+br 78bk 38bq 11bn 67br 48bp 55bp 36bp 17wp 84wp 73wp 64wp 35wp 23wr 83wn 52wk 53wb 31
+br 78bk 38bq 11bn 67br 48bp 64bp 36bp 17wp 84wp 73wp 35wp 23wr 83wn 52wk 62wb 31
+br 78bk 38bq 11bn 67br 41bp 36bp 17wp 84wp 64wp 35wp 23wr 83wn 52wk 62wb 31
+br 71bk 38bq 11bn 67br 41bp 36bp 17wp 84wp 64wp 35wp 23wr 33wn 52wk 62wb 31
+br 71bk 38bq 11bn 67br 31bp 36bp 17wp 84wp 64wp 35wp 23wr 33wn 52wk 63
+br 31bk 38bq 11bn 67bp 36bp 17wp 84wp 64wp 35wp 23wn 52wk 63
+bk 38bq 31bn 67bp 36bp 17wp 84wp 64wp 35wp 23wk 63
+bk 38bq 35bn 67bp 36bp 17wp 84wp 64wp 23wk 74
+bk 38bq 65bn 67bp 36bp 17wp 84wp 64wp 23wk 73
+bk 38bq 65bn 67bp 36bp 15wp 84wp 64wp 23wk 63
+bk 38bq 65bn 46bp 36bp 15wp 84wp 64wp 23wk 53
+bk 38bq 54bn 46bp 36bp 15wp 85wp 64wp 23wk 53
+bk 38bq 64bn 46bp 36bp 15wp 85wp 23wk 42
+bk 38bq 66bn 46bp 36bp 15wp 85wp 23wk 32
+bk 38bq 66bn 25bp 36bp 15wp 85wp 23wk 21
+bk 38bq 33bn 25bp 36bp 15wp 86wp 23wk 21
+bk 38bq 23bn 25bp 36bp 15wp 87wk 21
+bk 38bq 33bn 25bp 36bp 15wp 87wk 31
+bk 38bq 43bn 25bp 36bp 15wp 87wk 21
+bk 38bq 87bn 25bp 36bp 15wk 31
+bk 38bq 83bn 25bp 36bp 15wk 42
+bk 38bq 33bn 25bp 36bp 15wk 52
+bk 38bq 33bn 25bp 36bp 14wk 62
+bk 38bq 33bn 25bp 36bp 13wk 72
+bk 38bq 33bn 25bp 36bp 12wk 62
+bk 38bq 33bn 25bp 3611 bqwk 72
+bk 38bq 33bn 25bp 36bq 12wk 82
