@@ -11,8 +11,8 @@ os.mkdir(dirname)
 
 ydl_cmd_options = {
     'format': 'bestaudio/best',
-    'playliststart': 170,
-    #'cookiefile': 'cookies.txt',
+    #'playliststart': 170,
+    'cookiefile': 'cookies.txt',
     'ignoreerrors': True,
     'postprocessors':
     [{
