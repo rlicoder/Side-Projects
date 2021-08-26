@@ -1,10 +1,14 @@
+import os
 from selenium import webdriver
 from time import sleep
 from stockfish import Stockfish
-from parse import *
+import parse
+import util
 import random
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import StaleElementReferenceException
+from selenium.webdriver.chrome.options import Options
+
 
 settings = open("settings.txt", "r")
 thr = settings.readline()
@@ -21,11 +25,19 @@ mid_delay = int(settings.readline())
 end_delay = int(settings.readline())
 settings.close()
 
-stockfish = Stockfish('/home/royce/Desktop/Side-Projects/Chess Bot Terminal/stockfish', parameters={"Threads": thr, "Minimum Thinking Time": mintime, "Skill Level": level, "Min Split Depth": mindep, "Hash": hashsize, "Contempt": con, "Slow Mover": slow})
+curdir = os.getcwd()
+driverdir = curdir + '/chromedriver'
+enginedir = curdir + '/stockfish'
 
-bot = webdriver.Firefox()
+stockfish = Stockfish(enginedir, parameters={"Threads": thr, "Minimum Thinking Time": mintime, "Skill Level": level, "Min Split Depth": mindep, "Hash": hashsize, "Contempt": con, "Slow Mover": slow})
 
-sleep(1)
+ops = Options()
+ops.add_argument('--user-agent=nigerundayo')
+ops.add_experimental_option("excludeSwitches", ["enable-automation"])
+ops.add_experimental_option('useAutomationExtension', False)
+ops.add_argument("--disable-blink-features=AutomationControlled")
+bot = webdriver.Chrome(executable_path=driverdir, options=ops)
+bot.set_page_load_timeout(20)
 
 bot.get('https://www.chess.com/home')
 email = bot.find_element_by_xpath('//*[@id="username"]')
@@ -37,7 +49,6 @@ signin.click()
 
 time = input("time control?")
 cont = "New " + time + " min"
-print(cont)
 
 while (cont != 'q'):
     html = bot.page_source
@@ -59,21 +70,15 @@ while (cont != 'q'):
         if html.find(cont) != -1:
             break
         html = bot.page_source
-        pat = re.findall('data-whole-move-number="\d*?"(?!.*data-whole-move-number)', html)
-        if len(pat) == 0:
-            turnnum = 0
-        else:
-            pat[0] = pat[0].replace('data-whole-move-number="', '')
-            pat[0] = pat[0].replace('"', '')
-            turnnum = int(pat[0])
+        turn_number = util.getTurnNumber(html);
         if delayon:
-            if turnnum <= 10:
+            if turn_number <= 10:
                 offset = random.randint(0,beg_delay)
                 timecons = 20
-            elif turnnum >= 10 and turnnum <= 30:
+            elif turn_number >= 10 and turn_number <= 30:
                 offset = random.randint(0,mid_delay)
                 timecons = 500
-            elif turnnum >= 31 and turnnum <=50:
+            elif turn_number >= 31 and turn_number <=50:
                 offset = random.randint(0,end_delay)
                 timecons = 250
                 stockfish.set_depth(7)
@@ -82,11 +87,16 @@ while (cont != 'q'):
                 timecons = 50
                 stockfish.set_depth(18)
             sleep(offset/1000)
-        FEN, dirx, diry = parse(bot)
+        html = bot.page_source
+        FEN = parse.getFen(html)
+        dir_x, dir_y = parse.getDir(html)
+
         stockfish.set_fen_position(FEN)
         move = stockfish.get_best_move_time(timecons)
+        
         print(move)
         print(stockfish.get_evaluation())
+
         posx = int(move[1])
         posy = int(ord(move[0]) - 96)
         search = "square-"
@@ -101,13 +111,13 @@ while (cont != 'q'):
         endy = int(ord(move[2]) - 96)
         difx = endx - posx
         dify = endy - posy
-        webdriver.ActionChains(bot).drag_and_drop_by_offset(piece, dify * diry, difx * dirx).perform()
+        webdriver.ActionChains(bot).drag_and_drop_by_offset(piece, dify * dir_y, difx * dir_x).perform()
         html = bot.page_source
     sleep(random.randint(0,500)/1000)
     try:
-        nextb = bot.find_element_by_xpath('/html/body/div[3]/div/div[2]/div[2]/div[5]/div[1]/button[2]')
+        nextb = bot.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div[5]/div[1]/button[2]')
     except NoSuchElementException:
-        nextb = bot.find_element_by_xpath('/html/body/div[3]/div/div[2]/div[2]/div[4]/div[1]/button[2]')
+        nextb = bot.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div[4]/div[1]/button[2]')
     html = bot.page_source
     nextb.click()
     sleep(3)
@@ -123,4 +133,3 @@ while (cont != 'q'):
             break       
         sleep(10)
 bot.quit()
-stockfish.stockfish
