@@ -3,8 +3,7 @@
 run=*.cpp
 g++ $run
 
-cd /cases
-for file in *.in;
+for file in cases/*.in;
 do
     ./a.out < $file > o.txt
     filename="${file%.*}"

@@ -5,3 +5,8 @@
 /LeastSquares/dist/
 /Websites/Survey_Project/nbproject/private/
 /Websites/Time Logger/nbproject/private/
+*.in
+*.ans
+*.out
+*.0
+*.1
