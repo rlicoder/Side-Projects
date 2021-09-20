@@ -5,4 +5,8 @@
 /LeastSquares/dist/
 /Websites/Survey_Project/nbproject/private/
 /Websites/Time Logger/nbproject/private/
-*.pyc
+*.in
+*.ans
+*.out
+*.0
+*.1

@@ -1,22 +1,11 @@
 import re
 
-def parse(bot):
-    html = bot.page_source
-    f = open("html.txt", "w")
-    f.write(html)
-    f.close()
-    widpat = re.compile('width: \d\d\dpx')
-    matches = widpat.finditer(html)
-    width = 0
-    for i in matches:
-        width = max(width, int(i.group()[-5:-2]))
-    if html.find('<text x="10" y="99" font-size="2.8" class="coordinate-dark">h</text>') != -1:
-        dirx = width / 8
-        diry = -1 * width / 8
-    else:
-        dirx = -1 * width / 8
-        diry = width / 8
+def getFen(html):
+    #f = open("html.txt", "w")
+    #f.write(html)
+    #f.close()
     whiteturn = True
+    #live game
     if html.find('clock-player-turn') != -1:
         loc = html.find('clock-player-turn')
         turn = html[loc-80:loc-47]
@@ -24,11 +13,13 @@ def parse(bot):
             whiteturn = True
         else:
             whiteturn = False
+    #puzzle
     elif html.find('to Move') != -1:
         if (html.find('Black to Move')) != -1:
             whiteturn = False
         else:
             whiteturn = True
+    #manual input when the bot is confused
     else:
         t = str(input('w or b'))
         if t == 'w':
@@ -113,6 +104,19 @@ def parse(bot):
     if cast == False:
         FEN += " - "
     FEN += " - 0 0"
-    print(FEN, " ", dirx, " ", diry)
-    return FEN, dirx, diry
+    print(FEN)
+    return FEN
 
+def getDir(html):
+    widpat = re.compile('width: \d\d\dpx')
+    matches = widpat.finditer(html)
+    width = 0
+    for i in matches:
+        width = max(width, int(i.group()[-5:-2]))
+    if html.find('<text x="10" y="99" font-size="2.8" class="coordinate-dark">h</text>') != -1:
+        dir_x = width / 8
+        dir_y = -1 * width / 8
+    else:
+        dir_x = -1 * width / 8
+        dir_y = width / 8
+    return dir_x, dir_y
