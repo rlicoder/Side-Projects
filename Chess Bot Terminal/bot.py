@@ -1,4 +1,5 @@
 import os
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
 from time import sleep
 from stockfish import Stockfish
@@ -36,7 +37,7 @@ ops.add_argument('--user-agent=nigerundayo')
 ops.add_experimental_option("excludeSwitches", ["enable-automation"])
 ops.add_experimental_option('useAutomationExtension', False)
 ops.add_argument("--disable-blink-features=AutomationControlled")
-bot = webdriver.Chrome(executable_path=driverdir, options=ops)
+bot = webdriver.Chrome(ChromeDriverManager().install(), options=ops)
 bot.set_page_load_timeout(20)
 
 bot.get('https://www.chess.com/home')
@@ -77,7 +78,7 @@ while (cont != 'q'):
                 timecons = 20
             elif turn_number >= 10 and turn_number <= 30:
                 offset = random.randint(0,mid_delay)
-                timecons = 500
+                timecons = 400
             elif turn_number >= 31 and turn_number <=50:
                 offset = random.randint(0,end_delay)
                 timecons = 250
@@ -115,9 +116,9 @@ while (cont != 'q'):
         html = bot.page_source
     sleep(random.randint(0,500)/1000)
     try:
-        nextb = bot.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div[5]/div[1]/button[2]')
-    except NoSuchElementException:
         nextb = bot.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div[4]/div[1]/button[2]')
+    except NoSuchElementException:
+        nextb = bot.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div[5]/div[1]/button[2]')
     html = bot.page_source
     nextb.click()
     sleep(3)
@@ -131,5 +132,5 @@ while (cont != 'q'):
             break
         except StaleElementException:
             break       
-        sleep(10)
+        sleep(5)
 bot.quit()
