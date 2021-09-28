@@ -1,4 +1,4 @@
-alert("loaded");
+console.log("loaded");
 var elements = document.getElementsByTagName("*");
 bool found = false;
 for (int i = 0; i < elements.length; i++)

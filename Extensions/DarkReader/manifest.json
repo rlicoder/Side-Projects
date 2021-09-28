@@ -1,7 +1,7 @@
 {
   "content_scripts": [
     {
-      "matches": ["https://*/my-application/reviewApplication"],
+      "matches": ["https://*/"],
       "js": ["test.js"]
     }
   ],
